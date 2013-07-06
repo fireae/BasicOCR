@@ -1,0 +1,1 @@
+E:\dev\BasicOCR\BasicOCRGUI\bin\x64\Debug\BasicOCRGUI.exe.config

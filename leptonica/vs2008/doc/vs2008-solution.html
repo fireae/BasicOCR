@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The leptonlib Visual Studio 2008 Solution &mdash; Leptonica &amp; Visual Studio 2008</title>
+    <link rel="stylesheet" href="_static/default2.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.66',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Leptonica &amp; Visual Studio 2008" href="index.html" />
+    <link rel="next" title="Building the prog directory programs" href="building-prog-dir.html" />
+    <link rel="prev" title="Directory organization" href="directory-organization.html" />
+ 
+    <script src="http://www.google-analytics.com/urchin.js"
+            type="text/javascript">
+    </script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="building-prog-dir.html" title="Building the prog directory programs"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="directory-organization.html" title="Directory organization"
+             accesskey="P">previous</a> |</li>
+  <li><a href="http://www.leptonica.com">Leptonica Home</a> &raquo;</li>
+  
+        <li><a href="index.html">VS2008 Notes (for v1.66)</a> &raquo;</li>
+ 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="the-leptonlib-visual-studio-2008-solution">
+<h1>The <span class="filesystem">leptonlib</span> Visual Studio 2008 Solution<a class="headerlink" href="#the-leptonlib-visual-studio-2008-solution" title="Permalink to this headline">¶</a></h1>
+<div align="center" class="align-center"><img alt="Screenshot of Leptonlib Solution Explorer pane" class="align-center" src="_images/leptonlib-solution-explorer.png" /></div>
+<p>The Visual Studio 2008 Solution Explorer shows these three main
+sections for the <span class="filesystem">leptonlib</span> solution:</p>
+<ol class="arabic">
+<li><p class="first"><span class="filesystem">leptonlib-1.xx</span> is the main project for building the library.</p>
+</li>
+<li><p class="first">The <span class="filesystem">prog_projects</span> Solution Folder contains a sample project for
+building a <span class="filesystem">prog</span> program. As explained <a class="reference external" href="building-prog-dir.html#building-prog-programs-vs2008"><em>later</em></a> you can use this project as the
+basis for building projects for the other programs in the <span class="filesystem">prog</span>
+directory.</p>
+</li>
+<li><p class="first">The <span class="filesystem">prog_files</span> Solution Folder contains entries for all the
+<span class="filesystem">.c</span> files in the <span class="filesystem">leptonlib-1.xx\prog</span> folder further
+broken down by filename, type, and category. These are <em class="bold-italic">not</em>
+Visual C/C++ projects.  You can&#8217;t use this Solution Folder to build
+the <span class="filesystem">prog</span> programs. It just gives you an easy way to look at
+the files.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The free Express editions of Visual Studio do <strong>not</strong> support
+Solution Folders. They will be displayed as <span class="gui">(unavailable)</span>.</p>
+</div>
+<div class="section" id="leptonlib-sln-solution-explorer-contents">
+<h2><span class="filesystem">leptonlib.sln</span> Solution Explorer contents<a class="headerlink" href="#leptonlib-sln-solution-explorer-contents" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-none"><div class="highlight"><pre>leptonlib-1.xx\            Main project for building leptonlib
+ Header files\
+ Source files\
+prog_files\                Solution Folder (NOT projects) for prog directory contents
+ ByFilename\
+ ByCategory\
+  Basic Box, Boxa and Boxaa Functions\
+  Basic Image Operations\
+  Basic Pix Array Functions\
+  Basic Pix Functions\
+  Colormap Utilities and Related Operations\
+  Connected Components in Binary Images\
+  Formatted IO\
+  Fundamental Data Structures for Computation\
+  Image Display\
+  Image Morphology\
+  Image Operations With Filling\
+  Image Quantization, Depth Conversion\
+  Image Scaling\
+  Line Graphics and Special Output\
+  Low-level Pixel Access\
+  Misc\
+  Other Geometric Image Transformations\
+  Postscript\
+  Printing\
+  Specialized Document Image Processing\
+  Specialized Image Filters\
+ ByType
+  Example\
+  Exploration\
+  Helper\
+  Regression Test\
+  Test\
+  Utility\
+proj_projects              Projects for building prog programs
+ ioformats_reg\
+  Source Files
+</pre></div>
+</div>
+</div>
+<div class="section" id="buildfolder-leptonlib-1-xx-contents">
+<h2><span class="filesystem">BuildFolder\leptonlib-1.xx</span> contents<a class="headerlink" href="#buildfolder-leptonlib-1-xx-contents" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-none"><div class="highlight"><pre>config\                    Not used for Windows builds
+prog\                      Regression tests, examples, utilities
+src\                       Source files for leptonlib
+vs2008\                    Visual Studio 2008 specific files
+ DLL Debug\                 leptonlib DLL Debug build output
+ DLL Release\               leptonlib DLL Release build output
+ LIB Debug\                 leptonlib LIB Debug build output
+ LIB Release\               leptonlib LIB Release build output
+ prog_projects\             Projects for prog programs
+  ioformats_reg\             Sample project for prog\ioformats_reg.exe
+   DLL Debug\                 DLL Debug build output for sample project
+   DLL Release\               DLL Release build output for sample project
+   LIB Debug\                 LIB Debug build output for sample project
+   LIB Release\               LIB Release build output for sample project
+   ioformats_reg.vcproj       The ioformats_reg project file
+ leptonlib.sln              The leptonlib solution file
+ leptonlib.vcproj           The leptonlib project file
+</pre></div>
+</div>
+</div>
+<div class="section" id="visual-studio-2008-tab-settings">
+<h2>Visual Studio 2008 Tab settings<a class="headerlink" href="#visual-studio-2008-tab-settings" title="Permalink to this headline">¶</a></h2>
+<p>The <span class="filesystem">leptonlib</span> source files assume that tabs are 8 spaces, indents are
+4 spaces wide, and that indentation uses spaces and tabs. To set this in
+Visual Studio 2008 choose <span class="menuselection"><span class="accelerator">T</span>ools ‣ <span class="accelerator">O</span>ptions</span>
+<span class="guilabel">| Text Editor | C/C++ | Tabs</span> and set as follows:</p>
+<blockquote>
+<div class="line-block">
+<div class="line"><span class="guilabel"><span class="accelerator">T</span>ab Size:</span> 8</div>
+<div class="line"><span class="guilabel"><span class="accelerator">I</span>ndent Size:</span> 4</div>
+<div class="line"><span class="guilabel">(*) Insert S<span class="accelerator">p</span>aces</span></div>
+<div class="line"><span class="guilabel">( ) <span class="accelerator">K</span>eep Tabs</span></div>
+</div>
+</blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div style="text-align: center; padding-right: 5px;">
+ <a href="http://www.leptonica.com" >
+  <img src="_static/moller52-smaller.jpg" border="0" alt="Leptonica Home"/>
+ </a>
+</div>
+
+
+
+  <ul class="current">
+<li class="toctree-l1"><a class="reference external" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference external" href="quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference external" href="downloading-binaries.html">Downloading <span class="filesystem">leptonlib</span> pre-built binaries and header files for Windows</a></li>
+<li class="toctree-l1"><a class="reference external" href="building-other-programs.html">Building programs that link with <span class="filesystem">leptonlib</span></a></li>
+<li class="toctree-l1"><a class="reference external" href="directory-organization.html">Directory organization</a></li>
+<li class="toctree-l1 current"><a class="current reference external" href="">The <span class="filesystem">leptonlib</span> Visual Studio 2008 Solution</a><ul>
+<li class="toctree-l2"><a class="reference external" href="#leptonlib-sln-solution-explorer-contents"><span class="filesystem">leptonlib.sln</span> Solution Explorer contents</a></li>
+<li class="toctree-l2"><a class="reference external" href="#buildfolder-leptonlib-1-xx-contents"><span class="filesystem">BuildFolder\leptonlib-1.xx</span> contents</a></li>
+<li class="toctree-l2"><a class="reference external" href="#visual-studio-2008-tab-settings">Visual Studio 2008 Tab settings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference external" href="building-prog-dir.html">Building the <span class="filesystem">prog</span> directory programs</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-cygwin.html">Installing Cygwin coreutils</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-irfanview.html">Installing IrfanView to view images</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-gnuplot.html">Installing gnuplot to view plots</a></li>
+<li class="toctree-l1"><a class="reference external" href="csharp-and-leptonlib.html">c# and <span class="filesystem">leptonlib</span></a></li>
+<li class="toctree-l1"><a class="reference external" href="building-image-libraries.html">(Optional) Building <span class="filesystem">zlib</span>, <span class="filesystem">libjpeg</span>, <span class="filesystem">libpng</span>, <span class="filesystem">libtiff</span> and <span class="filesystem">giflib</span></a></li>
+<li class="toctree-l1"><a class="reference external" href="building-leptonlib.html">(Optional) Building the <span class="filesystem">leptonlib</span> library</a></li>
+<li class="toctree-l1"><a class="reference external" href="vs2010-notes.html">Visual Studio 2010 Notes</a></li>
+<li class="toctree-l1"><a class="reference external" href="package-contents.html">Package Contents</a></li>
+<li class="toctree-l1"><a class="reference external" href="versions.html">Version Notes</a></li>
+</ul>
+
+
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="building-prog-dir.html" title="Building the prog directory programs"
+             >next</a></li>
+        <li class="right" >
+          <a href="directory-organization.html" title="Directory organization"
+             >previous</a> |</li>
+  <li><a href="http://www.leptonica.com">Leptonica Home</a> &raquo;</li>
+  
+        <li><a href="index.html">VS2008 Notes (for v1.66)</a> &raquo;</li>
+ 
+      </ul>
+    </div>
+  <div class="footer">
+
+   <p class="creativecommons">
+    <a href="http://creativecommons.org/licenses/by/3.0/us/" >
+      <img src="_static/creativecommons-88x31.png"
+	   border="0" alt="Creative Commons License"/>
+     </a>
+    Leptonica by 
+    <a href="http://leptonica.com/www.leptonica.org">
+    Dan Bloomberg
+    </a>
+    is licensed under a
+    <a href="http://creativecommons.org/licenses/by/3.0/us/">
+     Creative Commons Attribution 3.0 United States License.
+    </a>
+   </p>
+
+   <p class="sphinxcredit">Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0pre/e443905e24e9.
+   </p>
+    <script type="text/javascript">
+      _uacct = "UA-144810-1";
+      urchinTracker();
+    </script>
+  </div>
+  </body>
+</html>

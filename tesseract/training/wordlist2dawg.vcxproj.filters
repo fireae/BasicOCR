@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35e8cfa6-eea8-4651-9044-80b7a11bdca0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ccutil">
+      <UniqueIdentifier>{dfa3d10b-55a5-4f2b-8352-d30be6f8f861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cutil">
+      <UniqueIdentifier>{46600926-769f-4615-b0eb-fea5b86ff945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dict">
+      <UniqueIdentifier>{8478c9d8-b366-422e-82ac-83f9e03b54ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccstruct">
+      <UniqueIdentifier>{68e4d492-de6a-4efa-8cbf-a08242ca1a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\viewer">
+      <UniqueIdentifier>{693a6c53-72bd-41c0-84ba-35b4bf4e36cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{28dd30e6-1c6a-4b21-a2c8-c3c6d16a0920}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{29a9a3ed-8fdc-4973-8ddb-353e148ff4f9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dict\lookdawg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict\makedawg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict\reduce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wordlist2dawg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\clst.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\debugwin.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\errcode.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\globaloc.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\hashfn.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memblk.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memry.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\mfcpch.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\serialis.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\strngs.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\tessopt.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\tprintf.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unichar.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unicharmap.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unicharset.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\varable.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\cutil.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\danerror.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\debug.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\emalloc.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\freelist.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\globals.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\listio.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\oldlist.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\structures.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\tordvars.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cutil\variables.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict\context.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict\dawg.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dict\trie.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccstruct\callcpp.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\viewer\scrollview.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\viewer\svmnode.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\viewer\svutil.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\viewer\scrollview.h">
+      <Filter>Source Files\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\viewer\svmnode.h">
+      <Filter>Source Files\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\viewer\svutil.h">
+      <Filter>Source Files\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\viewer\grphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dict\lookdawg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dict\makedawg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dict\reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cutil\variables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

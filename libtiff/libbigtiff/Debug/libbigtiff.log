@@ -1,0 +1,18 @@
+﻿Build started 6/27/2013 3:59:59 PM.
+     1>Project "E:\dev\BasicOCR\libtiff\libbigtiff\libbigtiff.vcxproj" on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libbigtiff.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libbigtiff.vcxproj -> E:\dev\BasicOCR\Debug\libbigtiff.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libbigtiff.unsuccessfulbuild".
+         Touching "Debug\libbigtiff.lastbuildstate".
+     1>Done Building Project "E:\dev\BasicOCR\libtiff\libbigtiff\libbigtiff.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

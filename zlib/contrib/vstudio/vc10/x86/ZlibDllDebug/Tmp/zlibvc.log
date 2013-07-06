@@ -1,0 +1,9 @@
+﻿Build started 6/27/2013 4:16:00 PM.
+     1>Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" on node 2 (Clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "x86\ZlibDllDebug\Tmp\zlibvc.lastbuildstate".
+     1>Done Building Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

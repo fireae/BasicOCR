@@ -1,0 +1,873 @@
+﻿Build started 6/30/2013 1:00:35 PM.
+Project "E:\dev\BasicOCR\libharu\build\src\haru.vcxproj" on node 2 (Build target(s)).
+E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Creating directory "E:\dev\BasicOCR\libharu\build\\BasicOCRGUI\bin\Win32\".
+InitializeBuildStatus:
+  Creating "E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\haru.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule E:/dev/BasicOCR/libharu/src/CMakeLists.txt
+  CMake does not need to re-run because E:\dev\BasicOCR\libharu\build\src\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:/dev/BasicOCR/libharu/include /IE:/dev/BasicOCR/libharu/build/include /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D HPDF_DLL_MAKE /D WIN32 /D _WINDOWS /D _DEBUG /D HPDF_DLL_MAKE /D "CMAKE_INTDIR=\"Debug\"" /D haru_EXPORTS /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\\" /Fd"E:/dev/BasicOCR/libharu/build/src/Debug/haru.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 ..\..\src\hpdf_utils.c ..\..\src\hpdf_error.c ..\..\src\hpdf_mmgr.c ..\..\src\hpdf_list.c ..\..\src\hpdf_streams.c ..\..\src\hpdf_objects.c ..\..\src\hpdf_null.c ..\..\src\hpdf_boolean.c ..\..\src\hpdf_number.c ..\..\src\hpdf_real.c ..\..\src\hpdf_name.c ..\..\src\hpdf_array.c ..\..\src\hpdf_dict.c ..\..\src\hpdf_xref.c ..\..\src\hpdf_encoder.c ..\..\src\hpdf_string.c ..\..\src\hpdf_binary.c ..\..\src\hpdf_encrypt.c ..\..\src\hpdf_encryptdict.c ..\..\src\hpdf_fontdef.c ..\..\src\hpdf_fontdef_tt.c ..\..\src\hpdf_fontdef_type1.c ..\..\src\hpdf_fontdef_base14.c ..\..\src\hpdf_fontdef_cid.c ..\..\src\hpdf_font.c ..\..\src\hpdf_font_type1.c ..\..\src\hpdf_font_tt.c ..\..\src\hpdf_font_cid.c ..\..\src\hpdf_doc.c ..\..\src\hpdf_info.c ..\..\src\hpdf_catalog.c ..\..\src\hpdf_page_label.c ..\..\src\hpdf_gstate.c ..\..\src\hpdf_pages.c ..\..\src\hpdf_page_operator.c ..\..\src\hpdf_destination.c ..\..\src\hpdf_annotation.c ..\..\src\hpdf_outline.c ..\..\src\hpdf_image.c ..\..\src\hpdf_encoder_jp.c ..\..\src\hpdf_encoder_kr.c ..\..\src\hpdf_encoder_cns.c ..\..\src\hpdf_encoder_cnt.c ..\..\src\hpdf_fontdef_jp.c ..\..\src\hpdf_fontdef_kr.c ..\..\src\hpdf_fontdef_cns.c ..\..\src\hpdf_fontdef_cnt.c ..\..\src\hpdf_image_png.c ..\..\src\hpdf_doc_png.c ..\..\src\hpdf_ext_gstate.c
+  hpdf_utils.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+  hpdf_error.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_mmgr.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+  hpdf_list.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+  hpdf_streams.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+..\..\src\hpdf_streams.c(429): warning C4018: '<' : signed/unsigned mismatch
+..\..\src\hpdf_streams.c(546): warning C4100: 'e' : unreferenced formal parameter
+..\..\src\hpdf_streams.c(545): warning C4100: 'dst' : unreferenced formal parameter
+..\..\src\hpdf_streams.c(544): warning C4100: 'src' : unreferenced formal parameter
+..\..\src\hpdf_streams.c(670): warning C4100: 'filter' : unreferenced formal parameter
+..\..\src\hpdf_streams.c(740): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+..\..\src\hpdf_streams.c(912): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+..\..\src\hpdf_streams.c(1075): warning C4018: '>' : signed/unsigned mismatch
+  hpdf_objects.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_null.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_boolean.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_number.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_real.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_name.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_array.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_dict.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_xref.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_encoder.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+E:\dev\BasicOCR\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_encoder.c(25): warning C4820: '_HPDF_UnicodeGryphPair' : '2' bytes padding added after data member 'unicode'
+..\..\src\hpdf_encoder.c(2608): warning C4242: 'initializing' : conversion from 'HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encoder.c(2620): warning C4242: 'initializing' : conversion from 'HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encoder.c(2677): warning C4100: 'out' : unreferenced formal parameter
+..\..\src\hpdf_encoder.c(2676): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder.c(2686): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder.c(2758): warning C4242: 'initializing' : conversion from 'HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encoder.c(2846): warning C4242: 'initializing' : conversion from 'const HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+  hpdf_string.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+..\..\src\hpdf_string.c(147): warning C4018: '<' : signed/unsigned mismatch
+  hpdf_binary.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_encrypt.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+E:\dev\BasicOCR\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+..\..\src\hpdf_encrypt.c(401): warning C4244: '=' : conversion from 'HPDF_UINT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(435): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(436): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(437): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(505): warning C4244: '=' : conversion from 'HPDF_UINT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(532): warning C4242: '=' : conversion from 'HPDF_UINT' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(592): warning C4242: '=' : conversion from 'HPDF_UINT32' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(593): warning C4244: '=' : conversion from 'HPDF_UINT32' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(594): warning C4244: '=' : conversion from 'HPDF_UINT32' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_encrypt.c(595): warning C4242: '=' : conversion from 'HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+  hpdf_encryptdict.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+E:\dev\BasicOCR\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_fontdef.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+  Generating Code...
+  Compiling...
+  hpdf_fontdef_tt.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+..\..\src\hpdf_fontdef_tt.c(463): warning C4244: '=' : conversion from 'HPDF_REAL' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(465): warning C4244: '=' : conversion from 'HPDF_REAL' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(563): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(566): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(569): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(572): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(789): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(791): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(793): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(795): warning C4244: '=' : conversion from 'int' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_tt.c(1055): warning C4018: '<' : signed/unsigned mismatch
+..\..\src\hpdf_fontdef_tt.c(1069): warning C4018: '<' : signed/unsigned mismatch
+..\..\src\hpdf_fontdef_tt.c(1080): warning C4018: '<' : signed/unsigned mismatch
+..\..\src\hpdf_fontdef_tt.c(1091): warning C4018: '<' : signed/unsigned mismatch
+  hpdf_fontdef_type1.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+..\..\src\hpdf_fontdef_type1.c(181): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_INT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(201): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(204): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(207): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(210): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(217): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(220): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_INT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(223): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_INT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(226): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(229): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(267): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_INT16', possible loss of data
+..\..\src\hpdf_fontdef_type1.c(284): warning C4242: '=' : conversion from 'HPDF_INT' to 'HPDF_INT16', possible loss of data
+  hpdf_fontdef_base14.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+  hpdf_fontdef_cid.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+E:\dev\BasicOCR\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+  hpdf_font.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_font_type1.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+  hpdf_font_tt.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+..\..\src\hpdf_font_tt.c(310): warning C4244: '=' : conversion from 'HPDF_DOUBLE' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_font_tt.c(317): warning C4244: '=' : conversion from 'HPDF_DOUBLE' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_font_tt.c(332): warning C4244: '=' : conversion from 'HPDF_DOUBLE' to 'HPDF_REAL', possible loss of data
+  hpdf_font_cid.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+..\..\src\hpdf_font_cid.c(362): warning C4244: 'function' : conversion from 'HPDF_REAL' to 'HPDF_INT32', possible loss of data
+..\..\src\hpdf_font_cid.c(364): warning C4244: 'function' : conversion from 'HPDF_REAL' to 'HPDF_INT32', possible loss of data
+..\..\src\hpdf_font_cid.c(436): warning C4242: '=' : conversion from 'HPDF_UINT16' to 'HPDF_BYTE', possible loss of data
+..\..\src\hpdf_font_cid.c(573): warning C4244: '=' : conversion from 'HPDF_REAL' to 'HPDF_INT', possible loss of data
+..\..\src\hpdf_font_cid.c(658): warning C4244: '=' : conversion from 'HPDF_REAL' to 'HPDF_INT', possible loss of data
+..\..\src\hpdf_font_cid.c(721): warning C4244: '=' : conversion from 'HPDF_INT' to 'HPDF_UINT16', possible loss of data
+..\..\src\hpdf_font_cid.c(728): warning C4244: '+=' : conversion from 'HPDF_DOUBLE' to 'HPDF_REAL', possible loss of data
+  hpdf_doc.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_doc.c(1518): warning C4100: 'file_name' : unreferenced formal parameter
+..\..\src\hpdf_doc.c(1596): warning C4100: 'file_name' : unreferenced formal parameter
+  hpdf_info.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_catalog.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+E:\dev\BasicOCR\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+  hpdf_page_label.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_gstate.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+  hpdf_pages.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_pages.c(34): warning C4305: 'initializing' : truncation from 'double' to 'HPDF_REAL'
+..\..\src\hpdf_pages.c(35): warning C4305: 'initializing' : truncation from 'double' to 'HPDF_REAL'
+..\..\src\hpdf_pages.c(36): warning C4305: 'initializing' : truncation from 'double' to 'HPDF_REAL'
+..\..\src\hpdf_pages.c(37): warning C4305: 'initializing' : truncation from 'double' to 'HPDF_REAL'
+..\..\src\hpdf_pages.c(38): warning C4305: 'initializing' : truncation from 'double' to 'HPDF_REAL'
+..\..\src\hpdf_pages.c(343): warning C4244: 'function' : conversion from 'float' to 'HPDF_INT16', possible loss of data
+  hpdf_page_operator.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+E:\dev\BasicOCR\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_destination.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_annotation.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_outline.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_outline.c(238): warning C4245: '*=' : conversion from 'int' to 'HPDF_UINT', signed/unsigned mismatch
+  hpdf_image.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_image.c(359): warning C4244: '=' : conversion from 'HPDF_DOUBLE' to 'HPDF_UINT', possible loss of data
+..\..\src\hpdf_image.c(362): warning C4244: '=' : conversion from 'HPDF_DOUBLE' to 'HPDF_UINT', possible loss of data
+..\..\src\hpdf_image.c(429): warning C4244: '=' : conversion from 'HPDF_INT32' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_image.c(430): warning C4244: '=' : conversion from 'HPDF_INT32' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_image.c(453): warning C4244: '=' : conversion from 'HPDF_INT32' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_image.c(454): warning C4244: '=' : conversion from 'HPDF_INT32' to 'HPDF_REAL', possible loss of data
+..\..\src\hpdf_image.c(510): warning C4244: 'return' : conversion from 'HPDF_REAL' to 'HPDF_UINT', possible loss of data
+..\..\src\hpdf_image.c(516): warning C4244: 'return' : conversion from 'HPDF_REAL' to 'HPDF_UINT', possible loss of data
+  hpdf_encoder_jp.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+E:\dev\BasicOCR\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_encoder_jp.c(15772): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_jp.c(15780): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_jp.c(15953): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_jp.c(15961): warning C4100: 'encoder' : unreferenced formal parameter
+  Generating Code...
+  Compiling...
+  hpdf_encoder_kr.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+E:\dev\BasicOCR\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_encoder_kr.c(27642): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_kr.c(27650): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_kr.c(27807): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_kr.c(27815): warning C4100: 'encoder' : unreferenced formal parameter
+  hpdf_encoder_cns.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+E:\dev\BasicOCR\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_encoder_cns.c(36077): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_cns.c(36085): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_cns.c(36200): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_cns.c(36208): warning C4100: 'encoder' : unreferenced formal parameter
+  hpdf_encoder_cnt.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+E:\dev\BasicOCR\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_encoder_cnt.c(15158): warning C4100: 'encoder' : unreferenced formal parameter
+..\..\src\hpdf_encoder_cnt.c(15166): warning C4100: 'encoder' : unreferenced formal parameter
+  hpdf_fontdef_jp.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_fontdef_kr.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_fontdef_cns.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_fontdef_cnt.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  hpdf_image_png.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+  hpdf_doc_png.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+..\..\src\hpdf_doc_png.c(174): warning C4100: 'delayed_loading' : unreferenced formal parameter
+..\..\src\hpdf_doc_png.c(173): warning C4100: 'imagedata' : unreferenced formal parameter
+  hpdf_ext_gstate.c
+e:\dev\basicocr\libharu\include\hpdf_types.h(123): warning C4820: '_HPDF_Date' : '3' bytes padding added after data member 'ind'
+e:\dev\basicocr\libharu\include\hpdf_encrypt.h(99): warning C4820: '_HPDF_Encrypt_Rec' : '1' bytes padding added after data member 'arc4ctx'
+e:\dev\basicocr\libharu\include\hpdf_encoder.h(171): warning C4820: '_HPDF_BasicEncoderAttr_Rec' : '2' bytes padding added after data member 'unicode_map'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(521): warning C4820: '_HPDF_XrefEntry_Rec' : '3' bytes padding added after data member 'entry_typ'
+e:\dev\basicocr\libharu\include\hpdf_objects.h(523): warning C4820: '_HPDF_XrefEntry_Rec' : '2' bytes padding added after data member 'gen_no'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(142): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(146): warning C4820: '_HPDF_Type1FontDefAttrRec' : '2' bytes padding added after data member 'leading'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(226): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'range_shift'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(228): warning C4820: '_HPDF_TTF_CmapRange' : '2' bytes padding added after data member 'reserved_pad'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(267): warning C4820: '_HPDF_TTF_FontHeader' : '2' bytes padding added after data member 'glyph_data_format'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(284): warning C4820: '_HPDF_TTF_NamingTable' : '2' bytes padding added after data member 'string_offset'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(294): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'last_char'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(297): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '3' bytes padding added after data member 'tag_name2'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(300): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_glyphs'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(303): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'num_h_metric'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(307): warning C4820: '_HPDF_TTFontDefAttr_Rec' : '2' bytes padding added after data member 'panose'
+e:\dev\basicocr\libharu\include\hpdf_fontdef.h(376): warning C4820: '_HPDF_CIDFontDefAttrRec' : '2' bytes padding added after data member 'DW2'
+e:\dev\basicocr\libharu\include\hpdf_pages.h(64): warning C4820: '_HPDF_PageAttr_Rec' : '2' bytes padding added after data member 'gmode'
+e:\dev\basicocr\libharu\include\hpdf_doc.h(56): warning C4820: '_HPDF_Doc_Rec' : '2' bytes padding added after data member 'ttfont_tag'
+  Generating Code...
+Link:
+  e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\BasicOCR\libharu\build\\BasicOCRGUI\bin\Win32\haru.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/dev/BasicOCR/libharu/build/src/Debug/haru.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/dev/BasicOCR/libharu/build/src/Debug/haru.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_utils.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_error.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_mmgr.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_list.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_streams.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_objects.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_null.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_boolean.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_number.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_real.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_name.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_array.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_dict.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_xref.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encoder.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_string.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_binary.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encrypt.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encryptdict.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_tt.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_type1.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_base14.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_cid.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_font.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_font_type1.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_font_tt.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_font_cid.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_doc.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_info.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_catalog.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_page_label.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_gstate.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_pages.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_page_operator.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_destination.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_annotation.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_outline.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_image.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encoder_jp.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encoder_kr.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encoder_cns.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_encoder_cnt.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_jp.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_kr.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_cns.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_fontdef_cnt.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_image_png.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_doc_png.obj
+  E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\hpdf_ext_gstate.obj
+     Creating library E:/dev/BasicOCR/libharu/build/src/Debug/haru.lib and object E:/dev/BasicOCR/libharu/build/src/Debug/haru.exp
+  haru.vcxproj -> E:\dev\BasicOCR\libharu\build\\BasicOCRGUI\bin\Win32\haru.dll
+FinalizeBuildStatus:
+  Deleting file "E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\haru.unsuccessfulbuild".
+  Touching "E:\dev\BasicOCR\libharu\build\\intermediate\Win32\Debug\haru\haru.lastbuildstate".
+Done Building Project "E:\dev\BasicOCR\libharu\build\src\haru.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.45

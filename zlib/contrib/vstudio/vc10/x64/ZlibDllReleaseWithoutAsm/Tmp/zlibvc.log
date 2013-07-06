@@ -1,0 +1,60 @@
+﻿Build started 10/7/2012 5:41:33 PM.
+     1>Project "E:\dev\SimpleOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\ZlibDllReleaseWithoutAsm\Tmp\zlibvc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\.. /I..\..\masmx86 /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D ZLIB_WINAPI /D WIN64 /GF /Gm- /MDd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa"x64\ZlibDllReleaseWithoutAsm\Tmp\\" /Fo"x64\ZlibDllReleaseWithoutAsm\Tmp\\" /Fd"x64\ZlibDllReleaseWithoutAsm\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\masmx64\inffas8664.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\minizip\iowin32.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffas8664.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         iowin32.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         Generating Code...
+       ResourceCompile:
+         e:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x040c" /nologo /fo"x64\ZlibDllReleaseWithoutAsm\Tmp\zlib.res" zlib.rc 
+       Lib:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"x64\ZlibDllReleaseWithoutAsm\zlibvc.lib" /NOLOGO /MACHINE:X64 /LTCG x64\ZlibDllReleaseWithoutAsm\Tmp\zlib.res
+         x64\ZlibDllReleaseWithoutAsm\Tmp\adler32.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\compress.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\crc32.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\deflate.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\gzclose.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\gzlib.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\gzread.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\gzwrite.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\infback.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\inffas8664.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\inffast.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\inflate.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\inftrees.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\ioapi.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\iowin32.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\trees.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\uncompr.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\unzip.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\zip.obj
+         x64\ZlibDllReleaseWithoutAsm\Tmp\zutil.obj
+         zlibvc.vcxproj -> E:\dev\SimpleOCR\zlib\contrib\vstudio\vc10\x64\ZlibDllReleaseWithoutAsm\zlibvc.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\ZlibDllReleaseWithoutAsm\Tmp\zlibvc.unsuccessfulbuild".
+         Touching "x64\ZlibDllReleaseWithoutAsm\Tmp\zlibvc.lastbuildstate".
+     1>Done Building Project "E:\dev\SimpleOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.31

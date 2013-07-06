@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33C8E4C0-A75F-4592-B7B5-615C2F653D60}</ProjectGuid>
+    <RootNamespace>libbigtiff</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\zlib\;..\..\libtiff\tiff-4.1\libtiff;..\..\libtiff\libjpeg\jpeg-6b;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\zlib\;..\..\libtiff\tiff-4.1\libtiff;..\..\libtiff\libjpeg\jpeg-6b;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</UndefinePreprocessorDefinitions>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\zlib\;..\..\libtiff\tiff-4.1\libtiff;..\..\libtiff\libjpeg\jpeg-6b;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\zlib\;..\..\libtiff\tiff-4.1\libtiff;..\..\libtiff\libjpeg\jpeg-6b;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libjpeg\jpeg-6b\cdjpeg.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\ckconfig.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcapimin.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcapistd.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jccoefct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jccolor.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcdctmgr.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jchuff.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcinit.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcmainct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcmarker.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcmaster.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcomapi.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcparam.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcphuff.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcprepct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jcsample.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jctrans.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdapimin.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdapistd.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdatadst.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdatasrc.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdcoefct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdcolor.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jddctmgr.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdhuff.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdinput.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdmainct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdmarker.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdmaster.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdmerge.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdphuff.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdpostct.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdsample.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jdtrans.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jerror.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jfdctflt.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jfdctfst.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jfdctint.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jidctflt.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jidctfst.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jidctint.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jidctred.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jmemmgr.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jmemnobs.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jquant1.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jquant2.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\jutils.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdbmp.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdcolmap.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdgif.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdppm.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdrle.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdswitch.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\rdtarga.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\transupp.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\wrbmp.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\wrgif.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\wrppm.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\wrrle.c" />
+    <ClCompile Include="..\libjpeg\jpeg-6b\wrtarga.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_aux.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_close.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_codec.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_color.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_compress.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_dir.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_dirread.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_error.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_extension.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_fax3.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_flush.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_getimage.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_jpeg.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_luv.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_lzw.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_next.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_open.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_packbits.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_predict.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_print.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_read.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_stream.cxx" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_strip.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_swab.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_thunder.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_tile.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_version.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_warning.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_win32.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_write.c" />
+    <ClCompile Include="..\tiff-4.1\libtiff\tif_zip.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libjpeg\jpeg-6b\cderror.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\cdjpeg.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jchuff.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jconfig.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jdct.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jdhuff.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jerror.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jinclude.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jmemsys.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jmorecfg.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jpegint.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jpeglib.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\jversion.h" />
+    <ClInclude Include="..\libjpeg\jpeg-6b\transupp.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\t4.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiff.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffcomp.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffconf.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffio.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffio.hxx" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffiop.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tiffvers.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tif_config.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tif_dir.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tif_fax3.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\tif_predict.h" />
+    <ClInclude Include="..\tiff-4.1\libtiff\uvcode.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

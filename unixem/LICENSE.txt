@@ -1,0 +1,12 @@
+UNIXem - License
+================
+
+Updated:    4th April 2010
+
+
+
+UNIXem uses the BSD-form license, as described in the accompanying
+doc/html/1.8.4/index.html file.
+
+
+=============================== End of file ================================

@@ -1,0 +1,45 @@
+﻿Build started 9/28/2012 10:02:21 PM.
+     1>Project "E:\dev\ocropus-win64\iulib\iulib.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\iulib.unsuccessfulbuild".
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\dev\ocropus-win64\unixem\include" /I./ /I./imgio /I./colib /I./vidio /I./utils /I./imgbits /I./imglib /I./components /I"../SDL-1.2.14/include" /I../tre/include/tre /I../libtiff/include /I../zlib/include /I../libpng/include /I../libjpeg/include /ZI /nologo /W1 /WX- /Od /Ot /Oy- /D _MBCS /D _MBCS /D _POSIX_ /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\\" /Fd"E:\dev\ocropus-win64\iulib\builds\Debug\\iulib.pdb" /Gd /TP /analyze- /errorReport:prompt imglib\imglabels.cc
+         imglabels.cc
+       Lib:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\dev\ocropus-win64\iulib\builds\Debug\iulib.lib" /NOLOGO "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\autoinvert.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgio.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\io_jpeg.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\io_pbm.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\io_png.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\io_tiff.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgbrushfire.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgedges.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgfilters.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imggauss.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imggraymorph.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imglabels.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgmap.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgmisc.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgmorph.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgops.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgrescale.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgthin.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgtrace.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgbits.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgblit.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgblit_c.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgbsmp.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgbthin.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\imgrle.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\test-simple.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\dgraphics_nosdl.obj"
+         "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\components.obj"
+         iulib.vcxproj -> E:\dev\ocropus-win64\iulib\builds\Debug\iulib.lib
+       FinalizeBuildStatus:
+         Deleting file "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\iulib.unsuccessfulbuild".
+         Touching "E:\dev\ocropus-win64\iulib\intermediate\Debug\iulib\iulib.lastbuildstate".
+     1>Done Building Project "E:\dev\ocropus-win64\iulib\iulib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66

@@ -1,0 +1,16 @@
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCRGUI.exe.config
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCRGUI.exe
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCRGUI.pdb
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCR.dll
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCRControls.dll
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCRControls.pdb
+E:\dev\BasicOCR\BasicOCRGUI\bin\x86\Release\BasicOCR.pdb
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.csprojResolveAssemblyReference.cache
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.fMain.resources
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.Forms.fOCRText.resources
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.fSegmenter.resources
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\OcropusGUI.ImageEdit.resources
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.Properties.Resources.resources
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.csproj.GenerateResource.Cache
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.exe
+E:\dev\BasicOCR\BasicOCRGUI\obj\x86\Release\BasicOCRGUI.pdb

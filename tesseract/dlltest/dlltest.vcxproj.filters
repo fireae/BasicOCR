@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bd053c80-dce2-48a2-9d26-08decf945363}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\image">
+      <UniqueIdentifier>{356ff283-2400-4825-af72-bde76d9d9cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccutil">
+      <UniqueIdentifier>{198f9a36-e8b9-408b-915d-7e36b998c95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{cc880b4a-acc0-496d-acb8-714770d9d57c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8fa1622a-cbab-4204-b02a-6c2a38001425}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dlltest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\bitstrm.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgbmp.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgio.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgs.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgtiff.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\clst.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\debugwin.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\errcode.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\globaloc.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\hashfn.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memblk.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memry.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\serialis.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\strngs.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\tprintf.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unichar.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\varable.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dlltest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\unichar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

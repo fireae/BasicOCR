@@ -1,0 +1,136 @@
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3992365964
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec3992365964, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:27 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3992365964.dir\Debug\cmTryCompileExec3992365964.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3992365964.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3992365964.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+
+Build FAILED.
+
+Time Elapsed 00:00:00.11
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(){return 0;}
+
+Determining if files inttypes.h exist failed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1229677689
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1229677689, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:28 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1229677689.dir\Debug\cmTryCompileExec1229677689.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1229677689.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1229677689.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'inttypes.h': No such file or directory
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <inttypes.h>
+
+
+int main(){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1952410500
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1952410500, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:33 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1952410500.dir\Debug\cmTryCompileExec1952410500.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1952410500.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1952410500.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1929036032
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1929036032, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:38 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1929036032.dir\Debug\cmTryCompileExec1929036032.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1929036032.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1929036032.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(){return 0;}
+

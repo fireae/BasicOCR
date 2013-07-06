@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libgsl">
+</Property><Property Name="Solution File" Value="C:\dev\OCR\OCROpus\ocropus-0.4-win\gsl\src\gsl\1.8\gsl-1.8\VC8\libgsl.sln">
+</Property><Property Name="Date" Value="Wednesday, July 21, 2010">
+</Property><Property Name="Time" Value="0:09 AM">
+</Property></Properties><Event ErrorLevel="0" Project="libgsl" Source="libgsl\libgsl.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="libgsl" Source="libgsl\libgsl.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="libgsl" Source="libgsl\libgsl.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="libgsl" Source="libgsl\libgsl.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libgslcblas" Source="libgslcblas\libgslcblas.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="libgslcblas" Source="libgslcblas\libgslcblas.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="libgslcblas" Source="libgslcblas\libgslcblas.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="libgslcblas" Source="libgslcblas\libgslcblas.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="copy_gsl_headers" Source="copy_gsl_headers\copy_gsl_headers.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="copy_gsl_headers" Source="copy_gsl_headers\copy_gsl_headers.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="copy_gsl_headers" Source="copy_gsl_headers\copy_gsl_headers.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="install_libgsl" Source="install_libgsl\install_libgsl.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="install_libgsl" Source="install_libgsl\install_libgsl.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="install_libgsl" Source="install_libgsl\install_libgsl.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="libgsl.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="libgsl.sln" Description="Converted">
+</Event></UpgradeLog>

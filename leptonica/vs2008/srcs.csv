@@ -1,0 +1,172 @@
+Filename,Category,Description
+dwacomb.2.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,DWA morphology with auto-generated comb Sels for composite operations on brick Sels
+dwacomblow.2.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,Low-level Sel implementation for dwacomb.2.c
+fhmtgen.1.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,DWA morphology with auto-generated hit-miss sels (high-level)
+fhmtgenlow.1.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,Low-level Sel implementation for fhmtgen.1.c
+fmorphgen.1.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,DWA morphology with auto-generated brick sels (high-level)
+fmorphgenlow.1.c,Auto-gen'd Destination Word Accumulation (DWA) Morphology Code,Low-level Sel implementation for fmorphgen.1.c
+boxbasic.c,"Basic Box, Boxa and Boxaa Functions","Implementation of Box, Boxa (Box array), and Boxaa classes"
+boxfunc1.c,"Basic Box, Boxa and Boxaa Functions","Box intersection, union, containment; Boxa union, extent, permutation"
+boxfunc2.c,"Basic Box, Boxa and Boxaa Functions",Boxa/Box transforms; Boxa/Boxaa sorting; Boxaa utilities
+boxfunc3.c,"Basic Box, Boxa and Boxaa Functions",Mask <-> Boxa; painting into and drawing Boxa
+arithlow.c,Basic image operations,Low-level implementation of grayscale image arithmetic
+convolve.c,Basic image operations,"Grayscale, color, float, double convolution; windowed mean, block sum and rank filters; census transform"
+convolvelow.c,Basic image operations,Optimized low-level implementation of grayscale convolution and binary rank filter
+correlscore.c,Basic image operations,Correlation between pairs of binary images
+kernel.c,Basic image operations,Basic operations on image kernels for convolution; special kernels
+pixacc.c,Basic image operations,Simple interface for grayscale image arithmetic
+pixarith.c,Basic image operations,Grayscale image arithmetic
+rank.c,Basic image operations,Rank order filters (generalization of min/median/max filters)
+rop.c,Basic image operations,"General rasterops. ""pixRasterop() is your friend; it is worth memorizing!"""
+ropiplow.c,Basic image operations,Low-level implementation of in-place rasterops
+roplow.c,Basic image operations,Low-level general rasterop implementation
+pixabasic.c,Basic Pix Array Functions,Implements Pixa (array of Pix) and Pixaa (2d array of Pix) class
+pixafunc1.c,Basic Pix Array Functions,"Binary Pixa (array of Pix) filtering, sorting, clipping. See conncomp.c"
+pixafunc2.c,Basic Pix Array Functions,Render a Pixa or Pixaa in a Pix
+pixalloc.c,Basic Pix Array Functions,Custom memory allocation for Pix memory
+pixtiling.c,Basic Pix Array Functions,Split an image into tiles and perform operations independently on each tile
+compare.c,Basic Pix Functions,"Pix equality, binary Pix correlation, image differences"
+pix1.c,Basic Pix Functions,Implements Pix (image) class - the fundamental one for this library
+pix2.c,Basic Pix Functions,"Pixel poking of image, pad and border pixels"
+pix3.c,Basic Pix Functions,"Masking and logical ops, counting, mirrored tiling"
+pix4.c,Basic Pix Functions,"Histograms, fg/bg estimation, rectangle extraction"
+pix5.c,Basic Pix Functions,"Property measurement of 1bbp images, rectangular region extraction, property measurement along lines, cropping to foreground"
+blend.c,Colormap Utilities and Related Operations,Blend (optionally with a mask) and re-coloring images
+colormap.c,Colormap Utilities and Related Operations,"Implements PixColormap; colormap conversions, serialization, transforms"
+paintcmap.c,Colormap Utilities and Related Operations,"Paint onto colormap images - regions, masks"
+ccbord.c,Connected Components in Binary Images,Border representation of connected components: display and svg serialization
+ccthin.c,Connected Components in Binary Images,Connected-component-preserving thinning
+conncomp.c,Connected Components in Binary Images,Connected component counting and extraction (Heckbert's seedfill algorithm)
+fpix1.c,Float-Valued Images,Implements FPix and DPix classes (float and double images)
+fpix2.c,Float-Valued Images,FPix operations: interconversion FPix <-> Pix; borders; rasterop; arithmetic
+bmpio.c,Formatted I/O,"Read/write bmp format, from/to file and memory"
+gifio.c,Formatted I/O,Read/write gif format from/to file and memory
+jpegio.c,Formatted I/O,Read/write jpeg format from/to file and memory
+leptwin.c,Formatted I/O,Leptonica routines needed only on Microsoft Windows
+pngio.c,Formatted I/O,Read/write png format from/to file and memory
+pnmio.c,Formatted I/O,Read/write pnm format from/to file and memory
+psio1.c,Formatted I/O,High level PostScript device driver for wrapping sets of images in PostScript
+psio2.c,Formatted I/O,Lower-level PostScript device driver for wrapping images
+readfile.c,Formatted I/O,Pix from memory and disk; detecting format
+spixio.c,Formatted I/O,Fast pix serialization to/from file
+tiffio.c,Formatted I/O,Read/write tiff format from/to file and memory
+writefile.c,Formatted I/O,Pix to memory and disk; selecting format
+bmpiostub.c,Formatted I/O Stub Functions,"Read/write bmp format, from/to file and memory"
+gifiostub.c,Formatted I/O Stub Functions,Read/write gif format from/to file and memory
+jpegiostub.c,Formatted I/O Stub Functions,Read/write jpeg format from/to file and memory
+pngiostub.c,Formatted I/O Stub Functions,Read/write png format from/to file and memory
+pnmiostub.c,Formatted I/O Stub Functions,Read/write pnm format from/to file and memory
+psio1stub.c,Formatted I/O Stub Functions,High level PostScript device driver for wrapping sets of images in PostScript
+psio2stub.c,Formatted I/O Stub Functions,Lower-level PostScript device driver for wrapping images
+tiffiostub.c,Formatted I/O Stub Functions,Read/write tiff format from/to file and memory
+heap.c,Fundamental Data Structures for Computation,"Implements heap of generic pointers to structs that are keyed by a float, used for priority queue"
+list.c,Fundamental Data Structures for Computation,Implements doubly-linked list of generic pointers
+numabasic.c,Fundamental Data Structures for Computation,"Basic operations for float/int arrays (Numa, Numaa, Numa2d, NumaHash)"
+numafunc1.c,Fundamental Data Structures for Computation,"Arithmetic, data extraction, interpolation, sorting on numas"
+numafunc2.c,Fundamental Data Structures for Computation,"Shift, scale, convolve, histograms, rank statistics, splitting distributions, extrema finding, threshold crossing, frequency analysis"
+pixcomp.c,Fundamental Data Structures for Computation,Handles compressed pix arrays in memory.
+ptra.c,Fundamental Data Structures for Computation,"Implements 1d and 2d arrays of generic pointers (Ptra, Ptraa)"
+ptabasic.c,Fundamental Data Structures for Computation,"Implements 1d and 2d arrays of points (Pta, Ptaa)"
+ptafunc1.c,Fundamental Data Structures for Computation,Manipulation/calculations using arrays of points
+queue.c,Fundamental Data Structures for Computation,Implements queue of generic pointers
+sarray.c,Fundamental Data Structures for Computation,"Impements an array of C strings, and useful utilities based on it"
+stack.c,Fundamental Data Structures for Computation,Implements a stack of generic pointers
+allheaders.h,Header Files,Includes all required Leptonica header files
+alltypes.h,Header Files,Includes all required Leptonica type related header files
+array.h,Header Files,"Structs for basic number and string arrays (Numa, Numaa, Numa2d, NumaHash and Sarray)"
+bbuffer.h,Header Files,Struct for expandable byte buffer (see bbuffer.c)
+bmf.h,Header Files,Structs for bitmap fonts
+bmp.h,Header Files,Structs for bmp file format (uncompressed)
+ccbord.h,Header Files,Structs for representation of 1 bpp component outlines
+dewarp.h,Header Files,Data structure to hold arrays and results for generating a vertical disparity array based on textlines
+environ.h,Header Files,"Specifies external libraries to be used, and whether the runtime supports output redirection from files to memory"
+freetype.h,Header Files,Display freetype fonts in a pix.
+gplot.h,Header Files,Struct and parameters for generating gnuplot files
+heap.h,Header Files,Struct for representing generic expandable priority queue (L_Heap)
+imageio.h,Header Files,Enums for supported image file formats
+jbclass.h,Header Files,Structs for unsupervised classification of 1 bpp components from a set of pages; used for jbig2 compression
+leptprotos.h,Header Files,"ANSII C headers for all functions in the library, automatically generated by xtractprotos"
+leptwin.h,Header Files,ANSII C headers for Leptonica routines needed only on Microsoft Windows
+list.h,Header Files,Struct for generic double-linked list; macros for list traversal
+morph.h,Header Files,"Structs for image morphology (Sel, Sela) and convolution (Kernel), with enum flags"
+pix.h,Header Files,"Basic file defining image and image-related structs (Pix, PixColormap, Pixa, Pixaa, Box, Boxa, Boxaa, Pta, Ptaa, Pixacc, PixTiling, FPix, DPix, PixComp, PixaComp), along with enums for many operations"
+ptra.h,Header Files,"Structs for generic expandable arrays (L_Ptra, L_Ptraa)"
+queue.h,Header Files,Struct for generic expandable queue (L_Queue)
+readbarcode.h,Header Files,Enums and consts for reading 1d barcodes
+stack.h,Header Files,Struct for generic expandable stack (L_Stack)
+watershed.h,Header Files,Struct for generating watershed information from a grayscale image
+colormorph.c,Image Morphology,Color morphological operations (apply grayscale separately to each component)
+fhmtauto.c,Image Morphology,"Code generator, writes dwa code for user-supplied hit-miss transform Sels"
+fmorphauto.c,Image Morphology,"Code generator, writes dwa code for erosion, dilation, opening and closing, for user-supplied Sels"
+graymorph.c,Image Morphology,Top-level grayscale morphological operations
+graymorphlow.c,Image Morphology,Low-level implementation of grayscale morphology
+morph.c,Image Morphology,"Binary morphological operations (dilate, erode, hit-miss, open, close)"
+morphapp.c,Image Morphology,"Composite morph ops: component-wise, union/isect, tophat, gradient, granulometry"
+morphdwa.c,Image Morphology,Binary morphological (dwa) operations
+morphseq.c,Image Morphology,"Interpreter for morphological operations, including binary expansion and reduction"
+sel1.c,Image Morphology,Implements Sel (morph structuring element) and Sela (array of sel)
+sel2.c,Image Morphology,Contains definitions of simple structuring elements
+selgen.c,Image Morphology,Generate hit-miss Sels for doing a loose match to a small bitmap
+seedfill.c,Image Operations with Filling,Binary and gray seedfill; distance functions; voronoi-like seed spreading; local extrema
+seedfilllow.c,Image Operations with Filling,Low-level implementation of binary and gray seedfill
+watershed.c,Image Operations with Filling,Find watershed basins from specified seeds in grayscale image
+adaptmap.c,Image Quantization/Depth Conversion,local adaptive grayscale quantization; mostly gray-to-gray in preparation
+binarize.c,Image Quantization/Depth Conversion,"Special binarization methods, locally adaptive: Otsu and Sauvola"
+colorcontent.c,Image Quantization/Depth Conversion,Measure and map the color content (divergence from gray) of an image
+colorquant1.c,Image Quantization/Depth Conversion,Octcube color quantization
+colorquant2.c,Image Quantization/Depth Conversion,Modified median cut color quantization (Heckbert)
+colorseg.c,Image Quantization/Depth Conversion,Unsupervised color segmentation; selection and display of color content in HSV
+grayquant.c,Image Quantization/Depth Conversion,"Standard, simple, general grayscale quantization"
+grayquantlow.c,Image Quantization/Depth Conversion,Low-level implementation for some grayscale quantiziation functions
+pixconv.c,Image Quantization/Depth Conversion,Convert between images of different types without scaling
+binexpand.c,Image Scaling,Integer upscaling of 1 bpp images by replicated expansion
+binexpandlow.c,Image Scaling,Low-level implementation of integer upscaling
+binreduce.c,Image Scaling,Power of 2 integer reduction of 1 bpp images by sampling and rank value
+binreducelow.c,Image Scaling,Low-level implementation of power of 2 reduction
+scale.c,Image Scaling,"Image up- and down-scaling, by linear interpolation, area mapping, and sampling; scaling from binary to gray; mipmap scaling; upscaling with thresholding; downscaling with min, max and rank value"
+scalelow.c,Image Scaling,Low-level implementation of scaling functions
+gplot.c,Line Graphics and Special Output,Basic gnuplot-based plotting; serialization of plots
+graphics.c,Line Graphics and Special Output,Rendering shapes from lines (using Pta representation)
+viewfiles.c,Line Graphics and Special Output,Generates html for viewing a directory of images
+arrayaccess.c,Low-Level Pixel Access,Function access to pixels in 32-bit arrays
+arrayaccess.h,Low-Level Pixel Access,Macro access to pixels in 32-bit arrays
+runlength.c,Low-Level Pixel Access,"Run-length-encoding, horizontal and vertical run membership"
+maze.c,Maze,A game with a pedagogical slant: generate and search binary and grayscale mazes
+bbuffer.c,Miscellaneous Utilities,"Implements ByteBuffer, a byte queue; used for zlib comp/decomp in memory"
+endiantest.c,Miscellaneous Utilities,"When used with the gnu compiler, it allows efficient computation of the endian flag as part of the normal compilation process."
+parseprotos.c,Miscellaneous Utilities,Parse output of cpp to generate ANSII C function prototypes from a file of C functions
+regutils.c,Miscellaneous Utilities,Regression test utilities
+regutils.h,Miscellaneous Utilities,Regression test parameter packer
+utils.c,Miscellaneous Utilities,"Error, warning and info macros; safe string ops; file <-> memory ops; byte-swapping, file naming and timing ops"
+xtractprotos.c,Miscellaneous Utilities,Accepts a list of C files on the command line and outputs the C prototypes to stdout.
+zlibmem.c,Miscellaneous Utilities,Compresses and decompresses a byte array from one memory buffer to another
+zlibmemstub.c,Miscellaneous Utilities Stub Functions,"zlib operations in memory, using bbuffer"
+affine.c,Other Geometric Image Transforms,"3-pt affine transforms on images and coordinates, with sampling and interpolation; gauss-jordan solver"
+affinecompose.c,Other Geometric Image Transforms,Composable affine coordinate transforms
+bilinear.c,Other Geometric Image Transforms,"4-pt bilinear transforms on images and coordinates, with sampling and interpolation"
+projective.c,Other Geometric Image Transforms,"4-pt projective transforms on images and coordinates, with sampling and interpolation"
+rotate.c,Other Geometric Image Transforms,Top-level image rotation by interpolation and sampling
+rotateam.c,Other Geometric Image Transforms,Interpolated image rotation
+rotateamlow.c,Other Geometric Image Transforms,Low-level helpers for interpolated rotation
+rotateorth.c,Other Geometric Image Transforms,Orthogonal image rotation and flips
+rotateorthlow.c,Other Geometric Image Transforms,Low-level helpers for orthogonal rotation
+rotateshear.c,Other Geometric Image Transforms,Image rotation by shear
+shear.c,Other Geometric Image Transforms,Image shear about arbitrary lines and special points
+bardecode.c,Specialized Document Image Processing,Decode barcodes after sequence of widths is found
+baseline.c,Specialized Document Image Processing,Find text baselines; determine and remove local skew
+bmf.c,Specialized Document Image Processing,Generation of bitmap fonts
+classapp.c,Specialized Document Image Processing,Unsupervised classification of connected components and words; image comparison using word bounding boxes
+dewarp.c,Specialized Document Image Processing,Dewarp scanned book pages by generating a vertical disparity array based on textlines
+finditalic.c,Specialized Document Image Processing,Identifies italic words
+flipdetect.c,Specialized Document Image Processing,Page orientation detection (on roman text)
+fliphmtgen.c,Specialized Document Image Processing,Hit-miss transforms for flipdetect.c
+freetype.c,Specialized Document Image Processing,Display freetype fonts in a pix.
+jbclass.c,Specialized Document Image Processing,data extraction from a set of pages for jbig2 compression
+pageseg.c,Specialized Document Image Processing,"Top-level page segmentation, halftone region extraction, textline extraction"
+partition.c,Specialized Document Image Processing,Bruel algorithm for extracting large whitespace boxes from a binary image: classification and location of connected components (characters or words)
+readbarcode.c,Specialized Document Image Processing,Early beta code for locating and identifying line widths in 1d barcodes
+skew.c,Specialized Document Image Processing,Find and remove text page skew
+textops.c,Specialized Document Image Processing,Simple utility to put text on images
+warper.c,Specialized Document Image Processing,Simple captcha generator based on random warping
+edge.c,Specialized Image Filters,Sobel and related edge filters
+enhance.c,Specialized Image Filters,"Image enhancements: gamma TRC mapping; contrast enhancement, histogram eq; unsharp-masking; hue and saturation "

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug - Components|Win32">
+      <Configuration>Debug - Components</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - Components|x64">
+      <Configuration>Debug - Components</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - x64|Win32">
+      <Configuration>Debug - x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - x64|x64">
+      <Configuration>Debug - x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70DFCDAD-0873-468E-A424-37693B037111}</ProjectGuid>
+    <RootNamespace>iulib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+    <ExcludePath>e:\Program Files (x86)\Windows Kits\8.0\Include\shared;$(ExcludePath)</ExcludePath>
+    <IncludePath>$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(VCInstallDir)include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'">
+    <OutDir>$(SolutionDir)builds\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)builds\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libtiff\tiff-4.1\libtiff;..\libtiff\libjpeg\jpeg-6b;..\unixem\include;..\zlib;..\libpng;./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\iulib.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);_BASETSD_H_ </PreprocessorDefinitions>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libtiff\tiff-4.1\libtiff;..\libtiff\libjpeg\jpeg-6b;..\unixem\include;..\zlib;..\libpng;./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\iulib.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);_BASETSD_H_ </PreprocessorDefinitions>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\libtiff\tiff-4.1\libtiff;..\libtiff\libjpeg\jpeg-6b;..\unixem\include;..\zlib;..\libpng;./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions);_BASETSD_H_ </PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\libtiff\tiff-4.1\libtiff;..\libtiff\libjpeg\jpeg-6b;..\unixem\include;..\zlib;..\libpng;./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_BASETSD_H_ </PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\iulib.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>./;./imgio;./colib;./vidio;./utils;./imgbits;./imglib;./components;../SDL-1.2.14/include;../tre/include/tre;../libtiff/include;../zlib/include;../libpng/include;../libjpeg/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\iulib.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="imgio\autoinvert.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imgio\imgio.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imgio\io_jpeg.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imgio\io_pbm.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imgio\io_png.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imgio\io_tiff.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="imglib\imgbrushfire.cc" />
+    <ClCompile Include="imglib\imgedges.cc" />
+    <ClCompile Include="imglib\imgfilters.cc" />
+    <ClCompile Include="imglib\imggauss.cc" />
+    <ClCompile Include="imglib\imggraymorph.cc" />
+    <ClCompile Include="imglib\imglabels.cc" />
+    <ClCompile Include="imglib\imgmap.cc" />
+    <ClCompile Include="imglib\imgmisc.cc" />
+    <ClCompile Include="imglib\imgmorph.cc" />
+    <ClCompile Include="imglib\imgops.cc" />
+    <ClCompile Include="imglib\imgrescale.cc" />
+    <ClCompile Include="imglib\imgthin.cc" />
+    <ClCompile Include="imglib\imgtrace.cc" />
+    <ClCompile Include="imgbits\imgbits.cc" />
+    <ClCompile Include="imgbits\imgblit.cc" />
+    <ClCompile Include="imgbits\imgblit_c.cc" />
+    <ClCompile Include="imgbits\imgbsmp.cc" />
+    <ClCompile Include="imgbits\imgbthin.cc" />
+    <ClCompile Include="imgbits\imgrle.cc" />
+    <ClCompile Include="utils\dgraphics_nosdl.cc" />
+    <ClCompile Include="components\components.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgio\autoinvert.h" />
+    <ClInclude Include="imgio\imgio.h" />
+    <ClInclude Include="imgio\io_jpeg.h" />
+    <ClInclude Include="imgio\io_pbm.h" />
+    <ClInclude Include="imgio\io_png.h" />
+    <ClInclude Include="imgio\io_tiff.h" />
+    <ClInclude Include="imglib\imgbrushfire.h" />
+    <ClInclude Include="imglib\imgedges.h" />
+    <ClInclude Include="imglib\imgfilters.h" />
+    <ClInclude Include="imglib\imggauss.h" />
+    <ClInclude Include="imglib\imggraymorph.h" />
+    <ClInclude Include="imglib\imglabels.h" />
+    <ClInclude Include="imglib\imglib.h" />
+    <ClInclude Include="imglib\imgmap.h" />
+    <ClInclude Include="imglib\imgmisc.h" />
+    <ClInclude Include="imglib\imgmorph.h" />
+    <ClInclude Include="imglib\imgops.h" />
+    <ClInclude Include="imglib\imgrescale.h" />
+    <ClInclude Include="imglib\imgthin.h" />
+    <ClInclude Include="imglib\imgtrace.h" />
+    <ClInclude Include="imglib\iulib.h" />
+    <ClInclude Include="imgbits\bithacks.h" />
+    <ClInclude Include="imgbits\imgbitptr.h" />
+    <ClInclude Include="imgbits\imgbits.h" />
+    <ClInclude Include="imgbits\imgrle.h" />
+    <ClInclude Include="colib\checks.h" />
+    <ClInclude Include="colib\classifier.h" />
+    <ClInclude Include="colib\clib.h" />
+    <ClInclude Include="colib\colib.h" />
+    <ClInclude Include="colib\compat.h" />
+    <ClInclude Include="colib\coords.h" />
+    <ClInclude Include="colib\debugf.h" />
+    <ClInclude Include="colib\deprecation.h" />
+    <ClInclude Include="colib\env.h" />
+    <ClInclude Include="colib\hash.h" />
+    <ClInclude Include="colib\heap.h" />
+    <ClInclude Include="colib\iarith.h" />
+    <ClInclude Include="colib\iustring.h" />
+    <ClInclude Include="colib\misc.h" />
+    <ClInclude Include="colib\narray-binio.h" />
+    <ClInclude Include="colib\narray-ops.h" />
+    <ClInclude Include="colib\narray-util.h" />
+    <ClInclude Include="colib\narray.h" />
+    <ClInclude Include="colib\nbest.h" />
+    <ClInclude Include="colib\nustring.h" />
+    <ClInclude Include="colib\objlist.h" />
+    <ClInclude Include="colib\quicksort.h" />
+    <ClInclude Include="colib\rowarrays.h" />
+    <ClInclude Include="colib\smartptr.h" />
+    <ClInclude Include="colib\strbuf.h" />
+    <ClInclude Include="colib\unionfind.h" />
+    <ClInclude Include="colib\vec2.h" />
+    <ClInclude Include="win32\winmath.h" />
+    <ClInclude Include="utils\dgraphics.h" />
+    <ClInclude Include="utils\SDL_lines.h" />
+    <ClInclude Include="vidio\vidio.h" />
+    <ClInclude Include="components\components.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libpng\projects\visualc71\libpng.vcxproj">
+      <Project>{b6bcbfb5-06a8-4281-90ef-7e2cab859fdd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libtiff\libbigtiff\libbigtiff.vcxproj">
+      <Project>{33c8e4c0-a75f-4592-b7b5-615c2f653d60}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\contrib\vstudio\vc10\zlibvc.vcxproj">
+      <Project>{8fd826f8-3739-44e6-8cc8-997122e53b8d}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

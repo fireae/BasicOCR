@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug - Components|Win32">
+      <Configuration>Debug - Components</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - Components|x64">
+      <Configuration>Debug - Components</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - x64|Win32">
+      <Configuration>Debug - x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug - x64|x64">
+      <Configuration>Debug - x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF5B6997-190E-4CBF-ABDE-B7306433D5EC}</ProjectGuid>
+    <RootNamespace>ocropus</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+    <ExcludePath>e:\program files (x86)\windows kits\8.0\include\shared\rpcndr.h;e:\program files (x86)\windows kits\8.0\include\shared\;$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(TargetName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\intermediate\$(TargetName)\$(Platform)\$(Configuration)\$(TargetName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'">
+    <OutDir>$(SolutionDir)builds\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)builds\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libtiff\libjpeg\jpeg-6b;..\tesseract;../;..\libtiff\tiff-4.1\libtiff;..\iulib\colib;..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions);_DEBUG;WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)/ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)/</ObjectFileName>
+      <AssemblerOutput>All</AssemblerOutput>
+      <PrecompiledHeaderFile />
+      <AssemblerListingLocation>$(IntDir)/</AssemblerListingLocation>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\libtiff\libjpeg\jpeg-6b;..\tesseract;../;..\libtiff\tiff-4.1\libtiff;..\iulib\colib;..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions);_DEBUG;WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions);WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\libtiff\libjpeg\jpeg-6b;..\tesseract;../;..\libtiff\tiff-4.1\libtiff;..\iulib\colib;..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\libtiff\libjpeg\jpeg-6b;..\tesseract;../;..\libtiff\tiff-4.1\libtiff;..\iulib\colib;..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);OCROPUS;WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Components|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug - x64|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\unixem\include;..\gsl\include;..\libtiff\include;..\tre\include\tre;..\iulib;..\iulib\vidio;..\iulib\utils;..\iulib\imgio;..\iulib\imgbits;..\iulib\components;.\ocr-utils;.\ocr-line;.\ocr-pfst;.\ocr-layout;.\ocr-lineseg;.\ocr-leptonica;.\ocr-tesseract;.\ocr-commands;..\tesseract\dict;..\tesseract\image;..\tesseract\viewer;..\tesseract\ccstruct;..\tesseract\ccutil;..\tesseract\ccmain;..\tesseract\cutil;..\tesseract\wordrec;..\tesseract\textord;..\tesseract\classify;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OCROPUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(TargetDir)\ocropus.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="commands\ocr-distance.cc" />
+    <ClCompile Include="commands\ocropus.cc" />
+    <ClCompile Include="commands\OLD\ocropus-group.cc" />
+    <ClCompile Include="commands\OLD\seg-cuts-main.cc" />
+    <ClCompile Include="ocr-binarize\main-ocr-binarize-otsu.cc" />
+    <ClCompile Include="ocr-binarize\main-ocr-binarize-sauvola.cc" />
+    <ClCompile Include="ocr-binarize\ocr-binarize-otsu.cc" />
+    <ClCompile Include="ocr-binarize\ocr-binarize-range.cc" />
+    <ClCompile Include="ocr-binarize\ocr-binarize-sauvola.cc" />
+    <ClCompile Include="ocr-commands\ocr-commands.cc" />
+    <ClCompile Include="ocr-layout\line-info.cc" />
+    <ClCompile Include="ocr-layout\log-reg-data.cc" />
+    <ClCompile Include="ocr-layout\ocr-char-stats.cc" />
+    <ClCompile Include="ocr-layout\ocr-classify-zones.cc" />
+    <ClCompile Include="ocr-layout\ocr-color-encode-layout.cc" />
+    <ClCompile Include="ocr-layout\ocr-ctextline-rast-extended.cc" />
+    <ClCompile Include="ocr-layout\ocr-ctextline-rast.cc" />
+    <ClCompile Include="ocr-layout\ocr-deskew-rast.cc" />
+    <ClCompile Include="ocr-layout\ocr-detect-columns.cc" />
+    <ClCompile Include="ocr-layout\ocr-detect-paragraphs.cc" />
+    <ClCompile Include="ocr-layout\ocr-doc-clean-concomp.cc" />
+    <ClCompile Include="ocr-layout\ocr-doc-clean.cc" />
+    <ClCompile Include="ocr-layout\ocr-extract-gutters.cc" />
+    <ClCompile Include="ocr-layout\ocr-extract-rulings.cc" />
+    <ClCompile Include="ocr-layout\ocr-layout-1cp.cc" />
+    <ClCompile Include="ocr-layout\ocr-layout-rast.cc" />
+    <ClCompile Include="ocr-layout\ocr-layout-smear.cc" />
+    <ClCompile Include="ocr-layout\ocr-noisefilter.cc" />
+    <ClCompile Include="ocr-layout\ocr-pageframe-rast.cc" />
+    <ClCompile Include="ocr-layout\ocr-pageseg-wcuts.cc" />
+    <ClCompile Include="ocr-layout\ocr-pageseg-xycut.cc" />
+    <ClCompile Include="ocr-layout\ocr-reading-order.cc" />
+    <ClCompile Include="ocr-layout\ocr-segmentations.cc" />
+    <ClCompile Include="ocr-layout\ocr-text-image-seg.cc" />
+    <ClCompile Include="ocr-layout\ocr-visualize-layout-rast.cc" />
+    <ClCompile Include="ocr-layout\ocr-whitespace-cover.cc" />
+    <ClCompile Include="ocr-layout\ocr-word-segmentation.cc" />
+    <ClCompile Include="ocr-leptonica\ocr-text-image-seg-leptonica.cc" />
+    <ClCompile Include="ocr-lineseg\ocr-cseg-ccs.cc" />
+    <ClCompile Include="ocr-lineseg\ocr-cseg-projection.cc" />
+    <ClCompile Include="ocr-lineseg\seg-ccs.cc" />
+    <ClCompile Include="ocr-lineseg\seg-cuts.cc" />
+    <ClCompile Include="ocr-lineseg\seg-eval.cc" />
+    <ClCompile Include="ocr-lineseg\seg-skel.cc" />
+    <ClCompile Include="ocr-line\glclass.cc" />
+    <ClCompile Include="ocr-line\glcuts.cc" />
+    <ClCompile Include="ocr-line\glfmaps.cc" />
+    <ClCompile Include="ocr-line\glutils.cc" />
+    <ClCompile Include="ocr-line\linerec.cc" />
+    <ClCompile Include="ocr-pfst\a-star.cc" />
+    <ClCompile Include="ocr-pfst\beam-search.cc" />
+    <ClCompile Include="ocr-pfst\lattice.cc" />
+    <ClCompile Include="ocr-pfst\ocrofst-heap.cc" />
+    <ClCompile Include="ocr-pfst\ocrofst-impl.cc" />
+    <ClCompile Include="ocr-pfst\ocrofst-io.cc" />
+    <ClCompile Include="ocr-pfst\ocrofst-util.cc" />
+    <ClCompile Include="ocr-tesseract\tesseract.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\components.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\didegrade.cc" />
+    <ClCompile Include="ocr-utils\editdist.cc" />
+    <ClCompile Include="ocr-utils\init-ocropus.cc">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\linesegs.cc" />
+    <ClCompile Include="ocr-utils\logger.cc" />
+    <ClCompile Include="ocr-utils\narray-io.cc" />
+    <ClCompile Include="ocr-utils\ocr-utils.cc" />
+    <ClCompile Include="ocr-utils\pagesegs.cc" />
+    <ClCompile Include="ocr-utils\resource-path.cc" />
+    <ClCompile Include="ocr-utils\sysutil.cc" />
+    <ClCompile Include="ocr-utils\tests\test-binarize-sauvola.cc" />
+    <ClCompile Include="ocr-utils\tests\test-narray-io.cc" />
+    <ClCompile Include="ocr-utils\tests\test-ocr-utils.cc" />
+    <ClCompile Include="ocr-utils\tests\test-seg-cuts.cc" />
+    <ClCompile Include="ocr-utils\xml-entities.cc" />
+    <ClCompile Include="ocr-voronoi\bit_func.cc" />
+    <ClCompile Include="ocr-voronoi\cline.cc" />
+    <ClCompile Include="ocr-voronoi\dinfo.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\draw_line.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\draw_point.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\draw_rect.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\make_map.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\read_image.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\util.cc" />
+    <ClCompile Include="ocr-voronoi\drawing\write_image.cc" />
+    <ClCompile Include="ocr-voronoi\draw_line.cpp" />
+    <ClCompile Include="ocr-voronoi\edgelist.cc" />
+    <ClCompile Include="ocr-voronoi\erase.cc" />
+    <ClCompile Include="ocr-voronoi\geometry.cc" />
+    <ClCompile Include="ocr-voronoi\hash.cc" />
+    <ClCompile Include="ocr-voronoi\heap.cc" />
+    <ClCompile Include="ocr-voronoi\img_to_site.cc" />
+    <ClCompile Include="ocr-voronoi\label_func.cc" />
+    <ClCompile Include="ocr-voronoi\main-be.cc" />
+    <ClCompile Include="ocr-voronoi\main-voronoi-ocropus.cc" />
+    <ClCompile Include="ocr-voronoi\memory.cc" />
+    <ClCompile Include="ocr-voronoi\output.cc" />
+    <ClCompile Include="ocr-voronoi\read_image.cpp" />
+    <ClCompile Include="ocr-voronoi\sites.cc" />
+    <ClCompile Include="ocr-voronoi\usage.cc" />
+    <ClCompile Include="ocr-voronoi\voronoi-ocropus.cc" />
+    <ClCompile Include="ocr-voronoi\voronoi-pageseg.cc" />
+    <ClCompile Include="ocr-voronoi\voronoi.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extras\cseg2mnist\mnist.h" />
+    <ClInclude Include="include\glclass.h" />
+    <ClInclude Include="include\glcuts.h" />
+    <ClInclude Include="include\gldataset.h" />
+    <ClInclude Include="include\glfmaps.h" />
+    <ClInclude Include="include\glinerec.h" />
+    <ClInclude Include="include\glutils.h" />
+    <ClInclude Include="include\grouper.h" />
+    <ClInclude Include="include\gsl.h" />
+    <ClInclude Include="include\line-info.h" />
+    <ClInclude Include="include\ocr-layout.h" />
+    <ClInclude Include="include\ocr-openfst.h" />
+    <ClInclude Include="include\ocr-pfst.h" />
+    <ClInclude Include="include\ocropus.h" />
+    <ClInclude Include="include\tesseract.h" />
+    <ClInclude Include="ocr-commands\ocr-commands.h" />
+    <ClInclude Include="ocr-layout\line-info.h" />
+    <ClInclude Include="ocr-layout\log-reg-data.h" />
+    <ClInclude Include="ocr-layout\ocr-char-stats.h" />
+    <ClInclude Include="ocr-layout\ocr-classify-zones.h" />
+    <ClInclude Include="ocr-layout\ocr-color-encode-layout.h" />
+    <ClInclude Include="ocr-layout\ocr-ctextline-rast-extended.h" />
+    <ClInclude Include="ocr-layout\ocr-ctextline-rast.h" />
+    <ClInclude Include="ocr-layout\ocr-deskew-rast.h" />
+    <ClInclude Include="ocr-layout\ocr-detect-columns.h" />
+    <ClInclude Include="ocr-layout\ocr-detect-paragraphs.h" />
+    <ClInclude Include="ocr-layout\ocr-doc-clean-concomp.h" />
+    <ClInclude Include="ocr-layout\ocr-doc-clean.h" />
+    <ClInclude Include="ocr-layout\ocr-extract-gutters.h" />
+    <ClInclude Include="ocr-layout\ocr-extract-rulings.h" />
+    <ClInclude Include="ocr-layout\ocr-layout-internal.h" />
+    <ClInclude Include="ocr-layout\ocr-layout-rast.h" />
+    <ClInclude Include="ocr-layout\ocr-layout-structs.h" />
+    <ClInclude Include="ocr-layout\ocr-layout.h" />
+    <ClInclude Include="ocr-layout\ocr-noisefilter.h" />
+    <ClInclude Include="ocr-layout\ocr-pageframe-rast.h" />
+    <ClInclude Include="ocr-layout\ocr-pageseg-wcuts.h" />
+    <ClInclude Include="ocr-layout\ocr-pageseg-xycut.h" />
+    <ClInclude Include="ocr-layout\ocr-reading-order.h" />
+    <ClInclude Include="ocr-layout\ocr-segmentations.h" />
+    <ClInclude Include="ocr-layout\ocr-text-image-seg.h" />
+    <ClInclude Include="ocr-layout\ocr-visualize-layout-rast.h" />
+    <ClInclude Include="ocr-layout\ocr-whitespace-cover.h" />
+    <ClInclude Include="ocr-layout\ocr-word-segmentation.h" />
+    <ClInclude Include="ocr-leptonica\ocr-text-image-seg-leptonica.h" />
+    <ClInclude Include="ocr-lineseg\seg-eval.h" />
+    <ClInclude Include="ocr-line\glclass.h" />
+    <ClInclude Include="ocr-line\glcuts.h" />
+    <ClInclude Include="ocr-line\gldataset.h" />
+    <ClInclude Include="ocr-line\glfmaps.h" />
+    <ClInclude Include="ocr-line\glinerec.h" />
+    <ClInclude Include="ocr-line\gliovecs.h" />
+    <ClInclude Include="ocr-line\glutils.h" />
+    <ClInclude Include="ocr-line\gsl.h" />
+    <ClInclude Include="ocr-pfst\a-star.h" />
+    <ClInclude Include="ocr-pfst\fst-heap.h" />
+    <ClInclude Include="ocr-pfst\fst-io.h" />
+    <ClInclude Include="ocr-pfst\lattice.h" />
+    <ClInclude Include="ocr-pfst\ocr-openfst.h" />
+    <ClInclude Include="ocr-pfst\ocr-pfst.h" />
+    <ClInclude Include="ocr-tesseract\ocr-tesseract.h" />
+    <ClInclude Include="ocr-test\ocr-test.h" />
+    <ClInclude Include="ocr-utils\arraypaint.h" />
+    <ClInclude Include="ocr-utils\bookstore.h" />
+    <ClInclude Include="ocr-utils\components.h" />
+    <ClInclude Include="ocr-utils\didegrade.h" />
+    <ClInclude Include="ocr-utils\docproc.h" />
+    <ClInclude Include="ocr-utils\editdist.h" />
+    <ClInclude Include="ocr-utils\enumerator.h" />
+    <ClInclude Include="ocr-utils\grid.h" />
+    <ClInclude Include="ocr-utils\grouper.h" />
+    <ClInclude Include="ocr-utils\init-ocropus.h" />
+    <ClInclude Include="ocr-utils\linesegs.h" />
+    <ClInclude Include="ocr-utils\logger.h" />
+    <ClInclude Include="ocr-utils\narray-binio.h" />
+    <ClInclude Include="ocr-utils\narray-io.h" />
+    <ClInclude Include="ocr-utils\ocr-utils.h" />
+    <ClInclude Include="ocr-utils\ocrinterfaces.h" />
+    <ClInclude Include="ocr-utils\ocropus.h" />
+    <ClInclude Include="ocr-utils\OLD\components.h" />
+    <ClInclude Include="ocr-utils\OLD\narray-binio.h" />
+    <ClInclude Include="ocr-utils\pages.h" />
+    <ClInclude Include="ocr-utils\pagesegs.h" />
+    <ClInclude Include="ocr-utils\queue.h" />
+    <ClInclude Include="ocr-utils\resource-path.h" />
+    <ClInclude Include="ocr-utils\segmentation.h" />
+    <ClInclude Include="ocr-utils\stringutil.h" />
+    <ClInclude Include="ocr-utils\sysutil.h" />
+    <ClInclude Include="ocr-utils\tesseract.h" />
+    <ClInclude Include="ocr-utils\xml-entities.h" />
+    <ClInclude Include="ocr-voronoi\const.h" />
+    <ClInclude Include="ocr-voronoi\defs.h" />
+    <ClInclude Include="ocr-voronoi\drawing\color.h" />
+    <ClInclude Include="ocr-voronoi\drawing\function.h" />
+    <ClInclude Include="ocr-voronoi\drawing\read_image.h" />
+    <ClInclude Include="ocr-voronoi\extern.h" />
+    <ClInclude Include="ocr-voronoi\function.h" />
+    <ClInclude Include="ocr-voronoi\read_image.h" />
+    <ClInclude Include="ocr-voronoi\voronoi-ocropus.h" />
+    <ClInclude Include="win32\winheap.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,293 @@
+The system is: Windows - 6.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:19 PM.
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  CMakeCCompilerId.c
+Link:
+  CompilerIdC.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\2.8.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  CMAKE_C_COMPILER=e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:02.42
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/dev/BasicOCR/libharu/build/CMakeFiles/2.8.10.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec680842612
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec680842612, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:23 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec680842612.dir\Debug\cmTryCompileExec680842612.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec680842612.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec680842612.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  cmTryCompileExec680842612.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec680842612.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec680842612.dir\Debug\cmTryCompileExec680842612.unsuccessfulbuild".
+  Touching "cmTryCompileExec680842612.dir\Debug\cmTryCompileExec680842612.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec103916509
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec103916509, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:25 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec103916509.dir\Debug\cmTryCompileExec103916509.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec103916509.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec103916509.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "E:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  cmTryCompileExec103916509.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec103916509.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec103916509.dir\Debug\cmTryCompileExec103916509.unsuccessfulbuild".
+  Touching "cmTryCompileExec103916509.dir\Debug\cmTryCompileExec103916509.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec610314770
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec610314770, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:29 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec610314770.dir\Debug\cmTryCompileExec610314770.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec610314770.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec610314770.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec610314770.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec610314770.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec610314770.dir\Debug\cmTryCompileExec610314770.unsuccessfulbuild".
+  Touching "cmTryCompileExec610314770.dir\Debug\cmTryCompileExec610314770.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1730206791
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1730206791, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:31 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1730206791.dir\Debug\cmTryCompileExec1730206791.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1730206791.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1730206791.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec1730206791.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1730206791.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1730206791.dir\Debug\cmTryCompileExec1730206791.unsuccessfulbuild".
+  Touching "cmTryCompileExec1730206791.dir\Debug\cmTryCompileExec1730206791.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec581177268
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec581177268, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:32 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec581177268.dir\Debug\cmTryCompileExec581177268.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec581177268.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec581177268.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec581177268.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec581177268.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec581177268.dir\Debug\cmTryCompileExec581177268.unsuccessfulbuild".
+  Touching "cmTryCompileExec581177268.dir\Debug\cmTryCompileExec581177268.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec232642430
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec232642430, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:34 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec232642430.dir\Debug\cmTryCompileExec232642430.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec232642430.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec232642430.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec232642430.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec232642430.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec232642430.dir\Debug\cmTryCompileExec232642430.unsuccessfulbuild".
+  Touching "cmTryCompileExec232642430.dir\Debug\cmTryCompileExec232642430.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1458906255
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec1458906255, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:35 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1458906255.dir\Debug\cmTryCompileExec1458906255.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1458906255.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1458906255.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec1458906255.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1458906255.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1458906255.dir\Debug\cmTryCompileExec1458906255.unsuccessfulbuild".
+  Touching "cmTryCompileExec1458906255.dir\Debug\cmTryCompileExec1458906255.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp
+
+Run Build Command:e:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3922868152
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec3922868152, Configuration: Debug Win32 ------
+Build started 6/30/2013 12:43:37 PM.
+PrepareForBuild:
+  Creating directory "E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3922868152.dir\Debug\cmTryCompileExec3922868152.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3922868152.dir\Debug\\" /Fd"E:/dev/BasicOCR/libharu/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3922868152.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  cmTryCompileExec3922868152.vcxproj -> E:\dev\BasicOCR\libharu\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3922868152.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3922868152.dir\Debug\cmTryCompileExec3922868152.unsuccessfulbuild".
+  Touching "cmTryCompileExec3922868152.dir\Debug\cmTryCompileExec3922868152.lastbuildstate".
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

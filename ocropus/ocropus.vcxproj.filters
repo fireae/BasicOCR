@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5cb97136-fe0f-48a3-93f4-b1d2d4bdd4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f57c36e3-371c-4749-9b9f-53c6c2b69f14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ocr-utils\didegrade.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\components.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\cline.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\bit_func.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\beam-search.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\a-star.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\xml-entities.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\voronoi-pageseg.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\voronoi-ocropus.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\voronoi.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\usage.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\tests\test-seg-cuts.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\tests\test-ocr-utils.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\tests\test-narray-io.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\tests\test-binarize-sauvola.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-tesseract\tesseract.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\sysutil.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\sites.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\seg-skel.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\seg-eval.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\OLD\seg-cuts-main.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\seg-cuts.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\seg-ccs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\resource-path.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\pagesegs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\output.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-word-segmentation.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-whitespace-cover.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-visualize-layout-rast.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\ocr-utils.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-leptonica\ocr-text-image-seg-leptonica.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-text-image-seg.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-segmentations.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-reading-order.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-pageseg-xycut.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-pageseg-wcuts.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-pageframe-rast.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\OLD\ocropus-group.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\ocropus.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\ocrofst-util.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\ocrofst-io.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\ocrofst-impl.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\ocrofst-heap.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-noisefilter.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-layout-smear.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-layout-rast.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-layout-1cp.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-extract-rulings.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-extract-gutters.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-doc-clean-concomp.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-doc-clean.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="commands\ocr-distance.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-detect-paragraphs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-detect-columns.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-deskew-rast.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-ctextline-rast-extended.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-ctextline-rast.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\ocr-cseg-projection.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-lineseg\ocr-cseg-ccs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-commands\ocr-commands.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-color-encode-layout.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-classify-zones.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\ocr-char-stats.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-binarize\ocr-binarize-sauvola.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-binarize\ocr-binarize-range.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-binarize\ocr-binarize-otsu.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\narray-io.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\memory.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\main-voronoi-ocropus.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-binarize\main-ocr-binarize-sauvola.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-binarize\main-ocr-binarize-otsu.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\main-be.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\log-reg-data.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\logger.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\linesegs.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-line\linerec.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-layout\line-info.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-pfst\lattice.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\label_func.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\init-ocropus.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\img_to_site.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\heap.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\hash.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-line\glutils.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-line\glfmaps.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-line\glcuts.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-line\glclass.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\geometry.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\erase.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-utils\editdist.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\edgelist.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\dinfo.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\util.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\draw_line.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\draw_rect.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\draw_point.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\draw_line.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\make_map.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\read_image.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\read_image.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ocr-voronoi\drawing\write_image.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ocr-voronoi\drawing\read_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\read_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\resource-path.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-lineseg\seg-eval.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\segmentation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\stringutil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\sysutil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tesseract.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\tesseract.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\voronoi-ocropus.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\winheap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\xml-entities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\arraypaint.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\a-star.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\bookstore.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\drawing\color.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\components.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\OLD\components.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\const.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\defs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\didegrade.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\docproc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\editdist.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\enumerator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\extern.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\fst-heap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\fst-io.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\drawing\function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-voronoi\function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glclass.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\glclass.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glcuts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\glcuts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gldataset.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\gldataset.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glfmaps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\glfmaps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glinerec.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\glinerec.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\gliovecs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glutils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\glutils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\grid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\grouper.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\grouper.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gsl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-line\gsl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\init-ocropus.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\lattice.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line-info.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\line-info.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\linesegs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\logger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\log-reg-data.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="extras\cseg2mnist\mnist.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\narray-binio.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\OLD\narray-binio.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\narray-io.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-char-stats.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-classify-zones.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-color-encode-layout.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-commands\ocr-commands.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-ctextline-rast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-ctextline-rast-extended.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-deskew-rast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-detect-columns.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-detect-paragraphs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-doc-clean.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-doc-clean-concomp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-extract-gutters.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-extract-rulings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\ocrinterfaces.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ocr-layout.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-layout.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-layout-internal.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-layout-rast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-layout-structs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-noisefilter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ocr-openfst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\ocr-openfst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ocropus.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\ocropus.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-pageframe-rast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-pageseg-wcuts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-pageseg-xycut.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ocr-pfst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-pfst\ocr-pfst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-reading-order.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-segmentations.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-tesseract\ocr-tesseract.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-test\ocr-test.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-text-image-seg.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-leptonica\ocr-text-image-seg-leptonica.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\ocr-utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-visualize-layout-rast.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-whitespace-cover.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-layout\ocr-word-segmentation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\pages.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\pagesegs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ocr-utils\queue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

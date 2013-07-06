@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>(Optional) Building the leptonlib library &mdash; Leptonica &amp; Visual Studio 2008</title>
+    <link rel="stylesheet" href="_static/default2.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.66',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Leptonica &amp; Visual Studio 2008" href="index.html" />
+    <link rel="next" title="Visual Studio 2010 Notes" href="vs2010-notes.html" />
+    <link rel="prev" title="(Optional) Building zlib, libjpeg, libpng, libtiff and giflib" href="building-image-libraries.html" />
+ 
+    <script src="http://www.google-analytics.com/urchin.js"
+            type="text/javascript">
+    </script>
+
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="vs2010-notes.html" title="Visual Studio 2010 Notes"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="building-image-libraries.html" title="(Optional) Building zlib, libjpeg, libpng, libtiff and giflib"
+             accesskey="P">previous</a> |</li>
+  <li><a href="http://www.leptonica.com">Leptonica Home</a> &raquo;</li>
+  
+        <li><a href="index.html">VS2008 Notes (for v1.66)</a> &raquo;</li>
+ 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="optional-building-the-leptonlib-library">
+<span id="building-leptonlib"></span><h1>(Optional) Building the <span class="filesystem">leptonlib</span> library<a class="headerlink" href="#optional-building-the-leptonlib-library" title="Permalink to this headline">¶</a></h1>
+<p>Assuming that you&#8217;ve <a class="reference external" href="downloading-binaries.html"><em>downloaded</em></a> or
+<a class="reference external" href="building-image-libraries.html"><em>built</em></a> the requisite image libraries,
+building <span class="filesystem">leptonlib</span> itself is straightforward since a Visual Studio
+solution file is provided.</p>
+<ol class="arabic">
+<li><p class="first">Download the latest version of leptonica from <a class="link outside reference external" href="http://leptonica.com/download.html#LIBLEPT">here</a>. Extract the archive
+to the <span class="filesystem">BuildFolder</span> directory. You should now have:</p>
+<div class="highlight-none"><div class="highlight"><pre>BuildFolder\
+  giflib-4.1.6\
+  include\
+  jpeg-8b\
+  leptonlib-1.xx\
+  lib\
+  libtiff-3.9.4\
+  lpng143\
+  zlib\
+</pre></div>
+</div>
+</li>
+<li><p class="first">Download the Microsoft Visual Studio 2008 build package from <a class="link outside reference external" href="http://leptonica.com/download.html#VS2008">here</a>. Extract the archive
+to the <span class="filesystem">BuildFolder\leptonlib-1.xx</span> directory. You should now have:</p>
+<div class="highlight-none"><div class="highlight"><pre>BuildFolder\
+  include\
+  leptonlib-1.xx\
+    vs2008\
+  lib\
+  tiff-3.9.4\
+</pre></div>
+</div>
+</li>
+<li><p class="first"><span class="filesystem">leptprotos.h</span> has the wrong declaration for
+<tt class="docutils literal"><span class="pre">setPixMemoryManager()</span></tt> under Windows. Change it from:</p>
+<div class="highlight-none"><div class="highlight"><pre>LEPT_DLL extern void setPixMemoryManager ( void * ( allocator (size_t ) ), void  ( deallocator ( void * ) ) );
+</pre></div>
+</div>
+<p>to:</p>
+<div class="highlight-none"><div class="highlight"><pre>LEPT_DLL extern void setPixMemoryManager (void *((*allocator)(size_t)), void ((*deallocator)(void *)) );
+</pre></div>
+</div>
+</li>
+<li><p class="first">Copy all the <span class="filesystem">.h</span> header files from <span class="filesystem">leptonlib-1.xx\src</span> to
+<span class="filesystem">BuildFolder\include\leptonica</span>.</p>
+</li>
+<li><p class="first">Open <span class="filesystem">BuildFolder\leptonlib-1.xx\vs2008\leptonlib.sln</span> with Visual
+Studio 2008.</p>
+</li>
+<li><p class="first">Select the desired build configuration (either <span class="gui">LIB Debug</span>,
+<span class="gui">LIB Release</span>, <span class="gui">DLL Debug</span>, or <span class="gui">DLL
+Release</span> and probably <span class="gui">Win32</span>).</p>
+<p><span class="gui">LIB Debug</span> builds use the following C compiler options:</p>
+<div class="highlight-none"><div class="highlight"><pre>/Od /I &quot;..\..\include&quot;
+/D &quot;WIN32&quot; /D &quot;_DEBUG&quot; /D &quot;_LIB&quot; /D &quot;L_LITTLE_ENDIAN&quot;
+/D &quot;snprintf=_snprintf&quot; /D &quot;XMD_H&quot;
+/FD /EHsc /RTC1 /MDd /Fo&quot;LIB Debug\\&quot; /Fd&quot;LIB Debug\vc90.pdb&quot;
+/W3 /nologo /c /Z7 /errorReport:prompt
+</pre></div>
+</div>
+<p><span class="gui">LIB Release</span> builds use the following C compiler options:</p>
+<div class="highlight-none"><div class="highlight"><pre>/O2 /I &quot;..\..\include&quot;
+/D &quot;WIN32&quot; /D &quot;NDEBUG&quot; /D &quot;_LIB&quot; /D &quot;L_LITTLE_ENDIAN&quot;
+/D &quot;snprintf=_snprintf&quot; /D &quot;XMD_H&quot; /D &quot;NO_CONSOLE_IO&quot;
+/FD /EHsc /MD /Fo&quot;LIB Release\\&quot; /Fd&quot;LIB Release\vc90.pdb&quot;
+/W3 /nologo /c /errorReport:prompt
+</pre></div>
+</div>
+<p><span class="gui">DLL Debug</span> builds use the following C compiler options:</p>
+<div class="highlight-none"><div class="highlight"><pre>/Od /I &quot;..\..\include&quot;
+/D &quot;WIN32&quot; /D &quot;_DEBUG&quot; /D &quot;_USRDLL&quot; /D &quot;_WINDLL&quot;
+/D &quot;LEPTONLIB_EXPORTS&quot; /D &quot;L_LITTLE_ENDIAN&quot;
+/D &quot;snprintf=_snprintf&quot; /D &quot;XMD_H&quot;
+/FD /EHsc /RTC1 /MDd /Fo&quot;DLL Debug\\&quot; /Fd&quot;DLL Debug\vc90.pdb&quot;
+/W3 /nologo /c /Z7 /errorReport:prompt
+</pre></div>
+</div>
+<p><span class="gui">DLL Release</span> builds use the following C compiler options:</p>
+<div class="highlight-none"><div class="highlight"><pre>/O2 /I &quot;..\..\include&quot;
+/D &quot;WIN32&quot; /D &quot;NDEBUG&quot; /D &quot;_USRDLL&quot; /D &quot;_WINDLL&quot;
+/D &quot;LEPTONLIB_EXPORTS&quot; /D &quot;L_LITTLE_ENDIAN&quot;
+/D &quot;snprintf=_snprintf&quot; /D &quot;XMD_H&quot; /D &quot;NO_CONSOLE_IO&quot;
+/FD /EHsc /MD /Fo&quot;DLL Release\\&quot; /Fd&quot;DLL Release\vc90.pdb&quot;
+/W3 /nologo /c /errorReport:prompt
+</pre></div>
+</div>
+<p>All configurations turn off some warnings with the following
+options:</p>
+<div class="highlight-none"><div class="highlight"><pre>/wd4244 /wd4305 /wd4018 /wd4267 /wd4996
+</pre></div>
+</div>
+</li>
+<li><p class="first">Right-click <span class="guilabel">leptonlib-1.xx</span> in the Solution Explorer and
+Choose <span class="menuselection">B<span class="accelerator">u</span>ild</span> or <span class="menuselection">R<span class="accelerator">e</span>build</span> from the
+context menu (Choosing <span class="menuselection"><span class="accelerator">B</span>uild ‣ <span class="accelerator">B</span>uild Solution</span>
+(<span class="kbd">F6</span>) or <span class="menuselection"><span class="accelerator">B</span>uild ‣ <span class="accelerator">R</span>ebuild Solution</span> from the
+Visual Studio menubar will result in <span class="filesystem">ioformats_reg</span> also being
+built). The resultant library will automatically be copied to
+<span class="filesystem">BuildFolder\lib</span>.</p>
+<p>The libraries are named as follows:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="41%" />
+<col width="40%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">&nbsp;</th>
+<th class="head"><p class="first last">Debug Builds</p>
+</th>
+<th class="head"><p class="first last">Release Builds</p>
+</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><p class="first last">Static library</p>
+</td>
+<td><p class="first last">leptonlib-static-mtdll-debug.lib</p>
+</td>
+<td><p class="first last">leptonlib-static-mtdll.lib</p>
+</td>
+</tr>
+<tr><td><p class="first last">DLL</p>
+</td>
+<td><div class="first last line-block">
+<div class="line">leptonlibd.lib (import library)</div>
+<div class="line">leptonlibd.dll</div>
+</div>
+</td>
+<td><div class="first last line-block">
+<div class="line">leptonlib.lib (import library)</div>
+<div class="line">leptonlib.dll</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div style="text-align: center; padding-right: 5px;">
+ <a href="http://www.leptonica.com" >
+  <img src="_static/moller52-smaller.jpg" border="0" alt="Leptonica Home"/>
+ </a>
+</div>
+
+
+
+  <ul class="current">
+<li class="toctree-l1"><a class="reference external" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference external" href="quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference external" href="downloading-binaries.html">Downloading <span class="filesystem">leptonlib</span> pre-built binaries and header files for Windows</a></li>
+<li class="toctree-l1"><a class="reference external" href="building-other-programs.html">Building programs that link with <span class="filesystem">leptonlib</span></a></li>
+<li class="toctree-l1"><a class="reference external" href="directory-organization.html">Directory organization</a></li>
+<li class="toctree-l1"><a class="reference external" href="vs2008-solution.html">The <span class="filesystem">leptonlib</span> Visual Studio 2008 Solution</a></li>
+<li class="toctree-l1"><a class="reference external" href="building-prog-dir.html">Building the <span class="filesystem">prog</span> directory programs</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-cygwin.html">Installing Cygwin coreutils</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-irfanview.html">Installing IrfanView to view images</a></li>
+<li class="toctree-l1"><a class="reference external" href="installing-gnuplot.html">Installing gnuplot to view plots</a></li>
+<li class="toctree-l1"><a class="reference external" href="csharp-and-leptonlib.html">c# and <span class="filesystem">leptonlib</span></a></li>
+<li class="toctree-l1"><a class="reference external" href="building-image-libraries.html">(Optional) Building <span class="filesystem">zlib</span>, <span class="filesystem">libjpeg</span>, <span class="filesystem">libpng</span>, <span class="filesystem">libtiff</span> and <span class="filesystem">giflib</span></a></li>
+<li class="toctree-l1 current"><a class="current reference external" href="">(Optional) Building the <span class="filesystem">leptonlib</span> library</a></li>
+<li class="toctree-l1"><a class="reference external" href="vs2010-notes.html">Visual Studio 2010 Notes</a></li>
+<li class="toctree-l1"><a class="reference external" href="package-contents.html">Package Contents</a></li>
+<li class="toctree-l1"><a class="reference external" href="versions.html">Version Notes</a></li>
+</ul>
+
+
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="vs2010-notes.html" title="Visual Studio 2010 Notes"
+             >next</a></li>
+        <li class="right" >
+          <a href="building-image-libraries.html" title="(Optional) Building zlib, libjpeg, libpng, libtiff and giflib"
+             >previous</a> |</li>
+  <li><a href="http://www.leptonica.com">Leptonica Home</a> &raquo;</li>
+  
+        <li><a href="index.html">VS2008 Notes (for v1.66)</a> &raquo;</li>
+ 
+      </ul>
+    </div>
+  <div class="footer">
+
+   <p class="creativecommons">
+    <a href="http://creativecommons.org/licenses/by/3.0/us/" >
+      <img src="_static/creativecommons-88x31.png"
+	   border="0" alt="Creative Commons License"/>
+     </a>
+    Leptonica by 
+    <a href="http://leptonica.com/www.leptonica.org">
+    Dan Bloomberg
+    </a>
+    is licensed under a
+    <a href="http://creativecommons.org/licenses/by/3.0/us/">
+     Creative Commons Attribution 3.0 United States License.
+    </a>
+   </p>
+
+   <p class="sphinxcredit">Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0pre/e443905e24e9.
+   </p>
+    <script type="text/javascript">
+      _uacct = "UA-144810-1";
+      urchinTracker();
+    </script>
+  </div>
+  </body>
+</html>

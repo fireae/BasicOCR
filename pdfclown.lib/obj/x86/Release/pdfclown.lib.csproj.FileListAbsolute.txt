@@ -1,0 +1,2 @@
+E:\dev\BasicOCR\pdfclown.lib\build\package\PDFClown.dll
+E:\dev\BasicOCR\pdfclown.lib\obj\x86\Release\PDFClown.dll

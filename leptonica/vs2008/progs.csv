@@ -1,0 +1,214 @@
+Filename,Main Type,Category,Description,Example File,Needs Input File
+adaptmaptest.c,Example,Image Quantization/Depth Conversion,"Generates adaptive mappings in both gray and color, testing individual parts. Uses pixGetBackgroundGrayMap(), pixGetInvBackgroundMap(), pixApplyInvBackgroundGrayMap(), pixGetBackgroundRGBMap(), pixBackgroundNorm().",wet-day.jpg,Yes
+arithtest.c,Example,Basic Image Operations,"Demonstrates grayscale image arithmetic using pixAccumulate(), pixMultConstAccumulate(), and pixFinalAccumulate().",,Yes
+barcodetest.c,Example,Specialized Document Image Processing,"For each barcode in the image, if the barcode format is supported, this deskews and crops it, and then decodes it twice: (1) as is (deskewed) (2) after 180 degree rotation.",,Yes
+baselinetest.c,Example,Specialized Document Image Processing,Demonstrates keystone warping correction using a projective transform and finding text baselines.,keystone.png,Yes
+buffertest.c,Example,Fundamental Data Structures for Computation,Demonstrates using the bbuffer (byte buffer) operations.,,Yes
+cctest1.c,Example,Connected Components in Binary Images,Demonstrates using pixConnComp() and testing its speed.,,Yes
+colorsegtest.c,Example,Image Quantization/Depth Conversion,Demonstrates unsupervised color segmentation using pixColorSegment().,tetons.jpg,Yes
+colorspacetest.c,Example,Image Quantization/Depth Conversion,"Demonstrates various color techniques using pixConvertRGBToHSV(), pixOctreeQuantNumColors(), pixColorContent(), pixGlobalNormRGB(), pixColorMagnitude().",,Yes
+comparepages.c,Example,Specialized Document Image Processing,"Demonstrates comparing text pages using the location of word bounding boxes with pixGetWordBoxesInTextlines() and numaaCompareImagesByBoxes(),  The goal is to get a fast and robust determination for whether two pages are the same.",,
+converttogray.c,Example,Image Quantization/Depth Conversion,Demonstrates converting a file to grayscale.,,Yes
+cornertest.c,Example,Specialized Document Image Processing,Demonstrates using pixFindCornerPixels().,witten.tif,Yes
+dewarptest.c,Example,Specialized Document Image Processing,Demonstrates image dewarping based on text lines,,
+dithertest.c,Example,Image Quantization/Depth Conversion,"Demonstrates dithering using: pixDitherToBinary(), pixDitherTo2bpp(), pixScaleGray2xLIDither(), and pixScaleGray4xLIDither().",,Yes
+edgetest.c,Example,Specialized Image Filters,Demontrates edge detection using pixSobelEdgeFilter().,,Yes
+falsecolortest.c,Example,Image Quantization/Depth Conversion,"Demonstrates conversion from grayscale to false color using pixConvertGrayToFalseColor(), where the colormap is modeled after the Matlab ""jet"" configuration.",,
+findpattern1.c,Example,Image Morphology,"Demonstrates using a hit-miss sel to find the letter ""c"" in feyn.tif.",feyn.tif,Yes
+findpattern2.c,Example,Image Morphology,"Demonstrates generating a hit-miss sel by extracting the letter ""c"" and the word ""Caltech"" from feyn.tif and using pixGenerateSelRandom().",feyn.tif,
+findpattern3.c,Example,Image Morphology,"Demonstrates generating a hit-miss sel by extracting the letter ""c"" and the word ""Caltech"" from feyn.tif and using pixGenerateSelBoundary().",feyn.tif,
+graphicstest.c,Example,Line Graphics and Special Output,"Demonstrates line graphics using: pixRenderLineArb(), pixRenderLineBlend(), pixRenderBoxArb(), pixRenderBoxaBlend(), and pixRenderPolylineBlend().",,Yes
+jbcorrelation.c,Example,Specialized Document Image Processing,Demonstrates unsupervised classification of collections of connected components in binary images using jbCorrelation().,,Yes
+jbrankhaus.c,Example,Specialized Document Image Processing,Demonstrates unsupervised classification of collections of connected components in binary images using jbRankHaus().,,Yes
+jbwords.c,Example,Specialized Document Image Processing,Demonstrates extracting and classifying words in textline order.,,Yes
+lineremoval.c,Example,Specialized Document Image Processing,Demonstrates removing dark lines from a light pencil drawing (see http://leptonica.com/line-removal.html for details).,dave-orig.png,
+livre_adapt.c,Example,Image Quantization/Depth Conversion,Shows two ways to normalize a document image for uneven illumination.  It is somewhat more complicated than using the morphological tophat.,,
+livre_hmt.c,Example,Image Morphology,"Makes Figures 7-8 in Chapter 18, ""Document Image Applications"" of the book ""Mathematical morphology: from theory to applications""; demonstrates use of pixGenerateSelBoundary() to generate a hit-miss Sel.",,
+livre_makefigs.c,Example,Image Morphology,"Makes all the figures in Chapter 18, ""Document Image Applications"" of the book ""Mathematical morphology: from theory to applications"", edited by Laurent Najman and hugues Talbot. Published by Hermes Scientific Publishing, Ltd, 2010.",,
+livre_orient.c,Example,Specialized Document Image Processing,Generates an image of the set of 4 HMT Sels that are used for counting ascenders and descenders to detect text orientation.,,
+livre_pageseg.c,Example,Specialized Document Image Processing,"Makes Figures 2-5 in Chapter 18, ""Document Image Applications"" of the book ""Mathematical morphology: from theory to applications""; demonstrates page segmentation",pageseg2.tif,Yes
+livre_seedgen.c,Example,Specialized Document Image Processing,"Makes Figure 1 in Chapter 18, ""Document Image Applications"" of the book ""Mathematical morphology: from theory to applications""; demonstrates page segmentation",,
+livre_tophat.c,Example,Image Morphology,"Makes Figure 9 in Chapter 18, ""Document Image Applications"" of the book ""Mathematical morphology: from theory to applications""; demonstrates tophat background cleaning.",,
+misctest1.c,Example,Image Quantization/Depth Conversion,"Demonstrates: 
+Combining two grayscale images using a mask with pixCombineMaskedGeneral()
+Combining two binary images using a mask with pixCombineMaskedGeneral()
+Doing a restricted seedfill with pixSeedfillBinaryRestricted()
+Colorizing a grayscale image with pixaDisplayRandomCmap()
+Converting color images to grayscale with pixConvertRGBToGray()",,
+modifyhuesat.c,Example,Specialized Image Filters,Demonstrates modifying the hue and saturation of an image.,,Yes
+otsutest1.c,Example,Image Quantization/Depth Conversion,Demonstrates theory behind Otsu splitting by generating plots of histogram and Otsu score function.,,
+otsutest2.c,Example,Image Quantization/Depth Conversion,Demonstrates the usefulness of the modified version of Otsu for thresholding an image that doesn't have a well-defined background color.,,
+pagesegtest1.c,Example,Specialized Document Image Processing,Demonstrates Top level page segmentation using pixGetRegionsBinary().,"feyn1.tif
+witten.tif
+pageseg1.tif
+pageseg2.tif
+pageseg4.tif",Yes
+pagesegtest2.c,Example,Specialized Document Image Processing,"Demonstrates the use of binary morphology for some simple and fast document segmentation operations using: pixScaleToGray2(), pixReduceRankBinaryCascade(), pixOpenBrick(), pixCloseSafeBrick(), pixSeedfillBinary(), pixMorphCompSequence(), pixGetOuterBordersPtaa(). Probably same basic thing that pixGetRegionsBinary() does?",,Yes
+partitiontest.c,Example,Specialized Document Image Processing,Demonstrates Bruel algorithm for extracting large whitespace boxes from a binary image using boxaGetWhiteblocks().,,Yes
+rotatefastalt.c,Example,Other Geometric Image Transformations,"Alternative (slightly slower) method for rotating color images, with antialiasing.  This is here just for comparison with the better methods in the library.",,Yes
+rotatetest2.c,Example,Other Geometric Image Transformations,Demonstrates image rotation.,,
+runlengthtest.c,Example,Low-level Pixel Access,Demonstrates labeling pixels by membership in runs using pixRunlengthTransform().,,Yes
+snapcolortest.c,Example,Colormap Utilities and Related Operations,Demonstrates adjusting one or more colors to a target color using pixSnapColor().,,
+sorttest.c,Example,Basic Pix Array Functions,Demonstrates sorting pix arrays.,,Yes
+watershedtest.c,Example,Image Operations With Filling,"Demonstrates the watershed algorithmn using wshedCreate(), pixLocalExtrema(), pixSelectMinInConnComp(), and pixRemoveSeededComponents().",,
+wordsinorder.c,Example,Specialized Document Image Processing,Demonstrates finding word boxes in line order by using pixGetWordBoxesInTextlines().,,Yes
+bincompare.c,Exploration,Basic Image Operations,Exploration of various ways to bitwise compare two binary images.,,Yes
+blendtest1.c,Exploration,Colormap Utilities and Related Operations,Exploration of various pixel blending techniques.,,Yes
+convolvetest.c,Exploration,Basic Image Operations,"Exploration of various convolution operations using: pixBlockconvGray(), pixBlockconv(), pixBlockrank(), pixBlocksum(), pixCensusTransform(), and pixConvolve().",,Yes
+gammatest.c,Exploration,Specialized Image Filters,Exploration of gamma adjustment using pixGammaTRC() and numaGammaTRC().,,Yes
+graymorphtest.c,Exploration,Image Morphology,Exploration of basic grayscale morphology.,,Yes
+listtest.c,Exploration,Fundamental Data Structures for Computation,"Exploration of the main functions in the generic list facility, given in list.c and list.h.",,Yes
+morphtest1.c,Exploration,Image Morphology,Exploration of rasterop-based morphological operations.,,Yes
+mtifftest.c,Exploration,Formatted I/O,Exploration of multi-page tiff I/O and writing special tiff tags.,,Yes
+renderfonts.c,Exploration,Specialized Document Image Processing,Exploration of various text drawing techniques.,marge.jpg,Yes
+rotateorthtest1.c,Exploration,Other Geometric Image Transformations,Exploration of 90 and 180 degree rotations.,,Yes
+rotatetest1.c,Exploration,Other Geometric Image Transformations,Exploration of image rotation techniques.,,Yes
+scaletest1.c,Exploration,Image Scaling,Exploration of image scaling techniques.,,Yes
+scaletest2.c,Exploration,Image Scaling,Exploration of scale-to-gray and color scaling.,,Yes
+seedfilltest.c,Exploration,Image Operations With Filling,Exploration of hole-filling and seedfilling.,hole-filler.png,Yes
+sheartest.c,Exploration,Other Geometric Image Transformations,Exploration of image shearing techniques.,,Yes
+skewtest.c,Exploration,Specialized Document Image Processing,"Exploration of various skew finding methods, optionally deskewing the input (binary) image.  The best version does a linear sweep followed by a binary (angle-splitting) search.",,Yes
+textlinemask.c,Exploration,Specialized Document Image Processing,"Exploration of ways to find textline masks for very simple geometries.  To do this task for more general layout, use pagesegtest* programs.",arabic.png,Yes
+warpertest.c,Exploration,Specialized Document Image Processing,Tests stereoscopic warp and associated shear and stretching functions. Uses gthumb for visually identifying problems.,,Yes
+digitprep1.c,Helper,Specialized Document Image Processing,Extract barcode digits and put in a pixaa (a resource file for readnum.c).,,
+dwalinear.3.c,Helper,Image Morphology,Top-level fast binary morphology with auto-generated sels,,
+dwalineargen.c,Helper,Image Morphology,"Generates the C code for the full set of linear Sels, for dilation, erosion, opening and closing, and for both horizontal and vertical operations, from length 2 to 63. These are put in files: dwalinear.3.c and dwalinearlow.3.c.",,
+dwalinearlow.3.c,Helper,Image Morphology,Low-level fast binary morphology with auto-generated sels.,,
+endiantest.c,Helper,Misc,Allows efficient computation of the endian flag as part of the normal compilation process.,,
+fcombautogen.c,Helper,Image Morphology,"This program is used to generate the two files of dwa code for combs, that are used in linear composite dwa operations for brick Sels. These two files, when compiled, are used to implement all the composite dwa operations for brick Sels, that are generated by selaAddDwaCombs().",,
+fhmtautogen.c,Helper,Image Morphology,"This program is used to generate the two files of dwa code for the hit-miss transform. These two files, when compiled, implement hit-miss dwa operations for all sels generated by selaAddHitMiss().",,
+flipselgen.c,Helper,Image Morphology,Generates dwa code for hit-miss transform (hmt) that is used in pixPageFlipDetectDWA().,,
+fmorphautogen.c,Helper,Image Morphology,"This program is used to generate the two files of dwa code for the basic morphological operations. These two files, when compiled, implement dwa operations for all sels generated by selaAddBasic().",,
+genfonts.c,Helper,Specialized Document Image Processing,This program can be used to generate characters for a font and save them in .pixa format.,,
+xtractprotos.c,Helper,Misc,This program accepts a list of C files on the command line and outputs the C prototypes to stdout.,,
+adaptnorm_reg.c,Regression Test,Image Quantization/Depth Conversion,"Normalizes background by expanding dynamic range using pixContrastNorm() for very light text, or for rapidly varying background using pixBackgroundNormFlex().",,
+affine_reg.c,Regression Test,Other Geometric Image Transformations,"Tests various affine transformations: pixAffineSequential(), pixAffineSampledPta(), pixAffinePta(), and pixAffine().",,
+alltests_reg.c,Regression Test,Misc,Tests all the reg tests.,,
+alphaclean_reg.c,Regression Test,Colormap Utilities and Related Operations,Tests transparency and cleaning under alpha,,
+alphaxform_reg.c,Regression Test,Basic Image Operations,"Tests the alpha blending functions when used with various transforms (scaling, rotation, affine, projective, bilinear)",,
+bilinear_reg.c,Regression Test,Other Geometric Image Transformations,Tests various bilinear transformations: pixBilinearSampledPta() and pixBilinearPta().,,
+binarize_reg.c,Regression Test,Image Quantization/Depth Conversion,Tests Sauvola local binarization using pixSauvolaBinarize() and pixSauvolaBinarizeTiled().,,
+binmorph1_reg.c,Regression Test,Image Morphology,This is a thorough regression test of different methods for doing binary morphology.,,
+binmorph2_reg.c,Regression Test,Image Morphology,"Thorough regression test for binary separable rasterops, using the sequence interpreters.  This compares the results for 2-way composite Sels with unitary Sels, all invoked on the separable block morph ops.",,
+binmorph3_reg.c,Regression Test,Image Morphology,This is a regression test of dwa functions.,,
+binmorph4_reg.c,Regression Test,Image Morphology,Regression test for dwa brick morph operations.,,
+binmorph5_reg.c,Regression Test,Image Morphology,Regression test for expanded dwa morph operations.,,
+blend_reg.c,Regression Test,Colormap Utilities and Related Operations,"Regression test for pixBlendGray(), pixBlendGrayAdapt(), and pixBlendColor().",,
+blend2_reg.c,Regression Test,Colormap Utilities and Related Operations,Regression test for pixBlendWithGrayMask().,,
+blendcmaptest.c,Regression Test,Colormap Utilities and Related Operations,Regression test for blending colormaps using pixBlendCmap().,,
+ccthin1_reg.c,Regression Test,Connected Components in Binary Images,"Tests the ""best"" cc-preserving thinning functions. Displays all the strong cc-preserving 3x3 Sels.",,
+ccthin2_reg.c,Regression Test,Connected Components in Binary Images,Tests the examples in pixThinExamples().,,
+cmapquant_reg.c,Regression Test,Image Quantization/Depth Conversion,"Tests quantization of rgb image to a specific colormap. Does this by starting with a grayscale image, doing a grayscale quantization with a colormap in the dest, then adding new colors, scaling (which removes the colormap), and finally re-quantizing back to the original colormap.",,
+colorquant_reg.c,Regression Test,Image Quantization/Depth Conversion,Regression test for various color quantizers.,,
+colorseg_reg.c,Regression Test,Image Quantization/Depth Conversion,"This explores the space of the four parameters input for color segmentation: maxdist (the maximum distance between pixels that get clustered), selsize (responsible for smoothing the result), maxcolors and finalcolors.",,
+compfilter_reg.c,Regression Test,Connected Components in Binary Images,"Tests filters that select components based on size, areaPerimRatio, areaFraction, etc.",,
+conncomp_reg.c,Regression Test,Connected Components in Binary Images,"Regression test for connected components (both 4 and 8 connected), including regeneration of the original image from the components.  This is also an implicit test of rasterop.",,
+conversion_reg.c,Regression Test,Image Quantization/Depth Conversion,Regression test (_reg) for depth conversion functions including some of the octcube quantization.,,
+convolve_reg.c,Regression Test,Basic Image Operations,Tests a number of convolution functions,,
+dewarp_reg.c,Regression Test,Specialized Document Image Processing,Regression test for image dewarp based on text lines,,
+distance_reg.c,Regression Test,Image Operations With Filling,"This tests pixDistanceFunction() for a variety of usage with all 8 combinations of these parameters: connectivity (4 or 8), dest depth (8 or 16), and boundary cond (L_BOUNDARY_BG or L_BOUNDARY_FG).",,
+dwamorph1_reg.c,Regression Test,Image Morphology,"Implements full regression test, including autogen of code, compilation, and running the result. (Works by running make so won't work under Windows)",,Yes
+dwamorph2_reg.c,Regression Test,Image Morphology,Fairly thorough regression test for autogen'd dwa.,,Yes
+enhance_reg.c,Regression Test,Specialized Image Filters,"Enhance with various gamma TRC mappings, hue, saturation, contrast, and sharpening.",,Yes
+equal_reg.c,Regression Test,Basic Pix Functions,"Tests the pixEqual() function in many situations. This also tests the quantization of grayscale and color images (to generate a colormapped image), and removal of the colormap to either RGB or grayscale.",,
+expand_reg.c,Regression Test,Image Scaling,Tests of various image expansion techniques.,,
+extrema_reg.c,Regression Test,Fundamental Data Structures for Computation,Tests procedure for locating extrema (minima and maxima) of a sampled function.,,
+fhmtauto_reg.c,Regression Test,Image Morphology,Basic regression test for hit-miss transform: rasterops & dwa. Tests hmt from a set of hmt structuring elements by comparing the full image rasterop results with the automatically generated dwa results.,,Yes
+findpattern_reg.c,Regression Test,Image Morphology,"Uses pixGenerateSelBoundary() to generate hit-miss Sels that are a good fit for two 1 bpp patterns: a ""T"" in the banner name and the banner name (""Tribune"").",,
+flipdetect_reg.c,Regression Test,Specialized Document Image Processing,Tests 90 degree orientation of text and whether the text is  mirror reversed.  Compares the rasterop with dwa implementations for speed.  Shows the typical 'confidence' outputs from the functions in flipdetect.c.,,Yes
+fmorphauto_reg.c,Regression Test,Image Morphology,Basic regression test for erosion & dilation: rasterops & dwa. Tests erosion and dilation from 58 structuring elements by comparing the full image rasterop results with the automatically generated dwa results.,,Yes
+fpix_reg.c,Regression Test,Basic Image Operations,"Regression test for a number of functions in the FPix utility. FPix allows you to do floating point operations such as convolution, with conversions to and from Pix.",,
+gifio_reg.c,Regression Test,Formatted I/O,This tests reading and writing gif for various image types.,,
+grayfill_reg.c,Regression Test,Image Operations With Filling,"Regression test for various grayscale seed filling: pixSeedfillGray(), pixSeedfillGrayInv(), pixSeedfillGrayBasin(), and pixAddConstantGray().",,
+graymorph_reg.c,Regression Test,Image Morphology,"(1) Tests the interpreter for grayscale morphology, as given in morphseq.c.
+(2) Tests composite operations: tophat and hdome.
+(3) Tests duality for grayscale erode/dilate, open/close, and black/white tophat.
+(4) Demonstrates closing plus white tophat.  Note that this combination of operations can be quite useful.
+(5) Demonstrates a method of doing contrast enhancement by taking 3 * pixs and subtracting from this the closing and opening of pixs.
+(6) Playing around: extract the feynman diagrams from the stamp, using the tophat.",,Yes
+grayquant_reg.c,Regression Test,Image Quantization/Depth Conversion,"Tests gray thresholding to 1, 2 and 4 bpp, with and without colormaps",,
+hardlight_reg.c,Regression Test,Colormap Utilities and Related Operations,Regression test for pixBlendHardLight().,,
+heap_reg.c,Regression Test,Fundamental Data Structures for Computation,Tests the heap utility.,,
+ioformats_reg.c,Regression Test,Formatted I/O,"This is the primary Leptonica regression test for lossless read/write I/O to standard image files (png, tiff, bmp, etc.)",,
+kernel_reg.c,Regression Test,Basic Image Operations,"Test kernel creation, convolution, ",,
+locminmax_reg.c,Regression Test,Image Operations With Filling,Tests pixLocalExtrema().,,
+logicops_reg.c,Regression Test,Basic Image Operations,Tests pix3.c boolean operations.,,
+lowaccess_reg.c,Regression Test,Basic Pix Functions,"Test low-level accessors: GET_DATA_BIT(), l_getDataBit(), pixGetPixel(), etc.",,
+maze_reg.c,Regression Test,Misc,"Tests the functions in maze.c: binary and gray maze search, largest rectangle in bg or fg.",,
+morphseq_reg.c,Regression Test,Image Morphology,"Simple regression test for binary morph sequence (interpreter), showing display mode and rejection of invalid sequence components.",,
+numa_reg.c,Regression Test,Fundamental Data Structures for Computation,"Tests various numa functions: numaMakeHistogramClipped(), numaMakeSequence(), numaMakeHistogramAuto(), numaGetStatsUsingHistogram(), numaHistogramGetRankFromVal(), etc.",,
+overlap_reg.c,Regression Test,"Basic Box, Boxa and Boxaa Functions",Tests the function that combines boxes that overlap into their bounding regions.,,
+paint_reg.c,Regression Test,Line Graphics and Special Output,"Test various painting techniques: pixColorGray(), pixPaintThroughMask(), pixSetSelectCmap(), pixRenderLineArb(), pixRenderBoxArb(), pixRenderLineBlend(), and pixRenderBoxBlend().",,
+paintmask_reg.c,Regression Test,Basic Pix Functions,Regression test for painting through a mask onto various depth images.,,
+pixa1_reg.c,Regression Test,Connected Components in Binary Images,Tests removal of components using: pixConnComp() and pixSelectBySize().,,
+pixa2_reg.c,Regression Test,Basic Pix Array Functions,Tests various replacement functions on pixa.,,
+pixaatest.c,Regression Test,Basic Pix Array Functions,Regression test of pix splitting and pix array handling using pixaSplitPix().,,
+pixadisp_reg.c,Regression Test,Basic Pix Array Functions,"Exercises various pixaDisplay*() functions: pixaDisplay(), pixaDisplayRandomCmap(), pixaDisplayOnLattice(), pixaDisplayUnsplit(), pixaDisplayTiled(), pixaDisplayTiledInRows(), and pixaDisplayTiledAndScaled().",,
+pixalloc_reg.c,Regression Test,Basic Pix Functions,Tests custom pix allocator.,,
+pixcomp_reg.c,Regression Test,Formatted I/O,Regression test for compressed pix and compressed pix arrays in memory.,,
+pixmem_reg.c,Regression Test,Basic Pix Functions,"Tests the low-level pix data accessors, and functions that call them using: pixCopy(), pixTransferAllData(), pixClone(), pixExtractData(), and pixSetData().",,
+pixserial_reg.c,Regression Test,Basic Pix Functions,Tests the fast (uncompressed) serialization of pix to a string in memory and the deserialization back to a pix.,,
+pixtile_reg.c,Regression Test,Basic Pix Array Functions,"Test pix tiling using: pixTilingCreate(), pixTilingGetTile(), pixTilingPaintTile(), and pixTilingDestroy().",,
+plottest.c,Regression Test,Line Graphics and Special Output,Regression test of the gplot library functions that generate the plot commands and data required for input to gnuplot.,,
+projective_reg.c,Regression Test,Other Geometric Image Transformations,Test projective image transformations using pixProjectiveSampledPta() and pixProjectivePta().,,
+psio_reg.c,Regression Test,Formatted I/O,"Tests writing of images in PS, with arbitrary scaling and translation, in the following formats:
+ uncompressed
+ DCT compressed (jpeg for 8 bpp grayscale and RGB)
+ CCITT-G4 compressed (g4 fax compression for 1 bpp)
+ Flate compressed (gzip compression)",,
+psioseg_reg.c,Regression Test,Specialized Document Image Processing,"This tests the PostScript output for images with mixed text and images, coming from source of different depths, with and without colormaps. Illustrates binary halftone segmentation, combining images with masks, PS generation.",,
+pta_reg.c,Regression Test,Fundamental Data Structures for Computation,"This tests several ptaa functions, including: ptaaGetBoundaryPixels(),  pixRenderRandomCmapPtaa(), and ptaaGetPta().",,
+ptra1_reg.c,Regression Test,Fundamental Data Structures for Computation,"Testing basic ptra operations using: ptraRemove(), ptraInsert(), ptraSwap(), and ptraAdd().",,
+ptra2_reg.c,Regression Test,Fundamental Data Structures for Computation,"Testing basic ptra and ptraa operations, bin sort using ptra, boxaEqual() and pixaEqual().",,
+rank_reg.c,Regression Test,Basic Image Operations,"Tests grayscale rank functions: pixRankFilterGray(), pixScaleGrayMinMax(), and pixScaleGrayRankCascade().",,
+rankbin_reg.c,Regression Test,Basic Pix Functions,Tests rank bin functions: numaDiscretizeRankAndIntensity() and numaGetRankBinValues().,,
+rankhisto_reg.c,Regression Test,Basic Pix Functions,Tests grayscale rank functions: pixGetRankColorArray() and numaDiscretizeRankAndIntensity().,,
+rasterop_reg.c,Regression Test,Basic Image Operations,"This is a fairly rigorous test of rasterop. It demonstrates both that the results are correct with many different rop configurations, and, if done under valgrind, that no memory violations occur.",,
+rasteropip_reg.c,Regression Test,Basic Image Operations,Tests in-place operation using the general 2-image pixRasterop(). The in-place operation works because there is no overlap between the src and dest rectangles.,,
+rotate_reg.c,Regression Test,Other Geometric Image Transformations,Regression test for rotation by shear and area mapping. Displays many images to the screen.,,
+rotate1_reg.c,Regression Test,Other Geometric Image Transformations,Regression test for rotation by shear and area mapping. Displays results when images are rotated sequentially multiple times.,,
+rotate2_reg.c,Regression Test,Other Geometric Image Transformations,"Regression test for rotation by shear, sampling and area mapping. Displays results from all the various types of rotations.",,
+rotateorth_reg.c,Regression Test,Other Geometric Image Transformations,Regression test for all rotateorth functions,,
+scale_reg.c,Regression Test,Image Scaling,"This tests a number of scaling operations, through the pixScale() interface.",,
+seedspread_reg.c,Regression Test,Image Operations With Filling,Tests the seedspreading (voronoi finding & filling) function for both 4 and 8 connectivity.,,
+selio_reg.c,Regression Test,Image Morphology,Runs a number of tests on reading and writing of Sels.,,
+shear_reg.c,Regression Test,Other Geometric Image Transformations,"Regression test for shear, both IP and to new pix.",,
+shear2_reg.c,Regression Test,Other Geometric Image Transformations,"Regression test for quadratic shear, both sampled and interpolated.",,
+skew_reg.c,Regression Test,Specialized Document Image Processing,Regression test for skew detection.,,
+smallpix_reg.c,Regression Test,Image Scaling,"This is a regression test for scaling and rotation. The question to be answered is: in the quantization, where, if anywhere, do we add 0.5? The answer is that it should usually, but not always, be omitted. To see this, we operate on a very small pix and for visualization,  scale up with replication to avoid aliasing and shifting.",,
+smoothedge_reg.c,Regression Test,Specialized Image Filters,Analyzes edges of a 1 bpp (connected component) image for smoothness.,,
+splitcomp_reg.c,Regression Test,Connected Components in Binary Images,"Regression test for splittings of a single component and for an image composed of several components, using different components and  parameters.",,
+string_reg.c,Regression Test,Fundamental Data Structures for Computation,This tests several sarray functions.,,Yes
+subpixel_reg.c,Regression Test,Image Quantization/Depth Conversion,Regression test for subpixel scaling.,,
+threshnorm_reg.c,Regression Test,Image Quantization/Depth Conversion,Regression test for adaptive threshold normalization using: pixThresholdSpreadNorm() and pixThresholdToBinary().,,
+warper_reg.c,Regression Test,Specialized Document Image Processing,Regression test for captchas using pixRandomHarmonicWarp() and pixSimpleCaptcha().,,
+writetext_reg.c,Regression Test,Specialized Document Image Processing,Regression test for writing a block of text in one of 4 locations relative to a pix.  This tests writing on 8 different types of images.,,
+xformbox_reg.c,Regression Test,"Basic Box, Boxa and Boxaa Functions","Tests ordered box transforms (rotation, scaling, translation). Also tests the various box hashing graphics operations.",,
+ccbordtest.c,Test,Connected Components in Binary Images,Comprehensive test for border-following representations of binary images.,,Yes
+colormorphtest.c,Test,Image Morphology,Tests color image morphology.,,Yes
+inserttest.c,Test,Fundamental Data Structures for Computation,"Demonstrates removing and inserting to various array structures using: numaInsertNumber(), boxaInsertBox(), pixaInsertPix().",,
+iotest.c,Test,Formatted I/O,"Tests all I/O except multipage/custom tiff and PostScript, which are separately tested in mtifftest and psiotest, respectively.",,Yes
+ranktest.c,Test,Basic Image Operations,Tests rank filters on 8 and 32 bpp images.,,Yes
+comparetest.c,Utility,Basic Pix Functions,"Compares two images, using either the absolute value of the pixel differences or the difference clipped to 0.",,Yes
+contrasttest.c,Utility,Specialized Image Filters,Enhances contrast of image using pixContrastTRC().,,Yes
+convertfilestops.c,Utility,Postscript,"Converts all files in the given directory with matching substring to a level 3 compressed PostScript file, at the specified resolution.",,Yes
+convertformat.c,Utility,Formatted I/O,Converts an image file from one format to another.,,Yes
+convertsegfilestops.c,Utility,Postscript,"Converts all image files in a 'page' directory, using optional corresponding segmentation mask files in a 'mask' directory, to a level 2 compressed PostScript file.",,Yes
+converttops.c,Utility,Postscript,Convert any image file to PS for embedding.,,Yes
+croptext.c,Utility,Specialized Document Image Processing,Simple program that crops text pages to a given border.,,Yes
+fileinfo.c,Utility,Basic Pix Functions,Returns information about the image data file,,Yes
+histotest.c,Utility,Image Quantization/Depth Conversion,"Makes histograms of grayscale and color pixels from a pix using pixOctcubeHistogram() or pixGetGrayHistogram().  For RGB color, this uses rgb --> octcube indexing.",,Yes
+maketile.c,Utility,Basic Pix Array Functions,Generates a single image tiling of all images of a specific depth in a directory.,,Yes
+numaranktest.c,Utility,Fundamental Data Structures for Computation,Generates histogram rank vs value & value vs rank plots.,w91frag.jpg,Yes
+printimage.c,Utility,Printing,Prints an image file.,,Yes
+printsplitimage.c,Utility,Printing,Prints an image file on multiple pages.,,Yes
+printtiff.c,Utility,Printing,Prints a multipage tiff file to a printer.,,Yes
+reducetest.c,Utility,Image Scaling,Generate reduced image via a rank binary cascade of up to four 2x reductions using pixReduceRankBinaryCascade().,,Yes
+removecmap.c,Utility,Colormap Utilities and Related Operations,Removes colormap from image.,,Yes
+scaleandtile.c,Utility,Basic Pix Array Functions,Generates a single image tiling of all images in a directory whose filename contains a given substring.,,Yes
+sharptest.c,Utility,Specialized Image Filters,Generate unsharp mask of image.,,Yes
+showedges.c,Utility,Specialized Image Filters,"Generates edges by using pixHalfEdgeByBandpass(), along with thresholding.",,Yes
+splitimage2pdf.c,Utility,Postscript,Generates pdf of image tiles.  Rotates the image before tiling if the tiles otherwise will have larger width than height.,,Yes
+trctest.c,Utility,Specialized Image Filters,Generate gamma adjusted image using pixGammaTRC().,wet-day.jpg,Yes
+viewertest.c,Utility,Line Graphics and Special Output,Generate smaller images for viewing and write html.,,Yes
+xvdisp.c,Utility,Image Display,Display an image with xv.,,Yes

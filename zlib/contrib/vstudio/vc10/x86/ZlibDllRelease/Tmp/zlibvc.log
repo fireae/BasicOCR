@@ -1,0 +1,38 @@
+﻿Build started 6/28/2013 5:12:29 PM.
+Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" on node 2 (Build target(s)).
+InitializeBuildStatus:
+  Touching "x86\ZlibDllRelease\Tmp\zlibvc.unsuccessfulbuild".
+ClCompile:
+  All outputs are up-to-date.
+  All outputs are up-to-date.
+ResourceCompile:
+  All outputs are up-to-date.
+E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\x86\ZlibDllRelease\zlibvc.dll) does not match the Linker's OutputFile property value (E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\x86\ZlibDllRelease\zlibwapi.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(zlibvc) does not match the Linker's OutputFile property value (zlibwapi). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Link:
+  e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllRelease\zlibwapi.dll" /INCREMENTAL:NO /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /PDB:"x86\ZlibDllRelease\zlibwapi.pdb" /MAP:"x86\ZlibDllRelease\zlibwapi.map" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllRelease\zlibwapi.lib" /MACHINE:X86 /SAFESEH /MACHINE:I386 /DLL x86\ZlibDllRelease\Tmp\zlib.res
+  x86\ZlibDllRelease\Tmp\adler32.obj
+  x86\ZlibDllRelease\Tmp\compress.obj
+  x86\ZlibDllRelease\Tmp\crc32.obj
+  x86\ZlibDllRelease\Tmp\deflate.obj
+  x86\ZlibDllRelease\Tmp\gzclose.obj
+  x86\ZlibDllRelease\Tmp\gzlib.obj
+  x86\ZlibDllRelease\Tmp\gzread.obj
+  x86\ZlibDllRelease\Tmp\gzwrite.obj
+  x86\ZlibDllRelease\Tmp\infback.obj
+  x86\ZlibDllRelease\Tmp\inffast.obj
+  x86\ZlibDllRelease\Tmp\inflate.obj
+  x86\ZlibDllRelease\Tmp\inftrees.obj
+  x86\ZlibDllRelease\Tmp\ioapi.obj
+  x86\ZlibDllRelease\Tmp\iowin32.obj
+  x86\ZlibDllRelease\Tmp\trees.obj
+  x86\ZlibDllRelease\Tmp\uncompr.obj
+  x86\ZlibDllRelease\Tmp\unzip.obj
+  x86\ZlibDllRelease\Tmp\zip.obj
+  x86\ZlibDllRelease\Tmp\zutil.obj
+LINK : fatal error LNK1181: cannot open input file '..\..\masmx86\match686.obj'
+Done Building Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07

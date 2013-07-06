@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81a00a75-2c9a-45e0-b396-1d412fbc7df5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ccutil">
+      <UniqueIdentifier>{a547dc60-79ab-4ba0-98dc-4679e887fcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{babe1309-f429-46c0-9ac2-ad2031acc202}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{802bba44-b670-48f0-8224-2be440676489}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ccutil\serialis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unicharset_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\boxread.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\clst.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\debugwin.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\errcode.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\globaloc.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\hashfn.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memblk.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\memry.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\mfcpch.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\strngs.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\tessopt.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\tprintf.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unichar.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unicharmap.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\unicharset.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccutil\varable.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ccutil\basedir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\bits16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\boxread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\clst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\debugwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\elst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\elst2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\errcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\fileerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\globaloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\hashfn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\hosthplb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\lsterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\mainblk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\memblk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\memry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\memryerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\mfcpch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\ndminx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\notdll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\nwmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\ocrclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\ocrshell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\scanutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\secname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\serialis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\stderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\strngs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\tessclas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\tessopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\tprintf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\unichar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\unicharmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\unicharset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccutil\varable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

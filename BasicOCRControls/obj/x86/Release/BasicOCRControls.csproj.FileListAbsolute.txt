@@ -1,0 +1,7 @@
+E:\dev\BasicOCR\BasicOCRControls\bin\x86\Release\BasicOCRControls.dll
+E:\dev\BasicOCR\BasicOCRControls\bin\x86\Release\BasicOCRControls.pdb
+E:\dev\BasicOCR\BasicOCRControls\bin\x86\Release\BasicOCR.dll
+E:\dev\BasicOCR\BasicOCRControls\bin\x86\Release\BasicOCR.pdb
+E:\dev\BasicOCR\BasicOCRControls\obj\x86\Release\BasicOCRControls.csprojResolveAssemblyReference.cache
+E:\dev\BasicOCR\BasicOCRControls\obj\x86\Release\BasicOCRControls.dll
+E:\dev\BasicOCR\BasicOCRControls\obj\x86\Release\BasicOCRControls.pdb

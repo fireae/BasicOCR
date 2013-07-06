@@ -1,0 +1,9 @@
+﻿Build started 7/1/2013 3:22:01 PM.
+Project "E:\dev\BasicOCR\gsl\src\gsl\1.8\gsl-1.8\VC8\libgsl\libgsl.vcxproj" on node 2 (Clean target(s)).
+_PrepareForClean:
+  Deleting file "Release-StaticLib\libgsl.lastbuildstate".
+Done Building Project "E:\dev\BasicOCR\gsl\src\gsl\1.8\gsl-1.8\VC8\libgsl\libgsl.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

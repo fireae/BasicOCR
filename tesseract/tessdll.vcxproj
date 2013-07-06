@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB522274-3353-41AE-A700-F365FC79DEDD}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\bin.dbg\</OutDir>
+    <IntDir>.\dll.Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\.\</OutDir>
+    <IntDir>.\dll.Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\bin.dbg/tessdll.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>aspirin;ccutil;ccstruct;classify;cutil;dict;display;image;textord;viewer;wordrec;ccmain;pageseg;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TESSDLL_EXPORTS;__MSW32__;_CRT_SECURE_NO_WARNINGS;__IPEREGDLL;_CRTDBG_MAP_ALLOC;PURIFY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\dll.Debug/tessdll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\dll.Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\dll.Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\dll.Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\bin.dbg/tessdll.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\bin.dbg/tessdll.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\bin.dbg/tessdll.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\bin.dbg/tessdll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\bin.dbg/tessdll.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>aspirin;ccutil;ccstruct;classify;cutil;dict;display;image;textord;viewer;wordrec;ccmain;pageseg;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TESSDLL_EXPORTS;__MSW32__;_CRT_SECURE_NO_WARNINGS;__IPEREGDLL;_CRTDBG_MAP_ALLOC;PURIFY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\dll.Debug/tessdll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\dll.Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\dll.Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\dll.Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\bin.dbg/tessdll.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\bin.dbg/tessdll.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\bin.dbg/tessdll.lib</ImportLibrary>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\bin.dbg/tessdll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\./tessdll.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>aspirin;ccutil;ccstruct;classify;cutil;dict;display;image;textord;viewer;wordrec;ccmain;pageseg;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TESSDLL_EXPORTS;__MSW32__;_CRT_SECURE_NO_WARNINGS;__IPEREGDLL;PURIFY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\dll.Release/tessdll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\dll.Release/</AssemblerListingLocation>
+      <ObjectFileName>.\dll.Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\dll.Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>tessdll.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\./tessdll.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\./tessdll.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\./tessdll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\./tessdll.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>aspirin;ccutil;ccstruct;classify;cutil;dict;display;image;textord;viewer;wordrec;ccmain;pageseg;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TESSDLL_EXPORTS;__MSW32__;_CRT_SECURE_NO_WARNINGS;__IPEREGDLL;PURIFY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\dll.Release/tessdll.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\dll.Release/</AssemblerListingLocation>
+      <ObjectFileName>.\dll.Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\dll.Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>tessdll.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\./tessdll.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\./tessdll.lib</ImportLibrary>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\./tessdll.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="tessdll.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ccmain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ccmain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="ccmain\adaptions.cpp" />
+    <ClCompile Include="ccmain\applybox.cpp" />
+    <ClCompile Include="ccmain\baseapi.cpp" />
+    <ClCompile Include="ccmain\blobcmp.cpp" />
+    <ClCompile Include="ccmain\callnet.cpp" />
+    <ClCompile Include="ccmain\charcut.cpp" />
+    <ClCompile Include="ccmain\charsample.cpp" />
+    <ClCompile Include="ccmain\control.cpp" />
+    <ClCompile Include="ccmain\docqual.cpp" />
+    <ClCompile Include="ccmain\expandblob.cpp" />
+    <ClCompile Include="ccmain\fixspace.cpp" />
+    <ClCompile Include="ccmain\fixxht.cpp" />
+    <ClCompile Include="ccmain\imgscale.cpp" />
+    <ClCompile Include="ccmain\matmatch.cpp" />
+    <ClCompile Include="ccmain\output.cpp" />
+    <ClCompile Include="ccmain\pagewalk.cpp" />
+    <ClCompile Include="ccmain\paircmp.cpp" />
+    <ClCompile Include="ccmain\pgedit.cpp" />
+    <ClCompile Include="ccmain\reject.cpp" />
+    <ClCompile Include="ccmain\scaleimg.cpp" />
+    <ClCompile Include="ccmain\tessbox.cpp" />
+    <ClCompile Include="ccmain\tessedit.cpp" />
+    <ClCompile Include="ccmain\tesseractmain.cpp" />
+    <ClCompile Include="ccmain\tessvars.cpp" />
+    <ClCompile Include="ccmain\tfacepp.cpp" />
+    <ClCompile Include="ccmain\tstruct.cpp" />
+    <ClCompile Include="ccmain\varabled.cpp" />
+    <ClCompile Include="ccmain\werdit.cpp" />
+    <ClCompile Include="ccstruct\blobbox.cpp" />
+    <ClCompile Include="ccstruct\blobs.cpp" />
+    <ClCompile Include="ccstruct\blread.cpp" />
+    <ClCompile Include="ccstruct\callcpp.cpp" />
+    <ClCompile Include="ccstruct\coutln.cpp" />
+    <ClCompile Include="ccstruct\genblob.cpp" />
+    <ClCompile Include="ccstruct\labls.cpp" />
+    <ClCompile Include="ccstruct\linlsq.cpp" />
+    <ClCompile Include="ccstruct\lmedsq.cpp" />
+    <ClCompile Include="ccstruct\mod128.cpp" />
+    <ClCompile Include="ccstruct\normalis.cpp" />
+    <ClCompile Include="ccstruct\ocrblock.cpp" />
+    <ClCompile Include="ccstruct\ocrrow.cpp" />
+    <ClCompile Include="ccstruct\pageblk.cpp" />
+    <ClCompile Include="ccstruct\pageres.cpp" />
+    <ClCompile Include="ccstruct\pdblock.cpp" />
+    <ClCompile Include="ccstruct\points.cpp" />
+    <ClCompile Include="ccstruct\polyaprx.cpp" />
+    <ClCompile Include="ccstruct\polyblk.cpp" />
+    <ClCompile Include="ccstruct\polyblob.cpp" />
+    <ClCompile Include="ccstruct\polyvert.cpp" />
+    <ClCompile Include="ccstruct\poutline.cpp" />
+    <ClCompile Include="ccstruct\quadlsq.cpp" />
+    <ClCompile Include="ccstruct\quadratc.cpp" />
+    <ClCompile Include="ccstruct\quspline.cpp" />
+    <ClCompile Include="ccstruct\ratngs.cpp" />
+    <ClCompile Include="ccstruct\rect.cpp" />
+    <ClCompile Include="ccstruct\rejctmap.cpp" />
+    <ClCompile Include="ccstruct\rwpoly.cpp" />
+    <ClCompile Include="ccstruct\statistc.cpp" />
+    <ClCompile Include="ccstruct\stepblob.cpp" />
+    <ClCompile Include="ccstruct\txtregn.cpp" />
+    <ClCompile Include="ccstruct\vecfuncs.cpp" />
+    <ClCompile Include="ccstruct\werd.cpp" />
+    <ClCompile Include="ccutil\basedir.cpp" />
+    <ClCompile Include="ccutil\bits16.cpp" />
+    <ClCompile Include="ccutil\boxread.cpp" />
+    <ClCompile Include="ccutil\clst.cpp" />
+    <ClCompile Include="ccutil\debugwin.cpp" />
+    <ClCompile Include="ccutil\elst.cpp" />
+    <ClCompile Include="ccutil\elst2.cpp" />
+    <ClCompile Include="ccutil\errcode.cpp" />
+    <ClCompile Include="ccutil\globaloc.cpp" />
+    <ClCompile Include="ccutil\hashfn.cpp" />
+    <ClCompile Include="ccutil\mainblk.cpp" />
+    <ClCompile Include="ccutil\memblk.cpp" />
+    <ClCompile Include="ccutil\memry.cpp" />
+    <ClCompile Include="ccutil\mfcpch.cpp" />
+    <ClCompile Include="ccutil\ocrshell.cpp" />
+    <ClCompile Include="ccutil\serialis.cpp" />
+    <ClCompile Include="ccutil\strngs.cpp" />
+    <ClCompile Include="ccutil\tessopt.cpp" />
+    <ClCompile Include="ccutil\tprintf.cpp" />
+    <ClCompile Include="ccutil\unichar.cpp" />
+    <ClCompile Include="ccutil\unicharmap.cpp" />
+    <ClCompile Include="ccutil\unicharset.cpp" />
+    <ClCompile Include="ccutil\varable.cpp" />
+    <ClCompile Include="classify\adaptive.cpp" />
+    <ClCompile Include="classify\adaptmatch.cpp" />
+    <ClCompile Include="classify\baseline.cpp" />
+    <ClCompile Include="classify\blobclass.cpp" />
+    <ClCompile Include="classify\chartoname.cpp" />
+    <ClCompile Include="classify\cluster.cpp" />
+    <ClCompile Include="classify\clusttool.cpp" />
+    <ClCompile Include="classify\cutoffs.cpp" />
+    <ClCompile Include="classify\extract.cpp" />
+    <ClCompile Include="classify\featdefs.cpp" />
+    <ClCompile Include="classify\flexfx.cpp" />
+    <ClCompile Include="classify\float2int.cpp" />
+    <ClCompile Include="classify\fpoint.cpp" />
+    <ClCompile Include="classify\fxdefs.cpp" />
+    <ClCompile Include="classify\hideedge.cpp" />
+    <ClCompile Include="classify\intfx.cpp" />
+    <ClCompile Include="classify\intmatcher.cpp" />
+    <ClCompile Include="classify\intproto.cpp" />
+    <ClCompile Include="classify\kdtree.cpp" />
+    <ClCompile Include="classify\mf.cpp" />
+    <ClCompile Include="classify\mfdefs.cpp" />
+    <ClCompile Include="classify\mfoutline.cpp" />
+    <ClCompile Include="classify\mfx.cpp" />
+    <ClCompile Include="classify\normfeat.cpp" />
+    <ClCompile Include="classify\normmatch.cpp" />
+    <ClCompile Include="classify\ocrfeatures.cpp" />
+    <ClCompile Include="classify\outfeat.cpp" />
+    <ClCompile Include="classify\picofeat.cpp" />
+    <ClCompile Include="classify\protos.cpp" />
+    <ClCompile Include="classify\sigmenu.cpp" />
+    <ClCompile Include="classify\speckle.cpp" />
+    <ClCompile Include="classify\xform2d.cpp" />
+    <ClCompile Include="cutil\bitvec.cpp" />
+    <ClCompile Include="cutil\cutil.cpp" />
+    <ClCompile Include="cutil\danerror.cpp" />
+    <ClCompile Include="cutil\debug.cpp" />
+    <ClCompile Include="cutil\efio.cpp" />
+    <ClCompile Include="cutil\emalloc.cpp" />
+    <ClCompile Include="cutil\freelist.cpp" />
+    <ClCompile Include="cutil\globals.cpp" />
+    <ClCompile Include="cutil\listio.cpp" />
+    <ClCompile Include="cutil\oldheap.cpp" />
+    <ClCompile Include="cutil\oldlist.cpp" />
+    <ClCompile Include="cutil\structures.cpp" />
+    <ClCompile Include="cutil\tessarray.cpp" />
+    <ClCompile Include="cutil\tordvars.cpp" />
+    <ClCompile Include="cutil\variables.cpp" />
+    <ClCompile Include="dict\choices.cpp" />
+    <ClCompile Include="dict\context.cpp" />
+    <ClCompile Include="dict\dawg.cpp" />
+    <ClCompile Include="dict\hyphen.cpp" />
+    <ClCompile Include="dict\permdawg.cpp" />
+    <ClCompile Include="dict\permngram.cpp" />
+    <ClCompile Include="dict\permnum.cpp" />
+    <ClCompile Include="dict\permute.cpp" />
+    <ClCompile Include="dict\states.cpp" />
+    <ClCompile Include="dict\stopper.cpp" />
+    <ClCompile Include="dict\trie.cpp" />
+    <ClCompile Include="pageseg\leptonica_pageseg.cpp" />
+    <ClCompile Include="pageseg\leptonica_pageseg_interface.cpp" />
+    <ClCompile Include="pageseg\pageseg.cpp" />
+    <ClCompile Include="image\bitstrm.cpp" />
+    <ClCompile Include="image\imgbmp.cpp" />
+    <ClCompile Include="image\imgio.cpp" />
+    <ClCompile Include="image\imgs.cpp" />
+    <ClCompile Include="image\imgtiff.cpp" />
+    <ClCompile Include="image\svshowim.cpp" />
+    <ClCompile Include="textord\blkocc.cpp" />
+    <ClCompile Include="textord\drawedg.cpp" />
+    <ClCompile Include="textord\drawtord.cpp" />
+    <ClCompile Include="textord\edgblob.cpp" />
+    <ClCompile Include="textord\edgloop.cpp" />
+    <ClCompile Include="textord\fpchop.cpp" />
+    <ClCompile Include="textord\gap_map.cpp" />
+    <ClCompile Include="textord\makerow.cpp" />
+    <ClCompile Include="textord\oldbasel.cpp" />
+    <ClCompile Include="textord\pithsync.cpp" />
+    <ClCompile Include="textord\pitsync1.cpp" />
+    <ClCompile Include="textord\scanedg.cpp" />
+    <ClCompile Include="textord\sortflts.cpp" />
+    <ClCompile Include="textord\topitch.cpp" />
+    <ClCompile Include="textord\tordmain.cpp" />
+    <ClCompile Include="textord\tospace.cpp" />
+    <ClCompile Include="textord\tovars.cpp" />
+    <ClCompile Include="textord\underlin.cpp" />
+    <ClCompile Include="textord\wordseg.cpp" />
+    <ClCompile Include="viewer\scrollview.cpp" />
+    <ClCompile Include="viewer\svmnode.cpp" />
+    <ClCompile Include="viewer\svutil.cpp" />
+    <ClCompile Include="wordrec\associate.cpp" />
+    <ClCompile Include="wordrec\badwords.cpp" />
+    <ClCompile Include="wordrec\bestfirst.cpp" />
+    <ClCompile Include="wordrec\chop.cpp" />
+    <ClCompile Include="wordrec\chopper.cpp" />
+    <ClCompile Include="wordrec\closed.cpp" />
+    <ClCompile Include="wordrec\djmenus.cpp" />
+    <ClCompile Include="wordrec\drawfx.cpp" />
+    <ClCompile Include="wordrec\findseam.cpp" />
+    <ClCompile Include="wordrec\gradechop.cpp" />
+    <ClCompile Include="wordrec\heuristic.cpp" />
+    <ClCompile Include="wordrec\makechop.cpp" />
+    <ClCompile Include="wordrec\matchtab.cpp" />
+    <ClCompile Include="wordrec\matrix.cpp" />
+    <ClCompile Include="wordrec\metrics.cpp" />
+    <ClCompile Include="wordrec\mfvars.cpp" />
+    <ClCompile Include="wordrec\msmenus.cpp" />
+    <ClCompile Include="wordrec\olutil.cpp" />
+    <ClCompile Include="wordrec\outlines.cpp" />
+    <ClCompile Include="wordrec\pieces.cpp" />
+    <ClCompile Include="wordrec\plotedges.cpp" />
+    <ClCompile Include="wordrec\plotseg.cpp" />
+    <ClCompile Include="wordrec\render.cpp" />
+    <ClCompile Include="wordrec\seam.cpp" />
+    <ClCompile Include="wordrec\split.cpp" />
+    <ClCompile Include="wordrec\tally.cpp" />
+    <ClCompile Include="wordrec\tessinit.cpp" />
+    <ClCompile Include="wordrec\tface.cpp" />
+    <ClCompile Include="wordrec\wordclass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pageseg\leptonica_pageseg.h" />
+    <ClInclude Include="pageseg\leptonica_pageseg_interface.h" />
+    <ClInclude Include="pageseg\pageseg.h" />
+    <ClInclude Include="ccmain\adaptions.h" />
+    <ClInclude Include="ccmain\applybox.h" />
+    <ClInclude Include="ccmain\blobcmp.h" />
+    <ClInclude Include="ccmain\callnet.h" />
+    <ClInclude Include="ccmain\charcut.h" />
+    <ClInclude Include="ccmain\charsample.h" />
+    <ClInclude Include="ccmain\control.h" />
+    <ClInclude Include="ccmain\docqual.h" />
+    <ClInclude Include="ccmain\expandblob.h" />
+    <ClInclude Include="ccmain\fixspace.h" />
+    <ClInclude Include="ccmain\fixxht.h" />
+    <ClInclude Include="ccmain\imgscale.h" />
+    <ClInclude Include="ccmain\matmatch.h" />
+    <ClInclude Include="ccmain\pagewalk.h" />
+    <ClInclude Include="ccmain\paircmp.h" />
+    <ClInclude Include="ccmain\pgedit.h" />
+    <ClInclude Include="ccmain\reject.h" />
+    <ClInclude Include="ccmain\scaleimg.h" />
+    <ClInclude Include="ccmain\tessbox.h" />
+    <ClInclude Include="ccmain\tessedit.h" />
+    <ClInclude Include="ccmain\tessvars.h" />
+    <ClInclude Include="ccmain\tfacep.h" />
+    <ClInclude Include="ccmain\tfacepp.h" />
+    <ClInclude Include="ccmain\tstruct.h" />
+    <ClInclude Include="ccmain\varabled.h" />
+    <ClInclude Include="ccmain\werdit.h" />
+    <ClInclude Include="ccstruct\blckerr.h" />
+    <ClInclude Include="ccstruct\blobbox.h" />
+    <ClInclude Include="ccstruct\blobs.h" />
+    <ClInclude Include="ccstruct\blread.h" />
+    <ClInclude Include="ccstruct\coutln.h" />
+    <ClInclude Include="ccstruct\crakedge.h" />
+    <ClInclude Include="ccstruct\genblob.h" />
+    <ClInclude Include="ccstruct\hpddef.h" />
+    <ClInclude Include="ccstruct\hpdsizes.h" />
+    <ClInclude Include="ccstruct\ipoints.h" />
+    <ClInclude Include="ccstruct\labls.h" />
+    <ClInclude Include="ccstruct\linlsq.h" />
+    <ClInclude Include="ccstruct\lmedsq.h" />
+    <ClInclude Include="ccstruct\mod128.h" />
+    <ClInclude Include="ccstruct\normalis.h" />
+    <ClInclude Include="ccstruct\ocrblock.h" />
+    <ClInclude Include="ccstruct\ocrrow.h" />
+    <ClInclude Include="ccstruct\pageblk.h" />
+    <ClInclude Include="ccstruct\pageres.h" />
+    <ClInclude Include="ccstruct\pdblock.h" />
+    <ClInclude Include="ccstruct\pdclass.h" />
+    <ClInclude Include="ccstruct\points.h" />
+    <ClInclude Include="ccstruct\polyaprx.h" />
+    <ClInclude Include="ccstruct\polyblk.h" />
+    <ClInclude Include="ccstruct\polyblob.h" />
+    <ClInclude Include="ccstruct\polyvert.h" />
+    <ClInclude Include="ccstruct\poutline.h" />
+    <ClInclude Include="ccstruct\quadlsq.h" />
+    <ClInclude Include="ccstruct\quadratc.h" />
+    <ClInclude Include="ccstruct\quspline.h" />
+    <ClInclude Include="ccstruct\ratngs.h" />
+    <ClInclude Include="ccstruct\rect.h" />
+    <ClInclude Include="ccstruct\rejctmap.h" />
+    <ClInclude Include="ccstruct\rwpoly.h" />
+    <ClInclude Include="ccstruct\statistc.h" />
+    <ClInclude Include="ccstruct\stepblob.h" />
+    <ClInclude Include="ccstruct\tessclas.h" />
+    <ClInclude Include="ccstruct\txtregn.h" />
+    <ClInclude Include="ccstruct\vecfuncs.h" />
+    <ClInclude Include="ccstruct\werd.h" />
+    <ClInclude Include="cutil\array.h" />
+    <ClInclude Include="ccutil\basedir.h" />
+    <ClInclude Include="ccutil\bits16.h" />
+    <ClInclude Include="ccutil\boxread.h" />
+    <ClInclude Include="ccutil\clst.h" />
+    <ClInclude Include="ccutil\debugwin.h" />
+    <ClInclude Include="ccutil\elst.h" />
+    <ClInclude Include="ccutil\elst2.h" />
+    <ClInclude Include="ccutil\errcode.h" />
+    <ClInclude Include="ccutil\fileerr.h" />
+    <ClInclude Include="ccutil\globaloc.h" />
+    <ClInclude Include="ccutil\hashfn.h" />
+    <ClInclude Include="ccutil\host.h" />
+    <ClInclude Include="ccutil\hosthplb.h" />
+    <ClInclude Include="ccutil\lsterr.h" />
+    <ClInclude Include="ccutil\mainblk.h" />
+    <ClInclude Include="ccutil\memblk.h" />
+    <ClInclude Include="ccutil\memry.h" />
+    <ClInclude Include="ccutil\memryerr.h" />
+    <ClInclude Include="ccutil\mfcpch.h" />
+    <ClInclude Include="ccutil\ndminx.h" />
+    <ClInclude Include="ccutil\notdll.h" />
+    <ClInclude Include="ccutil\nwmain.h" />
+    <ClInclude Include="ccutil\ocrclass.h" />
+    <ClInclude Include="ccutil\ocrshell.h" />
+    <ClInclude Include="ccutil\platform.h" />
+    <ClInclude Include="ccutil\secname.h" />
+    <ClInclude Include="ccutil\serialis.h" />
+    <ClInclude Include="ccutil\stderr.h" />
+    <ClInclude Include="ccutil\strngs.h" />
+    <ClInclude Include="ccutil\tessopt.h" />
+    <ClInclude Include="ccutil\tprintf.h" />
+    <ClInclude Include="ccutil\unichar.h" />
+    <ClInclude Include="ccutil\unicharmap.h" />
+    <ClInclude Include="ccutil\unicharset.h" />
+    <ClInclude Include="ccutil\varable.h" />
+    <ClInclude Include="classify\adaptive.h" />
+    <ClInclude Include="classify\adaptmatch.h" />
+    <ClInclude Include="classify\baseline.h" />
+    <ClInclude Include="classify\blobclass.h" />
+    <ClInclude Include="classify\chartoname.h" />
+    <ClInclude Include="classify\cluster.h" />
+    <ClInclude Include="classify\clusttool.h" />
+    <ClInclude Include="classify\cutoffs.h" />
+    <ClInclude Include="classify\extern.h" />
+    <ClInclude Include="classify\extract.h" />
+    <ClInclude Include="classify\featdefs.h" />
+    <ClInclude Include="classify\flexfx.h" />
+    <ClInclude Include="classify\float2int.h" />
+    <ClInclude Include="classify\fpoint.h" />
+    <ClInclude Include="classify\fxdefs.h" />
+    <ClInclude Include="classify\fxid.h" />
+    <ClInclude Include="classify\hideedge.h" />
+    <ClInclude Include="classify\intfx.h" />
+    <ClInclude Include="classify\intmatcher.h" />
+    <ClInclude Include="classify\intproto.h" />
+    <ClInclude Include="classify\kdtree.h" />
+    <ClInclude Include="classify\matchdefs.h" />
+    <ClInclude Include="classify\mf.h" />
+    <ClInclude Include="classify\mfdefs.h" />
+    <ClInclude Include="classify\mfoutline.h" />
+    <ClInclude Include="classify\mfx.h" />
+    <ClInclude Include="classify\normfeat.h" />
+    <ClInclude Include="classify\normmatch.h" />
+    <ClInclude Include="classify\ocrfeatures.h" />
+    <ClInclude Include="classify\outfeat.h" />
+    <ClInclude Include="classify\picofeat.h" />
+    <ClInclude Include="classify\protos.h" />
+    <ClInclude Include="classify\sigmenu.h" />
+    <ClInclude Include="classify\speckle.h" />
+    <ClInclude Include="classify\xform2d.h" />
+    <ClInclude Include="cutil\bitvec.h" />
+    <ClInclude Include="cutil\callcpp.h" />
+    <ClInclude Include="cutil\const.h" />
+    <ClInclude Include="cutil\danerror.h" />
+    <ClInclude Include="cutil\efio.h" />
+    <ClInclude Include="cutil\emalloc.h" />
+    <ClInclude Include="cutil\freelist.h" />
+    <ClInclude Include="cutil\funcdefs.h" />
+    <ClInclude Include="cutil\general.h" />
+    <ClInclude Include="cutil\globals.h" />
+    <ClInclude Include="cutil\listio.h" />
+    <ClInclude Include="cutil\oldheap.h" />
+    <ClInclude Include="cutil\oldlist.h" />
+    <ClInclude Include="cutil\structures.h" />
+    <ClInclude Include="cutil\tessarray.h" />
+    <ClInclude Include="cutil\tordvars.h" />
+    <ClInclude Include="cutil\util.h" />
+    <ClInclude Include="cutil\variables.h" />
+    <ClInclude Include="dict\choicearr.h" />
+    <ClInclude Include="dict\choices.h" />
+    <ClInclude Include="dict\context.h" />
+    <ClInclude Include="dict\dawg.h" />
+    <ClInclude Include="dict\hyphen.h" />
+    <ClInclude Include="dict\permdawg.h" />
+    <ClInclude Include="dict\permute.h" />
+    <ClInclude Include="dict\states.h" />
+    <ClInclude Include="dict\stopper.h" />
+    <ClInclude Include="dict\trie.h" />
+    <ClInclude Include="image\bitstrm.h" />
+    <ClInclude Include="image\img.h" />
+    <ClInclude Include="image\imgbmp.h" />
+    <ClInclude Include="image\imgerrs.h" />
+    <ClInclude Include="image\imgio.h" />
+    <ClInclude Include="image\imgs.h" />
+    <ClInclude Include="image\imgtiff.h" />
+    <ClInclude Include="image\imgunpk.h" />
+    <ClInclude Include="textord\blkocc.h" />
+    <ClInclude Include="textord\blobcmpl.h" />
+    <ClInclude Include="textord\drawedg.h" />
+    <ClInclude Include="textord\drawtord.h" />
+    <ClInclude Include="textord\edgblob.h" />
+    <ClInclude Include="textord\edgloop.h" />
+    <ClInclude Include="textord\fpchop.h" />
+    <ClInclude Include="textord\gap_map.h" />
+    <ClInclude Include="textord\makerow.h" />
+    <ClInclude Include="textord\oldbasel.h" />
+    <ClInclude Include="textord\pithsync.h" />
+    <ClInclude Include="textord\pitsync1.h" />
+    <ClInclude Include="textord\scanedg.h" />
+    <ClInclude Include="textord\sortflts.h" />
+    <ClInclude Include="textord\tessout.h" />
+    <ClInclude Include="textord\topitch.h" />
+    <ClInclude Include="textord\tordmain.h" />
+    <ClInclude Include="textord\tospace.h" />
+    <ClInclude Include="textord\tovars.h" />
+    <ClInclude Include="textord\underlin.h" />
+    <ClInclude Include="textord\wordseg.h" />
+    <ClInclude Include="viewer\scrollview.h" />
+    <ClInclude Include="viewer\svmnode.h" />
+    <ClInclude Include="viewer\svutil.h" />
+    <ClInclude Include="wordrec\associate.h" />
+    <ClInclude Include="wordrec\badwords.h" />
+    <ClInclude Include="wordrec\bestfirst.h" />
+    <ClInclude Include="wordrec\bitvec.h" />
+    <ClInclude Include="wordrec\charsample.h" />
+    <ClInclude Include="wordrec\chop.h" />
+    <ClInclude Include="wordrec\chopper.h" />
+    <ClInclude Include="wordrec\closed.h" />
+    <ClInclude Include="wordrec\control.h" />
+    <ClInclude Include="wordrec\djmenus.h" />
+    <ClInclude Include="wordrec\drawfx.h" />
+    <ClInclude Include="wordrec\findseam.h" />
+    <ClInclude Include="wordrec\gradechop.h" />
+    <ClInclude Include="wordrec\heuristic.h" />
+    <ClInclude Include="wordrec\makechop.h" />
+    <ClInclude Include="wordrec\matchtab.h" />
+    <ClInclude Include="wordrec\matrix.h" />
+    <ClInclude Include="wordrec\measure.h" />
+    <ClInclude Include="wordrec\metrics.h" />
+    <ClInclude Include="wordrec\mfvars.h" />
+    <ClInclude Include="wordrec\olutil.h" />
+    <ClInclude Include="wordrec\outlines.h" />
+    <ClInclude Include="wordrec\pieces.h" />
+    <ClInclude Include="wordrec\plotedges.h" />
+    <ClInclude Include="wordrec\plotseg.h" />
+    <ClInclude Include="wordrec\render.h" />
+    <ClInclude Include="wordrec\seam.h" />
+    <ClInclude Include="wordrec\split.h" />
+    <ClInclude Include="wordrec\tally.h" />
+    <ClInclude Include="wordrec\tessinit.h" />
+    <ClInclude Include="wordrec\tface.h" />
+    <ClInclude Include="wordrec\wordclass.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="tessdll.h" />
+    <ClInclude Include="ccmain\tesseractmain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

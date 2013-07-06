@@ -1,0 +1,12 @@
+﻿Build started 10/5/2012 1:36:16 PM.
+     1>Project "E:\dev\OCRopus\unixem\build\vc7\unixem.vcxproj" on node 2 (Rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Template\unixem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "x64\Template\unixem.unsuccessfulbuild".
+         Touching "x64\Template\unixem.lastbuildstate".
+     1>Done Building Project "E:\dev\OCRopus\unixem\build\vc7\unixem.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.02

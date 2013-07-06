@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cddcfb9a-9bdd-43e9-a965-d940818d3220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccmain">
+      <UniqueIdentifier>{8f1e1f7d-8107-4d43-b132-2a2f32f1da1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccstruct">
+      <UniqueIdentifier>{b9538fe9-5e0d-483c-a9b3-07f3dd49d36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccutil">
+      <UniqueIdentifier>{9758b7fe-7c9c-4412-aa0a-44aa777c7cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classify">
+      <UniqueIdentifier>{fbde3f9e-ee0e-41dd-9903-a7cc58108a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cutil">
+      <UniqueIdentifier>{abd6d99a-9d8d-4205-abd3-c7fb1791daa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dict">
+      <UniqueIdentifier>{484386d6-1950-4a99-bafe-9637b785da72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pageseg">
+      <UniqueIdentifier>{c31c4c8f-7268-4b88-9513-9ad850c4ca21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image">
+      <UniqueIdentifier>{adeb17d3-6f1b-49e8-ad70-329986f1d70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textord">
+      <UniqueIdentifier>{a97e285f-b93f-408b-a2e4-43657f3b65bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\viewer">
+      <UniqueIdentifier>{441b0027-7615-4677-9484-de56f1c02ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wordrec">
+      <UniqueIdentifier>{5d898eca-b06d-41f9-a253-7022adac8fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccmain header">
+      <UniqueIdentifier>{9bd311fa-cad6-4ce5-98aa-5fe7c646b614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccstruct header">
+      <UniqueIdentifier>{9bb54ba0-ed42-4f43-8bdd-f6d4eb581033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccutil header">
+      <UniqueIdentifier>{6a5c2d4b-8fbf-46df-bd1a-f661bdff3018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classify header">
+      <UniqueIdentifier>{adc42f48-6e20-4c14-83ae-5cf996eb44bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cutil header">
+      <UniqueIdentifier>{3ad99f39-49ec-441a-8b13-7e4f5eaea266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dict header">
+      <UniqueIdentifier>{e9468f84-5d90-4b97-b5c4-ccb3ff59cf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image header">
+      <UniqueIdentifier>{4b239e2a-4cc4-422d-a4ac-0ee6f3bbceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textord header">
+      <UniqueIdentifier>{bb528ccd-2ab0-41e4-930b-76ff68e29b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\viewer header">
+      <UniqueIdentifier>{c56a1d7c-1d5f-4e3d-a29b-4a85cab87164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wordrec header">
+      <UniqueIdentifier>{e9e75ec5-5c73-411a-970f-d01bca6845f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61678482-3b5e-4050-a2b9-45cff91f4232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tessdll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\adaptions.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\applybox.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\baseapi.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\blobcmp.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\callnet.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\charcut.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\charsample.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\control.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\docqual.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\expandblob.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\fixspace.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\fixxht.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\imgscale.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\matmatch.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\output.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\pagewalk.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\paircmp.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\pgedit.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\reject.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\scaleimg.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tessbox.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tessedit.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tesseractmain.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tessvars.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tfacepp.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\tstruct.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\varabled.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccmain\werdit.cpp">
+      <Filter>Source Files\ccmain</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\blobbox.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\blobs.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\blread.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\callcpp.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\coutln.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\genblob.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\labls.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\linlsq.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\lmedsq.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\mod128.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\normalis.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\ocrblock.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\ocrrow.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\pageblk.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\pageres.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\pdblock.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\points.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\polyaprx.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\polyblk.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\polyblob.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\polyvert.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\poutline.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\quadlsq.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\quadratc.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\quspline.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\ratngs.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\rect.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\rejctmap.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\rwpoly.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\statistc.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\stepblob.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\txtregn.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\vecfuncs.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccstruct\werd.cpp">
+      <Filter>Source Files\ccstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\basedir.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\bits16.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\boxread.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\clst.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\debugwin.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\elst.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\elst2.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\errcode.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\globaloc.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\hashfn.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\mainblk.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\memblk.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\memry.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\mfcpch.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\ocrshell.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\serialis.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\strngs.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\tessopt.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\tprintf.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\unichar.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\unicharmap.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\unicharset.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="ccutil\varable.cpp">
+      <Filter>Source Files\ccutil</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\adaptive.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\adaptmatch.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\baseline.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\blobclass.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\chartoname.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\cluster.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\clusttool.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\cutoffs.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\extract.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\featdefs.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\flexfx.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\float2int.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\fpoint.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\fxdefs.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\hideedge.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\intfx.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\intmatcher.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\intproto.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\kdtree.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\mf.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\mfdefs.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\mfoutline.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\mfx.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\normfeat.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\normmatch.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\ocrfeatures.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\outfeat.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\picofeat.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\protos.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\sigmenu.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\speckle.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="classify\xform2d.cpp">
+      <Filter>Source Files\classify</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\bitvec.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\cutil.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\danerror.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\debug.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\efio.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\emalloc.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\freelist.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\globals.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\listio.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\oldheap.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\oldlist.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\structures.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\tessarray.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\tordvars.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cutil\variables.cpp">
+      <Filter>Source Files\cutil</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\choices.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\context.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\dawg.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\hyphen.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\permdawg.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\permngram.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\permnum.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\permute.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\states.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\stopper.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\trie.cpp">
+      <Filter>Source Files\dict</Filter>
+    </ClCompile>
+    <ClCompile Include="pageseg\leptonica_pageseg.cpp">
+      <Filter>Source Files\pageseg</Filter>
+    </ClCompile>
+    <ClCompile Include="pageseg\leptonica_pageseg_interface.cpp">
+      <Filter>Source Files\pageseg</Filter>
+    </ClCompile>
+    <ClCompile Include="pageseg\pageseg.cpp">
+      <Filter>Source Files\pageseg</Filter>
+    </ClCompile>
+    <ClCompile Include="image\bitstrm.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imgbmp.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imgio.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imgs.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imgtiff.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\svshowim.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\blkocc.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\drawedg.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\drawtord.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\edgblob.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\edgloop.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\fpchop.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\gap_map.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\makerow.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\oldbasel.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\pithsync.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\pitsync1.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\scanedg.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\sortflts.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\topitch.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\tordmain.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\tospace.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\tovars.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\underlin.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="textord\wordseg.cpp">
+      <Filter>Source Files\textord</Filter>
+    </ClCompile>
+    <ClCompile Include="viewer\scrollview.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="viewer\svmnode.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="viewer\svutil.cpp">
+      <Filter>Source Files\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\associate.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\badwords.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\bestfirst.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\chop.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\chopper.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\closed.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\djmenus.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\drawfx.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\findseam.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\gradechop.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\heuristic.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\makechop.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\matchtab.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\matrix.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\metrics.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\mfvars.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\msmenus.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\olutil.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\outlines.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\pieces.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\plotedges.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\plotseg.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\render.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\seam.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\split.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\tally.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\tessinit.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\tface.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+    <ClCompile Include="wordrec\wordclass.cpp">
+      <Filter>Source Files\wordrec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pageseg\leptonica_pageseg.h">
+      <Filter>Source Files\pageseg</Filter>
+    </ClInclude>
+    <ClInclude Include="pageseg\leptonica_pageseg_interface.h">
+      <Filter>Source Files\pageseg</Filter>
+    </ClInclude>
+    <ClInclude Include="pageseg\pageseg.h">
+      <Filter>Source Files\pageseg</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\adaptions.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\applybox.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\blobcmp.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\callnet.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\charcut.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\charsample.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\control.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\docqual.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\expandblob.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\fixspace.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\fixxht.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\imgscale.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\matmatch.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\pagewalk.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\paircmp.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\pgedit.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\reject.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\scaleimg.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tessbox.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tessedit.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tessvars.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tfacep.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tfacepp.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tstruct.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\varabled.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\werdit.h">
+      <Filter>Source Files\ccmain header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\blckerr.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\blobbox.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\blobs.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\blread.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\coutln.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\crakedge.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\genblob.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\hpddef.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\hpdsizes.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\ipoints.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\labls.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\linlsq.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\lmedsq.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\mod128.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\normalis.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\ocrblock.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\ocrrow.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\pageblk.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\pageres.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\pdblock.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\pdclass.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\points.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\polyaprx.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\polyblk.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\polyblob.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\polyvert.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\poutline.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\quadlsq.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\quadratc.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\quspline.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\ratngs.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\rect.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\rejctmap.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\rwpoly.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\statistc.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\stepblob.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\tessclas.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\txtregn.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\vecfuncs.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccstruct\werd.h">
+      <Filter>Source Files\ccstruct header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\array.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\basedir.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\bits16.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\boxread.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\clst.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\debugwin.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\elst.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\elst2.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\errcode.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\fileerr.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\globaloc.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\hashfn.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\host.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\hosthplb.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\lsterr.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\mainblk.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\memblk.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\memry.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\memryerr.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\mfcpch.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\ndminx.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\notdll.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\nwmain.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\ocrclass.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\ocrshell.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\platform.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\secname.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\serialis.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\stderr.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\strngs.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\tessopt.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\tprintf.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\unichar.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\unicharmap.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\unicharset.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="ccutil\varable.h">
+      <Filter>Source Files\ccutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\adaptive.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\adaptmatch.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\baseline.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\blobclass.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\chartoname.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\cluster.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\clusttool.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\cutoffs.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\extern.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\extract.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\featdefs.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\flexfx.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\float2int.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\fpoint.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\fxdefs.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\fxid.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\hideedge.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\intfx.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\intmatcher.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\intproto.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\kdtree.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\matchdefs.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\mf.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\mfdefs.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\mfoutline.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\mfx.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\normfeat.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\normmatch.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\ocrfeatures.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\outfeat.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\picofeat.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\protos.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\sigmenu.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\speckle.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="classify\xform2d.h">
+      <Filter>Source Files\classify header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\bitvec.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\callcpp.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\const.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\danerror.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\efio.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\emalloc.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\freelist.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\funcdefs.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\general.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\globals.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\listio.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\oldheap.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\oldlist.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\structures.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\tessarray.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\tordvars.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\util.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="cutil\variables.h">
+      <Filter>Source Files\cutil header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\choicearr.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\choices.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\context.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\dawg.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\hyphen.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\permdawg.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\permute.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\states.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\stopper.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\trie.h">
+      <Filter>Source Files\dict header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\bitstrm.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\img.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgbmp.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgerrs.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgio.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgs.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgtiff.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imgunpk.h">
+      <Filter>Source Files\image header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\blkocc.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\blobcmpl.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\drawedg.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\drawtord.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\edgblob.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\edgloop.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\fpchop.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\gap_map.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\makerow.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\oldbasel.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\pithsync.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\pitsync1.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\scanedg.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\sortflts.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\tessout.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\topitch.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\tordmain.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\tospace.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\tovars.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\underlin.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="textord\wordseg.h">
+      <Filter>Source Files\textord header</Filter>
+    </ClInclude>
+    <ClInclude Include="viewer\scrollview.h">
+      <Filter>Source Files\viewer header</Filter>
+    </ClInclude>
+    <ClInclude Include="viewer\svmnode.h">
+      <Filter>Source Files\viewer header</Filter>
+    </ClInclude>
+    <ClInclude Include="viewer\svutil.h">
+      <Filter>Source Files\viewer header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\associate.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\badwords.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\bestfirst.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\bitvec.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\charsample.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\chop.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\chopper.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\closed.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\control.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\djmenus.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\drawfx.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\findseam.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\gradechop.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\heuristic.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\makechop.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\matchtab.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\matrix.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\measure.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\metrics.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\mfvars.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\olutil.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\outlines.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\pieces.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\plotedges.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\plotseg.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\render.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\seam.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\split.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\tally.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\tessinit.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\tface.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="wordrec\wordclass.h">
+      <Filter>Source Files\wordrec header</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tessdll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccmain\tesseractmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

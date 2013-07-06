@@ -1,0 +1,50 @@
+﻿Build started 6/27/2013 5:45:01 PM.
+     1>Project "E:\dev\BasicOCR\libpng\projects\visualc71\libpng.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Win32_DLL_Debug\libpng.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(E:\dev\BasicOCR\libpng\projects\visualc71\.\Win32_DLL_Debug\libpng.dll) does not match the Linker's OutputFile property value (E:\dev\BasicOCR\libpng\projects\visualc71\Win32_DLL_Debug\libpng14d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(libpng) does not match the Linker's OutputFile property value (libpng14d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Win32_DLL_Debug\libpng14d.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\scripts\pngwin.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Win32_DLL_Debug\libpng.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Win32_DLL_Debug\libpng.lib" /MACHINE:X86 /SAFESEH /DLL .\Win32_DLL_Debug\png.obj
+         .\Win32_DLL_Debug\pngerror.obj
+         .\Win32_DLL_Debug\pngget.obj
+         .\Win32_DLL_Debug\pngmem.obj
+         .\Win32_DLL_Debug\pngpread.obj
+         .\Win32_DLL_Debug\pngread.obj
+         .\Win32_DLL_Debug\pngrio.obj
+         .\Win32_DLL_Debug\pngrtran.obj
+         .\Win32_DLL_Debug\pngrutil.obj
+         .\Win32_DLL_Debug\pngset.obj
+         .\Win32_DLL_Debug\pngtrans.obj
+         .\Win32_DLL_Debug\pngwio.obj
+         .\Win32_DLL_Debug\pngwrite.obj
+         .\Win32_DLL_Debug\pngwtran.obj
+         .\Win32_DLL_Debug\pngwutil.obj
+     1>png.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library .\Win32_DLL_Debug\libpng.lib and object .\Win32_DLL_Debug\libpng.exp
+     1>png.obj : error LNK2019: unresolved external symbol __imp__inflateReset referenced in function _png_reset_zstream
+     1>pngpread.obj : error LNK2001: unresolved external symbol __imp__inflateReset
+     1>pngrutil.obj : error LNK2001: unresolved external symbol __imp__inflateReset
+     1>png.obj : error LNK2019: unresolved external symbol __imp__crc32 referenced in function _png_calculate_crc
+     1>pngpread.obj : error LNK2019: unresolved external symbol __imp__inflate referenced in function _png_process_IDAT_data
+     1>pngread.obj : error LNK2001: unresolved external symbol __imp__inflate
+     1>pngrutil.obj : error LNK2001: unresolved external symbol __imp__inflate
+     1>pngread.obj : error LNK2019: unresolved external symbol __imp__inflateEnd referenced in function _png_read_destroy
+     1>pngread.obj : error LNK2019: unresolved external symbol __imp__inflateInit_ referenced in function _png_create_read_struct_2
+     1>pngwrite.obj : error LNK2019: unresolved external symbol __imp__deflate referenced in function _png_write_flush
+     1>pngwutil.obj : error LNK2001: unresolved external symbol __imp__deflate
+     1>pngwrite.obj : error LNK2019: unresolved external symbol __imp__deflateEnd referenced in function _png_write_destroy
+     1>pngwutil.obj : error LNK2019: unresolved external symbol __imp__deflateReset referenced in function _png_write_compressed_data_out
+     1>pngwutil.obj : error LNK2019: unresolved external symbol __imp__deflateInit2_ referenced in function _png_write_IHDR
+     1>.\Win32_DLL_Debug\libpng14d.dll : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "E:\dev\BasicOCR\libpng\projects\visualc71\libpng.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17

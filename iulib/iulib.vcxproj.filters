@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\imgio">
+      <UniqueIdentifier>{1146cf91-944a-4417-a849-34fe2888dab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imglib">
+      <UniqueIdentifier>{c35f7f61-229f-4925-9def-4bdab14d42f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgbits">
+      <UniqueIdentifier>{282231c7-211b-484b-9d06-f8d285620f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{6b92e8de-0333-4d9f-91b8-81d64f7029d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{b031dfcf-a0dc-41ff-9717-b42e80e901b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vidio">
+      <UniqueIdentifier>{e761edf9-6f34-4373-ab6e-99827700cbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{477232fc-9279-44f6-a780-29a0b02f8258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\imgio">
+      <UniqueIdentifier>{157e0fab-11f6-4c59-8503-7d641b0a37a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imglib">
+      <UniqueIdentifier>{4497710f-4ce3-41d9-96c8-c8b4c3d6416f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgbits">
+      <UniqueIdentifier>{a67b1e3c-cbc3-481e-946d-4261ced7ee41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\colib">
+      <UniqueIdentifier>{51c13e44-320a-4a08-92ce-bd5a2c6bea00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\win32">
+      <UniqueIdentifier>{5834d51f-a7b2-4ff1-ae31-84ff908abf61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{d9bb647a-91cb-4119-bd33-e0eb5fe7e94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vidio">
+      <UniqueIdentifier>{df19edb7-b9ad-4826-bc75-bb77aebcea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{48b83f0e-67d4-4757-a186-43607303f1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgio\autoinvert.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imgio\imgio.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imgio\io_jpeg.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imgio\io_pbm.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imgio\io_png.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imgio\io_tiff.cc">
+      <Filter>Source Files\imgio</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgbrushfire.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgedges.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgfilters.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imggauss.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imggraymorph.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imglabels.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgmap.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgmisc.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgmorph.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgops.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgrescale.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgthin.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imglib\imgtrace.cc">
+      <Filter>Source Files\imglib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgbits.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgblit.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgblit_c.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgbsmp.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgbthin.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbits\imgrle.cc">
+      <Filter>Source Files\imgbits</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\dgraphics_nosdl.cc">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\components.cc">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgio\autoinvert.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imgio\imgio.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imgio\io_jpeg.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imgio\io_pbm.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imgio\io_png.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imgio\io_tiff.h">
+      <Filter>Header Files\imgio</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgbrushfire.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgedges.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgfilters.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imggauss.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imggraymorph.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imglabels.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imglib.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgmap.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgmisc.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgmorph.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgops.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgrescale.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgthin.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\imgtrace.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imglib\iulib.h">
+      <Filter>Header Files\imglib</Filter>
+    </ClInclude>
+    <ClInclude Include="imgbits\bithacks.h">
+      <Filter>Header Files\imgbits</Filter>
+    </ClInclude>
+    <ClInclude Include="imgbits\imgbitptr.h">
+      <Filter>Header Files\imgbits</Filter>
+    </ClInclude>
+    <ClInclude Include="imgbits\imgbits.h">
+      <Filter>Header Files\imgbits</Filter>
+    </ClInclude>
+    <ClInclude Include="imgbits\imgrle.h">
+      <Filter>Header Files\imgbits</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\checks.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\classifier.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\clib.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\colib.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\compat.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\coords.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\debugf.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\deprecation.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\env.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\hash.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\heap.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\iarith.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\iustring.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\misc.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\narray-binio.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\narray-ops.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\narray-util.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\narray.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\nbest.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\nustring.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\objlist.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\quicksort.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\rowarrays.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\smartptr.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\strbuf.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\unionfind.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="colib\vec2.h">
+      <Filter>Header Files\colib</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\winmath.h">
+      <Filter>Header Files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\dgraphics.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\SDL_lines.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vidio\vidio.h">
+      <Filter>Header Files\vidio</Filter>
+    </ClInclude>
+    <ClInclude Include="components\components.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

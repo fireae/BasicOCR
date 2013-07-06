@@ -1,0 +1,80 @@
+﻿Build started 10/7/2012 5:42:48 PM.
+     1>Project "E:\dev\SimpleOCR\libpng\projects\visualc71\libpng.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\LIB Debug\libpng.unsuccessfulbuild".
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\zlib\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"png.h" /Fp"x64\LIB Debug\libpng.pch" /Fo"x64\LIB Debug\\" /Fd"x64\LIB Debug\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\pngerror.c
+         pngerror.c
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\zlib\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\LIB Debug\\" /Fd"x64\LIB Debug\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\png.c
+         png.c
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\zlib\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"png.h" /Fp"x64\LIB Debug\libpng.pch" /Fo"x64\LIB Debug\\" /Fd"x64\LIB Debug\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\pngget.c ..\..\pngmem.c ..\..\pngpread.c ..\..\pngread.c ..\..\pngrio.c ..\..\pngrtran.c ..\..\pngrutil.c ..\..\pngset.c ..\..\pngtrans.c ..\..\pngwio.c ..\..\pngwrite.c ..\..\pngwtran.c ..\..\pngwutil.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+     1>..\..\pngpread.c(594): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngpread.c(610): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngpread.c(784): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngpread.c(808): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngread.c
+         pngrio.c
+         pngrtran.c
+     1>..\..\pngrtran.c(1689): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrtran.c(1703): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngrutil.c
+     1>..\..\pngrutil.c(211): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\pngrutil.c(221): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\pngrutil.c(224): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\pngrutil.c(233): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\pngrutil.c(1109): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(1238): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\pngrutil.c(2931): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(2946): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(2964): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(2989): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(3338): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(3346): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(3351): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngrutil.c(3366): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngset.c
+     1>..\..\pngset.c(591): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngset.c(903): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngtrans.c
+     1>..\..\pngtrans.c(210): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngtrans.c(223): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngtrans.c(236): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngwio.c
+     1>..\..\pngwio.c(56): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngwrite.c
+         pngwtran.c
+     1>..\..\pngwtran.c(257): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngwutil.c
+     1>..\..\pngwutil.c(218): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\pngwutil.c(1578): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\pngwutil.c(2106): warning C4267: 'initializing' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         Generating Code...
+     1>E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(E:\dev\SimpleOCR\libpng\projects\visualc71\x64\LIB Debug\libpng.lib) does not match the Library's OutputFile property value (E:\dev\SimpleOCR\libpng\builds\Debug\libpng.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\builds\Debug\libpng.lib" /NOLOGO /NODEFAULTLIB /MACHINE:X64 "x64\LIB Debug\png.obj"
+         "x64\LIB Debug\pngerror.obj"
+         "x64\LIB Debug\pngget.obj"
+         "x64\LIB Debug\pngmem.obj"
+         "x64\LIB Debug\pngpread.obj"
+         "x64\LIB Debug\pngread.obj"
+         "x64\LIB Debug\pngrio.obj"
+         "x64\LIB Debug\pngrtran.obj"
+         "x64\LIB Debug\pngrutil.obj"
+         "x64\LIB Debug\pngset.obj"
+         "x64\LIB Debug\pngtrans.obj"
+         "x64\LIB Debug\pngwio.obj"
+         "x64\LIB Debug\pngwrite.obj"
+         "x64\LIB Debug\pngwtran.obj"
+         "x64\LIB Debug\pngwutil.obj"
+         libpng.vcxproj -> E:\dev\SimpleOCR\libpng\projects\visualc71\x64\LIB Debug\libpng.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\LIB Debug\libpng.unsuccessfulbuild".
+         Touching "x64\LIB Debug\libpng.lastbuildstate".
+     1>Done Building Project "E:\dev\SimpleOCR\libpng\projects\visualc71\libpng.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.47

@@ -1,0 +1,4263 @@
+Making check in gnulib
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib' wordt binnengegaan
+Making check in lib
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/lib' wordt binnengegaan
+make.exe  check-am
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/lib' wordt binnengegaan
+make[3]: Er is niets te doen voor 'check-am'.
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/lib' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/lib' wordt verlaten
+Making check in tests
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make.exe  check-recursive
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make[4]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make.exe  
+make[5]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make.exe  all-recursive
+make[6]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make[7]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make[7]: Er is niets te doen voor 'all-am'.
+make[7]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[6]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[5]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make.exe  check-TESTS
+make[5]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt binnengegaan
+make[5]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[4]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib/tests' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib' wordt binnengegaan
+make[2]: Er is niets te doen voor 'check-am'.
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib' wordt verlaten
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/gnulib' wordt verlaten
+Making check in lib
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/lib' wordt binnengegaan
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/lib' wordt verlaten
+Making check in src
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/src' wordt binnengegaan
+make[1]: Er is niets te doen voor 'check'.
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/src' wordt verlaten
+Making check in doc
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/doc' wordt binnengegaan
+make[1]: Er is niets te doen voor 'check'.
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/doc' wordt verlaten
+Making check in tests
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+ cd .. && /bin/sh ./config.status tests/Makefile depfiles
+config.status: creating tests/Makefile
+config.status: executing depfiles commands
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+Making check in agrep
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests/agrep' wordt binnengegaan
+make.exe  check-TESTS
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests/agrep' wordt binnengegaan
+ ../.. ../../../tre-0.7.5-src/tests/agrep
+agrep  random basic.in
+agrep  random < basic.in
+agrep -c random basic.in
+agrep -c random < basic.in
+agrep -H random basic.in
+agrep -H random < basic.in
+agrep -l random basic.in
+agrep -l random < basic.in
+agrep -n random basic.in
+agrep -n random < basic.in
+agrep -s random basic.in
+agrep -s random < basic.in
+agrep -M random basic.in
+agrep -M random < basic.in
+agrep --show-position random basic.in
+agrep --show-position random < basic.in
+agrep --color random basic.in
+agrep --color random < basic.in
+agrep -H -n -s --color --show-position random basic.in
+agrep -H -n -s --color --show-position random < basic.in
+agrep  -v random basic.in
+agrep  -v random < basic.in
+agrep -c -v random basic.in
+agrep -c -v random < basic.in
+agrep -H -v random basic.in
+agrep -H -v random < basic.in
+agrep -l -v random basic.in
+agrep -l -v random < basic.in
+agrep -n -v random basic.in
+agrep -n -v random < basic.in
+agrep -s -v random basic.in
+agrep -s -v random < basic.in
+agrep -M -v random basic.in
+agrep -M -v random < basic.in
+agrep --show-position -v random basic.in
+agrep --show-position -v random < basic.in
+agrep --color -v random basic.in
+agrep --color -v random < basic.in
+agrep -H -n -s --color --show-position -v random basic.in
+agrep -H -n -s --color --show-position -v random < basic.in
+agrep  -i extra basic.in
+agrep  -i extra < basic.in
+agrep -c -i extra basic.in
+agrep -c -i extra < basic.in
+agrep -H -i extra basic.in
+agrep -H -i extra < basic.in
+agrep -l -i extra basic.in
+agrep -l -i extra < basic.in
+agrep -n -i extra basic.in
+agrep -n -i extra < basic.in
+agrep -s -i extra basic.in
+agrep -s -i extra < basic.in
+agrep -M -i extra basic.in
+agrep -M -i extra < basic.in
+agrep --show-position -i extra basic.in
+agrep --show-position -i extra < basic.in
+agrep --color -i extra basic.in
+agrep --color -i extra < basic.in
+agrep -H -n -s --color --show-position -i extra basic.in
+agrep -H -n -s --color --show-position -i extra < basic.in
+agrep  -e -ding basic.in
+agrep  -e -ding < basic.in
+agrep -c -e -ding basic.in
+agrep -c -e -ding < basic.in
+agrep -H -e -ding basic.in
+agrep -H -e -ding < basic.in
+agrep -l -e -ding basic.in
+agrep -l -e -ding < basic.in
+agrep -n -e -ding basic.in
+agrep -n -e -ding < basic.in
+agrep -s -e -ding basic.in
+agrep -s -e -ding < basic.in
+agrep -M -e -ding basic.in
+agrep -M -e -ding < basic.in
+agrep --show-position -e -ding basic.in
+agrep --show-position -e -ding < basic.in
+agrep --color -e -ding basic.in
+agrep --color -e -ding < basic.in
+agrep -H -n -s --color --show-position -e -ding basic.in
+agrep -H -n -s --color --show-position -e -ding < basic.in
+agrep  -w micro basic.in
+agrep  -w micro < basic.in
+agrep -c -w micro basic.in
+agrep -c -w micro < basic.in
+agrep -H -w micro basic.in
+agrep -H -w micro < basic.in
+agrep -l -w micro basic.in
+agrep -l -w micro < basic.in
+agrep -n -w micro basic.in
+agrep -n -w micro < basic.in
+agrep -s -w micro basic.in
+agrep -s -w micro < basic.in
+agrep -M -w micro basic.in
+agrep -M -w micro < basic.in
+agrep --show-position -w micro basic.in
+agrep --show-position -w micro < basic.in
+agrep --color -w micro basic.in
+agrep --color -w micro < basic.in
+agrep -H -n -s --color --show-position -w micro basic.in
+agrep -H -n -s --color --show-position -w micro < basic.in
+2d1
+< Some random text here.
+4c3
+< Exit status 0.
+---
+> Exit status 53.
+6d4
+< Some random text here.
+8c6
+< Exit status 0.
+---
+> Exit status 53.
+10d7
+< 1
+12c9
+< Exit status 0.
+---
+> Exit status 53.
+14d10
+< 1
+16c12
+< Exit status 0.
+---
+> Exit status 53.
+18d13
+< basic.in:Some random text here.
+20c15
+< Exit status 0.
+---
+> Exit status 53.
+22d16
+< (standard input):Some random text here.
+24c18
+< Exit status 0.
+---
+> Exit status 53.
+26d19
+< basic.in
+28c21
+< Exit status 0.
+---
+> Exit status 53.
+30d22
+< (standard input)
+32c24
+< Exit status 0.
+---
+> Exit status 53.
+34d25
+< 1:Some random text here.
+36c27
+< Exit status 0.
+---
+> Exit status 53.
+38d28
+< 1:Some random text here.
+40c30
+< Exit status 0.
+---
+> Exit status 53.
+42d31
+< 0:Some random text here.
+44c33
+< Exit status 0.
+---
+> Exit status 53.
+46d34
+< 0:Some random text here.
+48c36
+< Exit status 0.
+---
+> Exit status 53.
+50d37
+< Some random text here.
+52c39
+< Exit status 0.
+---
+> Exit status 53.
+54d40
+< Some random text here.
+56c42
+< Exit status 0.
+---
+> Exit status 53.
+58d43
+< 5-11:Some random text here.
+60c45
+< Exit status 0.
+---
+> Exit status 53.
+62d46
+< 5-11:Some random text here.
+64c48
+< Exit status 0.
+---
+> Exit status 53.
+66d49
+< Some [01;31mrandom[00m text here.
+68c51
+< Exit status 0.
+---
+> Exit status 53.
+70d52
+< Some [01;31mrandom[00m text here.
+72c54
+< Exit status 0.
+---
+> Exit status 53.
+74d55
+< basic.in:1:0:5-11:Some [01;31mrandom[00m text here.
+76c57
+< Exit status 0.
+---
+> Exit status 53.
+78d58
+< (standard input):1:0:5-11:Some [01;31mrandom[00m text here.
+80c60
+< Exit status 0.
+---
+> Exit status 53.
+82,88d61
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+90c63
+< Exit status 0.
+---
+> Exit status 53.
+92,98d64
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+100c66
+< Exit status 0.
+---
+> Exit status 53.
+102d67
+< 7
+104c69
+< Exit status 0.
+---
+> Exit status 53.
+106d70
+< 7
+108c72
+< Exit status 0.
+---
+> Exit status 53.
+110,116d73
+< basic.in:Foo bar quux.
+< basic.in:Let's hear an example of correct microphone placing.
+< basic.in:I suppose for something like that one would use a very large number of microphones.
+< basic.in:Extraordinary.
+< basic.in:Take California.
+< basic.in:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< basic.in:They are micro, mega, mini, mono, and multi.
+118c75
+< Exit status 0.
+---
+> Exit status 53.
+120,126d76
+< (standard input):Foo bar quux.
+< (standard input):Let's hear an example of correct microphone placing.
+< (standard input):I suppose for something like that one would use a very large number of microphones.
+< (standard input):Extraordinary.
+< (standard input):Take California.
+< (standard input):A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< (standard input):They are micro, mega, mini, mono, and multi.
+128c78
+< Exit status 0.
+---
+> Exit status 53.
+130d79
+< basic.in
+132c81
+< Exit status 0.
+---
+> Exit status 53.
+134d82
+< (standard input)
+136c84
+< Exit status 0.
+---
+> Exit status 53.
+138,144d85
+< 2:Foo bar quux.
+< 3:Let's hear an example of correct microphone placing.
+< 4:I suppose for something like that one would use a very large number of microphones.
+< 5:Extraordinary.
+< 6:Take California.
+< 7:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 8:They are micro, mega, mini, mono, and multi.
+146c87
+< Exit status 0.
+---
+> Exit status 53.
+148,154d88
+< 2:Foo bar quux.
+< 3:Let's hear an example of correct microphone placing.
+< 4:I suppose for something like that one would use a very large number of microphones.
+< 5:Extraordinary.
+< 6:Take California.
+< 7:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 8:They are micro, mega, mini, mono, and multi.
+156c90
+< Exit status 0.
+---
+> Exit status 53.
+158,164d91
+< 0:Foo bar quux.
+< 0:Let's hear an example of correct microphone placing.
+< 0:I suppose for something like that one would use a very large number of microphones.
+< 0:Extraordinary.
+< 0:Take California.
+< 0:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 0:They are micro, mega, mini, mono, and multi.
+166c93
+< Exit status 0.
+---
+> Exit status 53.
+168,174d94
+< 0:Foo bar quux.
+< 0:Let's hear an example of correct microphone placing.
+< 0:I suppose for something like that one would use a very large number of microphones.
+< 0:Extraordinary.
+< 0:Take California.
+< 0:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 0:They are micro, mega, mini, mono, and multi.
+176c96
+< Exit status 0.
+---
+> Exit status 53.
+178,184d97
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+186c99
+< Exit status 0.
+---
+> Exit status 53.
+188,194d100
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+196c102
+< Exit status 0.
+---
+> Exit status 53.
+198,204d103
+< 0-13:Foo bar quux.
+< 0-52:Let's hear an example of correct microphone placing.
+< 0-83:I suppose for something like that one would use a very large number of microphones.
+< 0-14:Extraordinary.
+< 0-16:Take California.
+< 0-38:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 0-44:They are micro, mega, mini, mono, and multi.
+206c105
+< Exit status 0.
+---
+> Exit status 53.
+208,214d106
+< 0-13:Foo bar quux.
+< 0-52:Let's hear an example of correct microphone placing.
+< 0-83:I suppose for something like that one would use a very large number of microphones.
+< 0-14:Extraordinary.
+< 0-16:Take California.
+< 0-38:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< 0-44:They are micro, mega, mini, mono, and multi.
+216c108
+< Exit status 0.
+---
+> Exit status 53.
+218,224d109
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+226c111
+< Exit status 0.
+---
+> Exit status 53.
+228,234d112
+< Foo bar quux.
+< Let's hear an example of correct microphone placing.
+< I suppose for something like that one would use a very large number of microphones.
+< Extraordinary.
+< Take California.
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< They are micro, mega, mini, mono, and multi.
+236c114
+< Exit status 0.
+---
+> Exit status 53.
+238,244d115
+< basic.in:2:0:0-13:Foo bar quux.
+< basic.in:3:0:0-52:Let's hear an example of correct microphone placing.
+< basic.in:4:0:0-83:I suppose for something like that one would use a very large number of microphones.
+< basic.in:5:0:0-14:Extraordinary.
+< basic.in:6:0:0-16:Take California.
+< basic.in:7:0:0-38:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< basic.in:8:0:0-44:They are micro, mega, mini, mono, and multi.
+246c117
+< Exit status 0.
+---
+> Exit status 53.
+248,254d118
+< (standard input):2:0:0-13:Foo bar quux.
+< (standard input):3:0:0-52:Let's hear an example of correct microphone placing.
+< (standard input):4:0:0-83:I suppose for something like that one would use a very large number of microphones.
+< (standard input):5:0:0-14:Extraordinary.
+< (standard input):6:0:0-16:Take California.
+< (standard input):7:0:0-38:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+< (standard input):8:0:0-44:They are micro, mega, mini, mono, and multi.
+256c120
+< Exit status 0.
+---
+> Exit status 53.
+258d121
+< Extraordinary.
+260c123
+< Exit status 0.
+---
+> Exit status 53.
+262d124
+< Extraordinary.
+264c126
+< Exit status 0.
+---
+> Exit status 53.
+266d127
+< 1
+268c129
+< Exit status 0.
+---
+> Exit status 53.
+270d130
+< 1
+272c132
+< Exit status 0.
+---
+> Exit status 53.
+274d133
+< basic.in:Extraordinary.
+276c135
+< Exit status 0.
+---
+> Exit status 53.
+278d136
+< (standard input):Extraordinary.
+280c138
+< Exit status 0.
+---
+> Exit status 53.
+282d139
+< basic.in
+284c141
+< Exit status 0.
+---
+> Exit status 53.
+286d142
+< (standard input)
+288c144
+< Exit status 0.
+---
+> Exit status 53.
+290d145
+< 5:Extraordinary.
+292c147
+< Exit status 0.
+---
+> Exit status 53.
+294d148
+< 5:Extraordinary.
+296c150
+< Exit status 0.
+---
+> Exit status 53.
+298d151
+< 0:Extraordinary.
+300c153
+< Exit status 0.
+---
+> Exit status 53.
+302d154
+< 0:Extraordinary.
+304c156
+< Exit status 0.
+---
+> Exit status 53.
+306d157
+< Extraordinary.
+308c159
+< Exit status 0.
+---
+> Exit status 53.
+310d160
+< Extraordinary.
+312c162
+< Exit status 0.
+---
+> Exit status 53.
+314d163
+< 0-5:Extraordinary.
+316c165
+< Exit status 0.
+---
+> Exit status 53.
+318d166
+< 0-5:Extraordinary.
+320c168
+< Exit status 0.
+---
+> Exit status 53.
+322d169
+< [01;31mExtra[00mordinary.
+324c171
+< Exit status 0.
+---
+> Exit status 53.
+326d172
+< [01;31mExtra[00mordinary.
+328c174
+< Exit status 0.
+---
+> Exit status 53.
+330d175
+< basic.in:5:0:0-5:[01;31mExtra[00mordinary.
+332c177
+< Exit status 0.
+---
+> Exit status 53.
+334d178
+< (standard input):5:0:0-5:[01;31mExtra[00mordinary.
+336c180
+< Exit status 0.
+---
+> Exit status 53.
+338d181
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+340c183
+< Exit status 0.
+---
+> Exit status 53.
+342d184
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+344c186
+< Exit status 0.
+---
+> Exit status 53.
+346d187
+< 1
+348c189
+< Exit status 0.
+---
+> Exit status 53.
+350d190
+< 1
+352c192
+< Exit status 0.
+---
+> Exit status 53.
+354d193
+< basic.in:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+356c195
+< Exit status 0.
+---
+> Exit status 53.
+358d196
+< (standard input):A-ding-ing-ng-WROOOOM-ding-ding-boing!
+360c198
+< Exit status 0.
+---
+> Exit status 53.
+362d199
+< basic.in
+364c201
+< Exit status 0.
+---
+> Exit status 53.
+366d202
+< (standard input)
+368c204
+< Exit status 0.
+---
+> Exit status 53.
+370d205
+< 7:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+372c207
+< Exit status 0.
+---
+> Exit status 53.
+374d208
+< 7:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+376c210
+< Exit status 0.
+---
+> Exit status 53.
+378d211
+< 0:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+380c213
+< Exit status 0.
+---
+> Exit status 53.
+382d214
+< 0:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+384c216
+< Exit status 0.
+---
+> Exit status 53.
+386d217
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+388c219
+< Exit status 0.
+---
+> Exit status 53.
+390d220
+< A-ding-ing-ng-WROOOOM-ding-ding-boing!
+392c222
+< Exit status 0.
+---
+> Exit status 53.
+394d223
+< 1-6:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+396c225
+< Exit status 0.
+---
+> Exit status 53.
+398d226
+< 1-6:A-ding-ing-ng-WROOOOM-ding-ding-boing!
+400c228
+< Exit status 0.
+---
+> Exit status 53.
+402d229
+< A[01;31m-ding[00m-ing-ng-WROOOOM-ding-ding-boing!
+404c231
+< Exit status 0.
+---
+> Exit status 53.
+406d232
+< A[01;31m-ding[00m-ing-ng-WROOOOM-ding-ding-boing!
+408c234
+< Exit status 0.
+---
+> Exit status 53.
+410d235
+< basic.in:7:0:1-6:A[01;31m-ding[00m-ing-ng-WROOOOM-ding-ding-boing!
+412c237
+< Exit status 0.
+---
+> Exit status 53.
+414d238
+< (standard input):7:0:1-6:A[01;31m-ding[00m-ing-ng-WROOOOM-ding-ding-boing!
+416c240
+< Exit status 0.
+---
+> Exit status 53.
+418d241
+< They are micro, mega, mini, mono, and multi.
+420c243
+< Exit status 0.
+---
+> Exit status 53.
+422d244
+< They are micro, mega, mini, mono, and multi.
+424c246
+< Exit status 0.
+---
+> Exit status 53.
+426d247
+< 1
+428c249
+< Exit status 0.
+---
+> Exit status 53.
+430d250
+< 1
+432c252
+< Exit status 0.
+---
+> Exit status 53.
+434d253
+< basic.in:They are micro, mega, mini, mono, and multi.
+436c255
+< Exit status 0.
+---
+> Exit status 53.
+438d256
+< (standard input):They are micro, mega, mini, mono, and multi.
+440c258
+< Exit status 0.
+---
+> Exit status 53.
+442d259
+< basic.in
+444c261
+< Exit status 0.
+---
+> Exit status 53.
+446d262
+< (standard input)
+448c264
+< Exit status 0.
+---
+> Exit status 53.
+450d265
+< 8:They are micro, mega, mini, mono, and multi.
+452c267
+< Exit status 0.
+---
+> Exit status 53.
+454d268
+< 8:They are micro, mega, mini, mono, and multi.
+456c270
+< Exit status 0.
+---
+> Exit status 53.
+458d271
+< 0:They are micro, mega, mini, mono, and multi.
+460c273
+< Exit status 0.
+---
+> Exit status 53.
+462d274
+< 0:They are micro, mega, mini, mono, and multi.
+464c276
+< Exit status 0.
+---
+> Exit status 53.
+466d277
+< They are micro, mega, mini, mono, and multi.
+468c279
+< Exit status 0.
+---
+> Exit status 53.
+470d280
+< They are micro, mega, mini, mono, and multi.
+472c282
+< Exit status 0.
+---
+> Exit status 53.
+474d283
+< 9-14:They are micro, mega, mini, mono, and multi.
+476c285
+< Exit status 0.
+---
+> Exit status 53.
+478d286
+< 9-14:They are micro, mega, mini, mono, and multi.
+480c288
+< Exit status 0.
+---
+> Exit status 53.
+482d289
+< They are [01;31mmicro[00m, mega, mini, mono, and multi.
+484c291
+< Exit status 0.
+---
+> Exit status 53.
+486d292
+< They are [01;31mmicro[00m, mega, mini, mono, and multi.
+488c294
+< Exit status 0.
+---
+> Exit status 53.
+490d295
+< basic.in:8:0:9-14:They are [01;31mmicro[00m, mega, mini, mono, and multi.
+492c297
+< Exit status 0.
+---
+> Exit status 53.
+494d298
+< (standard input):8:0:9-14:They are [01;31mmicro[00m, mega, mini, mono, and multi.
+496c300
+< Exit status 0.
+---
+> Exit status 53.
+FAILED (see above)
+agrep  ^foobar$ delimiters.in
+agrep  ^foobar$ < delimiters.in
+agrep -c ^foobar$ delimiters.in
+agrep -c ^foobar$ < delimiters.in
+agrep -H ^foobar$ delimiters.in
+agrep -H ^foobar$ < delimiters.in
+agrep -l ^foobar$ delimiters.in
+agrep -l ^foobar$ < delimiters.in
+agrep -n ^foobar$ delimiters.in
+agrep -n ^foobar$ < delimiters.in
+agrep -s ^foobar$ delimiters.in
+agrep -s ^foobar$ < delimiters.in
+agrep -M ^foobar$ delimiters.in
+agrep -M ^foobar$ < delimiters.in
+agrep --show-position ^foobar$ delimiters.in
+agrep --show-position ^foobar$ < delimiters.in
+agrep --color ^foobar$ delimiters.in
+agrep --color ^foobar$ < delimiters.in
+agrep -H -n -s --color --show-position ^foobar$ delimiters.in
+agrep -H -n -s --color --show-position ^foobar$ < delimiters.in
+agrep  foobar$ delimiters.in
+agrep  foobar$ < delimiters.in
+agrep -c foobar$ delimiters.in
+agrep -c foobar$ < delimiters.in
+agrep -H foobar$ delimiters.in
+agrep -H foobar$ < delimiters.in
+agrep -l foobar$ delimiters.in
+agrep -l foobar$ < delimiters.in
+agrep -n foobar$ delimiters.in
+agrep -n foobar$ < delimiters.in
+agrep -s foobar$ delimiters.in
+agrep -s foobar$ < delimiters.in
+agrep -M foobar$ delimiters.in
+agrep -M foobar$ < delimiters.in
+agrep --show-position foobar$ delimiters.in
+agrep --show-position foobar$ < delimiters.in
+agrep --color foobar$ delimiters.in
+agrep --color foobar$ < delimiters.in
+agrep -H -n -s --color --show-position foobar$ delimiters.in
+agrep -H -n -s --color --show-position foobar$ < delimiters.in
+agrep  ^foobar delimiters.in
+agrep  ^foobar < delimiters.in
+agrep -c ^foobar delimiters.in
+agrep -c ^foobar < delimiters.in
+agrep -H ^foobar delimiters.in
+agrep -H ^foobar < delimiters.in
+agrep -l ^foobar delimiters.in
+agrep -l ^foobar < delimiters.in
+agrep -n ^foobar delimiters.in
+agrep -n ^foobar < delimiters.in
+agrep -s ^foobar delimiters.in
+agrep -s ^foobar < delimiters.in
+agrep -M ^foobar delimiters.in
+agrep -M ^foobar < delimiters.in
+agrep --show-position ^foobar delimiters.in
+agrep --show-position ^foobar < delimiters.in
+agrep --color ^foobar delimiters.in
+agrep --color ^foobar < delimiters.in
+agrep -H -n -s --color --show-position ^foobar delimiters.in
+agrep -H -n -s --color --show-position ^foobar < delimiters.in
+agrep  foobar delimiters.in
+agrep  foobar < delimiters.in
+agrep -c foobar delimiters.in
+agrep -c foobar < delimiters.in
+agrep -H foobar delimiters.in
+agrep -H foobar < delimiters.in
+agrep -l foobar delimiters.in
+agrep -l foobar < delimiters.in
+agrep -n foobar delimiters.in
+agrep -n foobar < delimiters.in
+agrep -s foobar delimiters.in
+agrep -s foobar < delimiters.in
+agrep -M foobar delimiters.in
+agrep -M foobar < delimiters.in
+agrep --show-position foobar delimiters.in
+agrep --show-position foobar < delimiters.in
+agrep --color foobar delimiters.in
+agrep --color foobar < delimiters.in
+agrep -H -n -s --color --show-position foobar delimiters.in
+agrep -H -n -s --color --show-position foobar < delimiters.in
+agrep  -d X ^xyzzy$ delimiters.in
+agrep  -d X ^xyzzy$ < delimiters.in
+agrep -c -d X ^xyzzy$ delimiters.in
+agrep -c -d X ^xyzzy$ < delimiters.in
+agrep -H -d X ^xyzzy$ delimiters.in
+agrep -H -d X ^xyzzy$ < delimiters.in
+agrep -l -d X ^xyzzy$ delimiters.in
+agrep -l -d X ^xyzzy$ < delimiters.in
+agrep -n -d X ^xyzzy$ delimiters.in
+agrep -n -d X ^xyzzy$ < delimiters.in
+agrep -s -d X ^xyzzy$ delimiters.in
+agrep -s -d X ^xyzzy$ < delimiters.in
+agrep -M -d X ^xyzzy$ delimiters.in
+agrep -M -d X ^xyzzy$ < delimiters.in
+agrep --show-position -d X ^xyzzy$ delimiters.in
+agrep --show-position -d X ^xyzzy$ < delimiters.in
+agrep --color -d X ^xyzzy$ delimiters.in
+agrep --color -d X ^xyzzy$ < delimiters.in
+agrep -H -n -s --color --show-position -d X ^xyzzy$ delimiters.in
+agrep -H -n -s --color --show-position -d X ^xyzzy$ < delimiters.in
+agrep  -d X -M ^xyzzy$ delimiters.in
+agrep  -d X -M ^xyzzy$ < delimiters.in
+agrep -c -d X -M ^xyzzy$ delimiters.in
+agrep -c -d X -M ^xyzzy$ < delimiters.in
+agrep -H -d X -M ^xyzzy$ delimiters.in
+agrep -H -d X -M ^xyzzy$ < delimiters.in
+agrep -l -d X -M ^xyzzy$ delimiters.in
+agrep -l -d X -M ^xyzzy$ < delimiters.in
+agrep -n -d X -M ^xyzzy$ delimiters.in
+agrep -n -d X -M ^xyzzy$ < delimiters.in
+agrep -s -d X -M ^xyzzy$ delimiters.in
+agrep -s -d X -M ^xyzzy$ < delimiters.in
+agrep -M -d X -M ^xyzzy$ delimiters.in
+agrep -M -d X -M ^xyzzy$ < delimiters.in
+agrep --show-position -d X -M ^xyzzy$ delimiters.in
+agrep --show-position -d X -M ^xyzzy$ < delimiters.in
+agrep --color -d X -M ^xyzzy$ delimiters.in
+agrep --color -d X -M ^xyzzy$ < delimiters.in
+agrep -H -n -s --color --show-position -d X -M ^xyzzy$ delimiters.in
+agrep -H -n -s --color --show-position -d X -M ^xyzzy$ < delimiters.in
+2d1
+< foobar
+4c3
+< Exit status 0.
+---
+> Exit status 53.
+6d4
+< foobar
+8c6
+< Exit status 0.
+---
+> Exit status 53.
+10d7
+< 1
+12c9
+< Exit status 0.
+---
+> Exit status 53.
+14d10
+< 1
+16c12
+< Exit status 0.
+---
+> Exit status 53.
+18d13
+< delimiters.in:foobar
+20c15
+< Exit status 0.
+---
+> Exit status 53.
+22d16
+< (standard input):foobar
+24c18
+< Exit status 0.
+---
+> Exit status 53.
+26d19
+< delimiters.in
+28c21
+< Exit status 0.
+---
+> Exit status 53.
+30d22
+< (standard input)
+32c24
+< Exit status 0.
+---
+> Exit status 53.
+34d25
+< 4:foobar
+36c27
+< Exit status 0.
+---
+> Exit status 53.
+38d28
+< 4:foobar
+40c30
+< Exit status 0.
+---
+> Exit status 53.
+42d31
+< 0:foobar
+44c33
+< Exit status 0.
+---
+> Exit status 53.
+46d34
+< 0:foobar
+48c36
+< Exit status 0.
+---
+> Exit status 53.
+50d37
+< foobar
+52c39
+< Exit status 0.
+---
+> Exit status 53.
+54d40
+< foobar
+56c42
+< Exit status 0.
+---
+> Exit status 53.
+58d43
+< 0-6:foobar
+60c45
+< Exit status 0.
+---
+> Exit status 53.
+62d46
+< 0-6:foobar
+64c48
+< Exit status 0.
+---
+> Exit status 53.
+66d49
+< [01;31mfoobar[00m
+68c51
+< Exit status 0.
+---
+> Exit status 53.
+70d52
+< [01;31mfoobar[00m
+72c54
+< Exit status 0.
+---
+> Exit status 53.
+74d55
+< delimiters.in:4:0:0-6:[01;31mfoobar[00m
+76c57
+< Exit status 0.
+---
+> Exit status 53.
+78d58
+< (standard input):4:0:0-6:[01;31mfoobar[00m
+80c60
+< Exit status 0.
+---
+> Exit status 53.
+82,83d61
+< xfoobar
+< foobar
+85c63
+< Exit status 0.
+---
+> Exit status 53.
+87,88d64
+< xfoobar
+< foobar
+90c66
+< Exit status 0.
+---
+> Exit status 53.
+92d67
+< 2
+94c69
+< Exit status 0.
+---
+> Exit status 53.
+96d70
+< 2
+98c72
+< Exit status 0.
+---
+> Exit status 53.
+100,101d73
+< delimiters.in:xfoobar
+< delimiters.in:foobar
+103c75
+< Exit status 0.
+---
+> Exit status 53.
+105,106d76
+< (standard input):xfoobar
+< (standard input):foobar
+108c78
+< Exit status 0.
+---
+> Exit status 53.
+110d79
+< delimiters.in
+112c81
+< Exit status 0.
+---
+> Exit status 53.
+114d82
+< (standard input)
+116c84
+< Exit status 0.
+---
+> Exit status 53.
+118,119d85
+< 2:xfoobar
+< 4:foobar
+121c87
+< Exit status 0.
+---
+> Exit status 53.
+123,124d88
+< 2:xfoobar
+< 4:foobar
+126c90
+< Exit status 0.
+---
+> Exit status 53.
+128,129d91
+< 0:xfoobar
+< 0:foobar
+131c93
+< Exit status 0.
+---
+> Exit status 53.
+133,134d94
+< 0:xfoobar
+< 0:foobar
+136c96
+< Exit status 0.
+---
+> Exit status 53.
+138,139d97
+< xfoobar
+< foobar
+141c99
+< Exit status 0.
+---
+> Exit status 53.
+143,144d100
+< xfoobar
+< foobar
+146c102
+< Exit status 0.
+---
+> Exit status 53.
+148,149d103
+< 1-7:xfoobar
+< 0-6:foobar
+151c105
+< Exit status 0.
+---
+> Exit status 53.
+153,154d106
+< 1-7:xfoobar
+< 0-6:foobar
+156c108
+< Exit status 0.
+---
+> Exit status 53.
+158,159d109
+< x[01;31mfoobar[00m
+< [01;31mfoobar[00m
+161c111
+< Exit status 0.
+---
+> Exit status 53.
+163,164d112
+< x[01;31mfoobar[00m
+< [01;31mfoobar[00m
+166c114
+< Exit status 0.
+---
+> Exit status 53.
+168,169d115
+< delimiters.in:2:0:1-7:x[01;31mfoobar[00m
+< delimiters.in:4:0:0-6:[01;31mfoobar[00m
+171c117
+< Exit status 0.
+---
+> Exit status 53.
+173,174d118
+< (standard input):2:0:1-7:x[01;31mfoobar[00m
+< (standard input):4:0:0-6:[01;31mfoobar[00m
+176c120
+< Exit status 0.
+---
+> Exit status 53.
+178,179d121
+< foobarx
+< foobar
+181c123
+< Exit status 0.
+---
+> Exit status 53.
+183,184d124
+< foobarx
+< foobar
+186c126
+< Exit status 0.
+---
+> Exit status 53.
+188d127
+< 2
+190c129
+< Exit status 0.
+---
+> Exit status 53.
+192d130
+< 2
+194c132
+< Exit status 0.
+---
+> Exit status 53.
+196,197d133
+< delimiters.in:foobarx
+< delimiters.in:foobar
+199c135
+< Exit status 0.
+---
+> Exit status 53.
+201,202d136
+< (standard input):foobarx
+< (standard input):foobar
+204c138
+< Exit status 0.
+---
+> Exit status 53.
+206d139
+< delimiters.in
+208c141
+< Exit status 0.
+---
+> Exit status 53.
+210d142
+< (standard input)
+212c144
+< Exit status 0.
+---
+> Exit status 53.
+214,215d145
+< 3:foobarx
+< 4:foobar
+217c147
+< Exit status 0.
+---
+> Exit status 53.
+219,220d148
+< 3:foobarx
+< 4:foobar
+222c150
+< Exit status 0.
+---
+> Exit status 53.
+224,225d151
+< 0:foobarx
+< 0:foobar
+227c153
+< Exit status 0.
+---
+> Exit status 53.
+229,230d154
+< 0:foobarx
+< 0:foobar
+232c156
+< Exit status 0.
+---
+> Exit status 53.
+234,235d157
+< foobarx
+< foobar
+237c159
+< Exit status 0.
+---
+> Exit status 53.
+239,240d160
+< foobarx
+< foobar
+242c162
+< Exit status 0.
+---
+> Exit status 53.
+244,245d163
+< 0-6:foobarx
+< 0-6:foobar
+247c165
+< Exit status 0.
+---
+> Exit status 53.
+249,250d166
+< 0-6:foobarx
+< 0-6:foobar
+252c168
+< Exit status 0.
+---
+> Exit status 53.
+254,255d169
+< [01;31mfoobar[00mx
+< [01;31mfoobar[00m
+257c171
+< Exit status 0.
+---
+> Exit status 53.
+259,260d172
+< [01;31mfoobar[00mx
+< [01;31mfoobar[00m
+262c174
+< Exit status 0.
+---
+> Exit status 53.
+264,265d175
+< delimiters.in:3:0:0-6:[01;31mfoobar[00mx
+< delimiters.in:4:0:0-6:[01;31mfoobar[00m
+267c177
+< Exit status 0.
+---
+> Exit status 53.
+269,270d178
+< (standard input):3:0:0-6:[01;31mfoobar[00mx
+< (standard input):4:0:0-6:[01;31mfoobar[00m
+272c180
+< Exit status 0.
+---
+> Exit status 53.
+274,277d181
+< xfoobarx
+< xfoobar
+< foobarx
+< foobar
+279c183
+< Exit status 0.
+---
+> Exit status 53.
+281,284d184
+< xfoobarx
+< xfoobar
+< foobarx
+< foobar
+286c186
+< Exit status 0.
+---
+> Exit status 53.
+288d187
+< 4
+290c189
+< Exit status 0.
+---
+> Exit status 53.
+292d190
+< 4
+294c192
+< Exit status 0.
+---
+> Exit status 53.
+296,299d193
+< delimiters.in:xfoobarx
+< delimiters.in:xfoobar
+< delimiters.in:foobarx
+< delimiters.in:foobar
+301c195
+< Exit status 0.
+---
+> Exit status 53.
+303,306d196
+< (standard input):xfoobarx
+< (standard input):xfoobar
+< (standard input):foobarx
+< (standard input):foobar
+308c198
+< Exit status 0.
+---
+> Exit status 53.
+310d199
+< delimiters.in
+312c201
+< Exit status 0.
+---
+> Exit status 53.
+314d202
+< (standard input)
+316c204
+< Exit status 0.
+---
+> Exit status 53.
+318,321d205
+< 1:xfoobarx
+< 2:xfoobar
+< 3:foobarx
+< 4:foobar
+323c207
+< Exit status 0.
+---
+> Exit status 53.
+325,328d208
+< 1:xfoobarx
+< 2:xfoobar
+< 3:foobarx
+< 4:foobar
+330c210
+< Exit status 0.
+---
+> Exit status 53.
+332,335d211
+< 0:xfoobarx
+< 0:xfoobar
+< 0:foobarx
+< 0:foobar
+337c213
+< Exit status 0.
+---
+> Exit status 53.
+339,342d214
+< 0:xfoobarx
+< 0:xfoobar
+< 0:foobarx
+< 0:foobar
+344c216
+< Exit status 0.
+---
+> Exit status 53.
+346,349d217
+< xfoobarx
+< xfoobar
+< foobarx
+< foobar
+351c219
+< Exit status 0.
+---
+> Exit status 53.
+353,356d220
+< xfoobarx
+< xfoobar
+< foobarx
+< foobar
+358c222
+< Exit status 0.
+---
+> Exit status 53.
+360,363d223
+< 1-7:xfoobarx
+< 1-7:xfoobar
+< 0-6:foobarx
+< 0-6:foobar
+365c225
+< Exit status 0.
+---
+> Exit status 53.
+367,370d226
+< 1-7:xfoobarx
+< 1-7:xfoobar
+< 0-6:foobarx
+< 0-6:foobar
+372c228
+< Exit status 0.
+---
+> Exit status 53.
+374,377d229
+< x[01;31mfoobar[00mx
+< x[01;31mfoobar[00m
+< [01;31mfoobar[00mx
+< [01;31mfoobar[00m
+379c231
+< Exit status 0.
+---
+> Exit status 53.
+381,384d232
+< x[01;31mfoobar[00mx
+< x[01;31mfoobar[00m
+< [01;31mfoobar[00mx
+< [01;31mfoobar[00m
+386c234
+< Exit status 0.
+---
+> Exit status 53.
+388,391d235
+< delimiters.in:1:0:1-7:x[01;31mfoobar[00mx
+< delimiters.in:2:0:1-7:x[01;31mfoobar[00m
+< delimiters.in:3:0:0-6:[01;31mfoobar[00mx
+< delimiters.in:4:0:0-6:[01;31mfoobar[00m
+393c237
+< Exit status 0.
+---
+> Exit status 53.
+395,398d238
+< (standard input):1:0:1-7:x[01;31mfoobar[00mx
+< (standard input):2:0:1-7:x[01;31mfoobar[00m
+< (standard input):3:0:0-6:[01;31mfoobar[00mx
+< (standard input):4:0:0-6:[01;31mfoobar[00m
+400c240
+< Exit status 0.
+---
+> Exit status 53.
+402,403c242,243
+< Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+405,406c245,246
+< Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+408d247
+< 1
+410c249
+< Exit status 0.
+---
+> Exit status 53.
+412d250
+< 1
+414c252
+< Exit status 0.
+---
+> Exit status 53.
+416,417c254,255
+< delimiters.in:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+419,420c257,258
+< (standard input):Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+422d259
+< delimiters.in
+424c261
+< Exit status 0.
+---
+> Exit status 53.
+426d262
+< (standard input)
+428c264
+< Exit status 0.
+---
+> Exit status 53.
+430,431c266,267
+< 3:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+433,434c269,270
+< 3:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+436,437c272,273
+< 0:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+439,440c275,276
+< 0:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+442,443c278,279
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+445,446c281,282
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+448,449c284,285
+< 0-5:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+451,452c287,288
+< 0-5:Xxyzzy
+< Exit status 0.
+---
+> 
+> Exit status 53.
+454,455c290,291
+< X[01;31mxyzzy[00m
+< Exit status 0.
+---
+> 
+> Exit status 53.
+457,458c293,294
+< X[01;31mxyzzy[00m
+< Exit status 0.
+---
+> 
+> Exit status 53.
+460,461c296,297
+< delimiters.in:3:0:0-5:X[01;31mxyzzy[00m
+< Exit status 0.
+---
+> 
+> Exit status 53.
+463,464c299,300
+< (standard input):3:0:0-5:X[01;31mxyzzy[00m
+< Exit status 0.
+---
+> 
+> Exit status 53.
+466,467c302,303
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+469,470c305,306
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+472d307
+< 1
+474c309
+< Exit status 0.
+---
+> Exit status 53.
+476d310
+< 1
+478c312
+< Exit status 0.
+---
+> Exit status 53.
+480,481c314,315
+< delimiters.in:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+483,484c317,318
+< (standard input):xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+486d319
+< delimiters.in
+488c321
+< Exit status 0.
+---
+> Exit status 53.
+490d322
+< (standard input)
+492c324
+< Exit status 0.
+---
+> Exit status 53.
+494,495c326,327
+< 3:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+497,498c329,330
+< 3:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+500,501c332,333
+< 0:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+503,504c335,336
+< 0:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+506,507c338,339
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+509,510c341,342
+< xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+512,513c344,345
+< 0-5:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+515,516c347,348
+< 0-5:xyzzyX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+518,519c350,351
+< [01;31mxyzzy[00mX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+521,522c353,354
+< [01;31mxyzzy[00mX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+524,525c356,357
+< delimiters.in:3:0:0-5:[01;31mxyzzy[00mX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+527,528c359,360
+< (standard input):3:0:0-5:[01;31mxyzzy[00mX
+< Exit status 0.
+---
+> 
+> Exit status 53.
+FAILED (see above)
+agrep  this-will-be-found exitstatus.in
+agrep  this-will-be-found < exitstatus.in
+agrep -c this-will-be-found exitstatus.in
+agrep -c this-will-be-found < exitstatus.in
+agrep -H this-will-be-found exitstatus.in
+agrep -H this-will-be-found < exitstatus.in
+agrep -l this-will-be-found exitstatus.in
+agrep -l this-will-be-found < exitstatus.in
+agrep -n this-will-be-found exitstatus.in
+agrep -n this-will-be-found < exitstatus.in
+agrep -s this-will-be-found exitstatus.in
+agrep -s this-will-be-found < exitstatus.in
+agrep -M this-will-be-found exitstatus.in
+agrep -M this-will-be-found < exitstatus.in
+agrep --show-position this-will-be-found exitstatus.in
+agrep --show-position this-will-be-found < exitstatus.in
+agrep --color this-will-be-found exitstatus.in
+agrep --color this-will-be-found < exitstatus.in
+agrep -H -n -s --color --show-position this-will-be-found exitstatus.in
+agrep -H -n -s --color --show-position this-will-be-found < exitstatus.in
+agrep  -v this-will-be-found exitstatus.in
+agrep  -v this-will-be-found < exitstatus.in
+agrep -c -v this-will-be-found exitstatus.in
+agrep -c -v this-will-be-found < exitstatus.in
+agrep -H -v this-will-be-found exitstatus.in
+agrep -H -v this-will-be-found < exitstatus.in
+agrep -l -v this-will-be-found exitstatus.in
+agrep -l -v this-will-be-found < exitstatus.in
+agrep -n -v this-will-be-found exitstatus.in
+agrep -n -v this-will-be-found < exitstatus.in
+agrep -s -v this-will-be-found exitstatus.in
+agrep -s -v this-will-be-found < exitstatus.in
+agrep -M -v this-will-be-found exitstatus.in
+agrep -M -v this-will-be-found < exitstatus.in
+agrep --show-position -v this-will-be-found exitstatus.in
+agrep --show-position -v this-will-be-found < exitstatus.in
+agrep --color -v this-will-be-found exitstatus.in
+agrep --color -v this-will-be-found < exitstatus.in
+agrep -H -n -s --color --show-position -v this-will-be-found exitstatus.in
+agrep -H -n -s --color --show-position -v this-will-be-found < exitstatus.in
+agrep  this-wont-be-found exitstatus.in
+agrep  this-wont-be-found < exitstatus.in
+agrep -c this-wont-be-found exitstatus.in
+agrep -c this-wont-be-found < exitstatus.in
+agrep -H this-wont-be-found exitstatus.in
+agrep -H this-wont-be-found < exitstatus.in
+agrep -l this-wont-be-found exitstatus.in
+agrep -l this-wont-be-found < exitstatus.in
+agrep -n this-wont-be-found exitstatus.in
+agrep -n this-wont-be-found < exitstatus.in
+agrep -s this-wont-be-found exitstatus.in
+agrep -s this-wont-be-found < exitstatus.in
+agrep -M this-wont-be-found exitstatus.in
+agrep -M this-wont-be-found < exitstatus.in
+agrep --show-position this-wont-be-found exitstatus.in
+agrep --show-position this-wont-be-found < exitstatus.in
+agrep --color this-wont-be-found exitstatus.in
+agrep --color this-wont-be-found < exitstatus.in
+agrep -H -n -s --color --show-position this-wont-be-found exitstatus.in
+agrep -H -n -s --color --show-position this-wont-be-found < exitstatus.in
+agrep  -v this-wont-be-found exitstatus.in
+agrep  -v this-wont-be-found < exitstatus.in
+agrep -c -v this-wont-be-found exitstatus.in
+agrep -c -v this-wont-be-found < exitstatus.in
+agrep -H -v this-wont-be-found exitstatus.in
+agrep -H -v this-wont-be-found < exitstatus.in
+agrep -l -v this-wont-be-found exitstatus.in
+agrep -l -v this-wont-be-found < exitstatus.in
+agrep -n -v this-wont-be-found exitstatus.in
+agrep -n -v this-wont-be-found < exitstatus.in
+agrep -s -v this-wont-be-found exitstatus.in
+agrep -s -v this-wont-be-found < exitstatus.in
+agrep -M -v this-wont-be-found exitstatus.in
+agrep -M -v this-wont-be-found < exitstatus.in
+agrep --show-position -v this-wont-be-found exitstatus.in
+agrep --show-position -v this-wont-be-found < exitstatus.in
+agrep --color -v this-wont-be-found exitstatus.in
+agrep --color -v this-wont-be-found < exitstatus.in
+agrep -H -n -s --color --show-position -v this-wont-be-found exitstatus.in
+agrep -H -n -s --color --show-position -v this-wont-be-found < exitstatus.in
+agrep  . exitstatus.in
+agrep  . < exitstatus.in
+agrep -c . exitstatus.in
+agrep -c . < exitstatus.in
+agrep -H . exitstatus.in
+agrep -H . < exitstatus.in
+agrep -l . exitstatus.in
+agrep -l . < exitstatus.in
+agrep -n . exitstatus.in
+agrep -n . < exitstatus.in
+agrep -s . exitstatus.in
+agrep -s . < exitstatus.in
+agrep -M . exitstatus.in
+agrep -M . < exitstatus.in
+agrep --show-position . exitstatus.in
+agrep --show-position . < exitstatus.in
+agrep --color . exitstatus.in
+agrep --color . < exitstatus.in
+agrep -H -n -s --color --show-position . exitstatus.in
+agrep -H -n -s --color --show-position . < exitstatus.in
+agrep  -v . exitstatus.in
+agrep  -v . < exitstatus.in
+agrep -c -v . exitstatus.in
+agrep -c -v . < exitstatus.in
+agrep -H -v . exitstatus.in
+agrep -H -v . < exitstatus.in
+agrep -l -v . exitstatus.in
+agrep -l -v . < exitstatus.in
+agrep -n -v . exitstatus.in
+agrep -n -v . < exitstatus.in
+agrep -s -v . exitstatus.in
+agrep -s -v . < exitstatus.in
+agrep -M -v . exitstatus.in
+agrep -M -v . < exitstatus.in
+agrep --show-position -v . exitstatus.in
+agrep --show-position -v . < exitstatus.in
+agrep --color -v . exitstatus.in
+agrep --color -v . < exitstatus.in
+agrep -H -n -s --color --show-position -v . exitstatus.in
+agrep -H -n -s --color --show-position -v . < exitstatus.in
+agrep  -d .* dummy exitstatus.in
+agrep  -d .* dummy < exitstatus.in
+agrep -c -d .* dummy exitstatus.in
+agrep -c -d .* dummy < exitstatus.in
+agrep -H -d .* dummy exitstatus.in
+agrep -H -d .* dummy < exitstatus.in
+agrep -l -d .* dummy exitstatus.in
+agrep -l -d .* dummy < exitstatus.in
+agrep -n -d .* dummy exitstatus.in
+agrep -n -d .* dummy < exitstatus.in
+agrep -s -d .* dummy exitstatus.in
+agrep -s -d .* dummy < exitstatus.in
+agrep -M -d .* dummy exitstatus.in
+agrep -M -d .* dummy < exitstatus.in
+agrep --show-position -d .* dummy exitstatus.in
+agrep --show-position -d .* dummy < exitstatus.in
+agrep --color -d .* dummy exitstatus.in
+agrep --color -d .* dummy < exitstatus.in
+agrep -H -n -s --color --show-position -d .* dummy exitstatus.in
+agrep -H -n -s --color --show-position -d .* dummy < exitstatus.in
+agrep  -d {1 dummy exitstatus.in
+agrep  -d {1 dummy < exitstatus.in
+agrep -c -d {1 dummy exitstatus.in
+agrep -c -d {1 dummy < exitstatus.in
+agrep -H -d {1 dummy exitstatus.in
+agrep -H -d {1 dummy < exitstatus.in
+agrep -l -d {1 dummy exitstatus.in
+agrep -l -d {1 dummy < exitstatus.in
+agrep -n -d {1 dummy exitstatus.in
+agrep -n -d {1 dummy < exitstatus.in
+agrep -s -d {1 dummy exitstatus.in
+agrep -s -d {1 dummy < exitstatus.in
+agrep -M -d {1 dummy exitstatus.in
+agrep -M -d {1 dummy < exitstatus.in
+agrep --show-position -d {1 dummy exitstatus.in
+agrep --show-position -d {1 dummy < exitstatus.in
+agrep --color -d {1 dummy exitstatus.in
+agrep --color -d {1 dummy < exitstatus.in
+agrep -H -n -s --color --show-position -d {1 dummy exitstatus.in
+agrep -H -n -s --color --show-position -d {1 dummy < exitstatus.in
+agrep  \ exitstatus.in
+agrep  \ < exitstatus.in
+agrep -c \ exitstatus.in
+agrep -c \ < exitstatus.in
+agrep -H \ exitstatus.in
+agrep -H \ < exitstatus.in
+agrep -l \ exitstatus.in
+agrep -l \ < exitstatus.in
+agrep -n \ exitstatus.in
+agrep -n \ < exitstatus.in
+agrep -s \ exitstatus.in
+agrep -s \ < exitstatus.in
+agrep -M \ exitstatus.in
+agrep -M \ < exitstatus.in
+agrep --show-position \ exitstatus.in
+agrep --show-position \ < exitstatus.in
+agrep --color \ exitstatus.in
+agrep --color \ < exitstatus.in
+agrep -H -n -s --color --show-position \ exitstatus.in
+agrep -H -n -s --color --show-position \ < exitstatus.in
+2d1
+< this-will-be-found
+4c3
+< Exit status 0.
+---
+> Exit status 53.
+6d4
+< this-will-be-found
+8c6
+< Exit status 0.
+---
+> Exit status 53.
+10d7
+< 1
+12c9
+< Exit status 0.
+---
+> Exit status 53.
+14d10
+< 1
+16c12
+< Exit status 0.
+---
+> Exit status 53.
+18d13
+< exitstatus.in:this-will-be-found
+20c15
+< Exit status 0.
+---
+> Exit status 53.
+22d16
+< (standard input):this-will-be-found
+24c18
+< Exit status 0.
+---
+> Exit status 53.
+26d19
+< exitstatus.in
+28c21
+< Exit status 0.
+---
+> Exit status 53.
+30d22
+< (standard input)
+32c24
+< Exit status 0.
+---
+> Exit status 53.
+34d25
+< 1:this-will-be-found
+36c27
+< Exit status 0.
+---
+> Exit status 53.
+38d28
+< 1:this-will-be-found
+40c30
+< Exit status 0.
+---
+> Exit status 53.
+42d31
+< 0:this-will-be-found
+44c33
+< Exit status 0.
+---
+> Exit status 53.
+46d34
+< 0:this-will-be-found
+48c36
+< Exit status 0.
+---
+> Exit status 53.
+50d37
+< this-will-be-found
+52c39
+< Exit status 0.
+---
+> Exit status 53.
+54d40
+< this-will-be-found
+56c42
+< Exit status 0.
+---
+> Exit status 53.
+58d43
+< 0-18:this-will-be-found
+60c45
+< Exit status 0.
+---
+> Exit status 53.
+62d46
+< 0-18:this-will-be-found
+64c48
+< Exit status 0.
+---
+> Exit status 53.
+66d49
+< [01;31mthis-will-be-found[00m
+68c51
+< Exit status 0.
+---
+> Exit status 53.
+70d52
+< [01;31mthis-will-be-found[00m
+72c54
+< Exit status 0.
+---
+> Exit status 53.
+74d55
+< exitstatus.in:1:0:0-18:[01;31mthis-will-be-found[00m
+76c57
+< Exit status 0.
+---
+> Exit status 53.
+78d58
+< (standard input):1:0:0-18:[01;31mthis-will-be-found[00m
+80c60
+< Exit status 0.
+---
+> Exit status 53.
+82,83d61
+< so will this
+< just some stuff
+85c63
+< Exit status 0.
+---
+> Exit status 53.
+87,88d64
+< so will this
+< just some stuff
+90c66
+< Exit status 0.
+---
+> Exit status 53.
+92d67
+< 2
+94c69
+< Exit status 0.
+---
+> Exit status 53.
+96d70
+< 2
+98c72
+< Exit status 0.
+---
+> Exit status 53.
+100,101d73
+< exitstatus.in:so will this
+< exitstatus.in:just some stuff
+103c75
+< Exit status 0.
+---
+> Exit status 53.
+105,106d76
+< (standard input):so will this
+< (standard input):just some stuff
+108c78
+< Exit status 0.
+---
+> Exit status 53.
+110d79
+< exitstatus.in
+112c81
+< Exit status 0.
+---
+> Exit status 53.
+114d82
+< (standard input)
+116c84
+< Exit status 0.
+---
+> Exit status 53.
+118,119d85
+< 2:so will this
+< 3:just some stuff
+121c87
+< Exit status 0.
+---
+> Exit status 53.
+123,124d88
+< 2:so will this
+< 3:just some stuff
+126c90
+< Exit status 0.
+---
+> Exit status 53.
+128,129d91
+< 0:so will this
+< 0:just some stuff
+131c93
+< Exit status 0.
+---
+> Exit status 53.
+133,134d94
+< 0:so will this
+< 0:just some stuff
+136c96
+< Exit status 0.
+---
+> Exit status 53.
+138,139d97
+< so will this
+< just some stuff
+141c99
+< Exit status 0.
+---
+> Exit status 53.
+143,144d100
+< so will this
+< just some stuff
+146c102
+< Exit status 0.
+---
+> Exit status 53.
+148,149d103
+< 0-12:so will this
+< 0-15:just some stuff
+151c105
+< Exit status 0.
+---
+> Exit status 53.
+153,154d106
+< 0-12:so will this
+< 0-15:just some stuff
+156c108
+< Exit status 0.
+---
+> Exit status 53.
+158,159d109
+< so will this
+< just some stuff
+161c111
+< Exit status 0.
+---
+> Exit status 53.
+163,164d112
+< so will this
+< just some stuff
+166c114
+< Exit status 0.
+---
+> Exit status 53.
+168,169d115
+< exitstatus.in:2:0:0-12:so will this
+< exitstatus.in:3:0:0-15:just some stuff
+171c117
+< Exit status 0.
+---
+> Exit status 53.
+173,174d118
+< (standard input):2:0:0-12:so will this
+< (standard input):3:0:0-15:just some stuff
+176c120
+< Exit status 0.
+---
+> Exit status 53.
+179c123
+< Exit status 1.
+---
+> Exit status 53.
+182c126
+< Exit status 1.
+---
+> Exit status 53.
+184d127
+< 0
+186c129
+< Exit status 1.
+---
+> Exit status 53.
+188d130
+< 0
+190c132
+< Exit status 1.
+---
+> Exit status 53.
+193c135
+< Exit status 1.
+---
+> Exit status 53.
+196c138
+< Exit status 1.
+---
+> Exit status 53.
+199c141
+< Exit status 1.
+---
+> Exit status 53.
+202c144
+< Exit status 1.
+---
+> Exit status 53.
+205c147
+< Exit status 1.
+---
+> Exit status 53.
+208c150
+< Exit status 1.
+---
+> Exit status 53.
+211c153
+< Exit status 1.
+---
+> Exit status 53.
+214c156
+< Exit status 1.
+---
+> Exit status 53.
+217c159
+< Exit status 1.
+---
+> Exit status 53.
+220c162
+< Exit status 1.
+---
+> Exit status 53.
+223c165
+< Exit status 1.
+---
+> Exit status 53.
+226c168
+< Exit status 1.
+---
+> Exit status 53.
+229c171
+< Exit status 1.
+---
+> Exit status 53.
+232c174
+< Exit status 1.
+---
+> Exit status 53.
+235c177
+< Exit status 1.
+---
+> Exit status 53.
+238c180
+< Exit status 1.
+---
+> Exit status 53.
+240,242d181
+< this-will-be-found
+< so will this
+< just some stuff
+244c183
+< Exit status 0.
+---
+> Exit status 53.
+246,248d184
+< this-will-be-found
+< so will this
+< just some stuff
+250c186
+< Exit status 0.
+---
+> Exit status 53.
+252d187
+< 3
+254c189
+< Exit status 0.
+---
+> Exit status 53.
+256d190
+< 3
+258c192
+< Exit status 0.
+---
+> Exit status 53.
+260,262d193
+< exitstatus.in:this-will-be-found
+< exitstatus.in:so will this
+< exitstatus.in:just some stuff
+264c195
+< Exit status 0.
+---
+> Exit status 53.
+266,268d196
+< (standard input):this-will-be-found
+< (standard input):so will this
+< (standard input):just some stuff
+270c198
+< Exit status 0.
+---
+> Exit status 53.
+272d199
+< exitstatus.in
+274c201
+< Exit status 0.
+---
+> Exit status 53.
+276d202
+< (standard input)
+278c204
+< Exit status 0.
+---
+> Exit status 53.
+280,282d205
+< 1:this-will-be-found
+< 2:so will this
+< 3:just some stuff
+284c207
+< Exit status 0.
+---
+> Exit status 53.
+286,288d208
+< 1:this-will-be-found
+< 2:so will this
+< 3:just some stuff
+290c210
+< Exit status 0.
+---
+> Exit status 53.
+292,294d211
+< 0:this-will-be-found
+< 0:so will this
+< 0:just some stuff
+296c213
+< Exit status 0.
+---
+> Exit status 53.
+298,300d214
+< 0:this-will-be-found
+< 0:so will this
+< 0:just some stuff
+302c216
+< Exit status 0.
+---
+> Exit status 53.
+304,306d217
+< this-will-be-found
+< so will this
+< just some stuff
+308c219
+< Exit status 0.
+---
+> Exit status 53.
+310,312d220
+< this-will-be-found
+< so will this
+< just some stuff
+314c222
+< Exit status 0.
+---
+> Exit status 53.
+316,318d223
+< 0-18:this-will-be-found
+< 0-12:so will this
+< 0-15:just some stuff
+320c225
+< Exit status 0.
+---
+> Exit status 53.
+322,324d226
+< 0-18:this-will-be-found
+< 0-12:so will this
+< 0-15:just some stuff
+326c228
+< Exit status 0.
+---
+> Exit status 53.
+328,330d229
+< this-will-be-found
+< so will this
+< just some stuff
+332c231
+< Exit status 0.
+---
+> Exit status 53.
+334,336d232
+< this-will-be-found
+< so will this
+< just some stuff
+338c234
+< Exit status 0.
+---
+> Exit status 53.
+340,342d235
+< exitstatus.in:1:0:0-18:this-will-be-found
+< exitstatus.in:2:0:0-12:so will this
+< exitstatus.in:3:0:0-15:just some stuff
+344c237
+< Exit status 0.
+---
+> Exit status 53.
+346,348d238
+< (standard input):1:0:0-18:this-will-be-found
+< (standard input):2:0:0-12:so will this
+< (standard input):3:0:0-15:just some stuff
+350c240
+< Exit status 0.
+---
+> Exit status 53.
+352,354d241
+< this-will-be-found
+< so will this
+< just some stuff
+356c243
+< Exit status 0.
+---
+> Exit status 53.
+358,360d244
+< this-will-be-found
+< so will this
+< just some stuff
+362c246
+< Exit status 0.
+---
+> Exit status 53.
+364d247
+< 3
+366c249
+< Exit status 0.
+---
+> Exit status 53.
+368d250
+< 3
+370c252
+< Exit status 0.
+---
+> Exit status 53.
+372,374d253
+< exitstatus.in:this-will-be-found
+< exitstatus.in:so will this
+< exitstatus.in:just some stuff
+376c255
+< Exit status 0.
+---
+> Exit status 53.
+378,380d256
+< (standard input):this-will-be-found
+< (standard input):so will this
+< (standard input):just some stuff
+382c258
+< Exit status 0.
+---
+> Exit status 53.
+384d259
+< exitstatus.in
+386c261
+< Exit status 0.
+---
+> Exit status 53.
+388d262
+< (standard input)
+390c264
+< Exit status 0.
+---
+> Exit status 53.
+392,394d265
+< 1:this-will-be-found
+< 2:so will this
+< 3:just some stuff
+396c267
+< Exit status 0.
+---
+> Exit status 53.
+398,400d268
+< 1:this-will-be-found
+< 2:so will this
+< 3:just some stuff
+402c270
+< Exit status 0.
+---
+> Exit status 53.
+404,406d271
+< 0:this-will-be-found
+< 0:so will this
+< 0:just some stuff
+408c273
+< Exit status 0.
+---
+> Exit status 53.
+410,412d274
+< 0:this-will-be-found
+< 0:so will this
+< 0:just some stuff
+414c276
+< Exit status 0.
+---
+> Exit status 53.
+416,418d277
+< this-will-be-found
+< so will this
+< just some stuff
+420c279
+< Exit status 0.
+---
+> Exit status 53.
+422,424d280
+< this-will-be-found
+< so will this
+< just some stuff
+426c282
+< Exit status 0.
+---
+> Exit status 53.
+428,430d283
+< 0-1:this-will-be-found
+< 0-1:so will this
+< 0-1:just some stuff
+432c285
+< Exit status 0.
+---
+> Exit status 53.
+434,436d286
+< 0-1:this-will-be-found
+< 0-1:so will this
+< 0-1:just some stuff
+438c288
+< Exit status 0.
+---
+> Exit status 53.
+440,442d289
+< [01;31mt[00mhis-will-be-found
+< [01;31ms[00mo will this
+< [01;31mj[00must some stuff
+444c291
+< Exit status 0.
+---
+> Exit status 53.
+446,448d292
+< [01;31mt[00mhis-will-be-found
+< [01;31ms[00mo will this
+< [01;31mj[00must some stuff
+450c294
+< Exit status 0.
+---
+> Exit status 53.
+452,454d295
+< exitstatus.in:1:0:0-1:[01;31mt[00mhis-will-be-found
+< exitstatus.in:2:0:0-1:[01;31ms[00mo will this
+< exitstatus.in:3:0:0-1:[01;31mj[00must some stuff
+456c297
+< Exit status 0.
+---
+> Exit status 53.
+458,460d298
+< (standard input):1:0:0-1:[01;31mt[00mhis-will-be-found
+< (standard input):2:0:0-1:[01;31ms[00mo will this
+< (standard input):3:0:0-1:[01;31mj[00must some stuff
+462c300
+< Exit status 0.
+---
+> Exit status 53.
+465c303
+< Exit status 1.
+---
+> Exit status 53.
+468c306
+< Exit status 1.
+---
+> Exit status 53.
+470d307
+< 0
+472c309
+< Exit status 1.
+---
+> Exit status 53.
+474d310
+< 0
+476c312
+< Exit status 1.
+---
+> Exit status 53.
+479c315
+< Exit status 1.
+---
+> Exit status 53.
+482c318
+< Exit status 1.
+---
+> Exit status 53.
+485c321
+< Exit status 1.
+---
+> Exit status 53.
+488c324
+< Exit status 1.
+---
+> Exit status 53.
+491c327
+< Exit status 1.
+---
+> Exit status 53.
+494c330
+< Exit status 1.
+---
+> Exit status 53.
+497c333
+< Exit status 1.
+---
+> Exit status 53.
+500c336
+< Exit status 1.
+---
+> Exit status 53.
+503c339
+< Exit status 1.
+---
+> Exit status 53.
+506c342
+< Exit status 1.
+---
+> Exit status 53.
+509c345
+< Exit status 1.
+---
+> Exit status 53.
+512c348
+< Exit status 1.
+---
+> Exit status 53.
+515c351
+< Exit status 1.
+---
+> Exit status 53.
+518c354
+< Exit status 1.
+---
+> Exit status 53.
+521c357
+< Exit status 1.
+---
+> Exit status 53.
+524c360
+< Exit status 1.
+---
+> Exit status 53.
+527c363
+< Exit status 1.
+---
+> Exit status 53.
+530c366
+< Exit status 1.
+---
+> Exit status 53.
+532d367
+< exitstatus.in:0
+534c369
+< Exit status 1.
+---
+> Exit status 53.
+537c372
+< Exit status 1.
+---
+> Exit status 53.
+540c375
+< Exit status 1.
+---
+> Exit status 53.
+543c378
+< Exit status 1.
+---
+> Exit status 53.
+546c381
+< Exit status 1.
+---
+> Exit status 53.
+549c384
+< Exit status 1.
+---
+> Exit status 53.
+552c387
+< Exit status 1.
+---
+> Exit status 53.
+555c390
+< Exit status 1.
+---
+> Exit status 53.
+558c393
+< Exit status 1.
+---
+> Exit status 53.
+561c396
+< Exit status 1.
+---
+> Exit status 53.
+564c399
+< Exit status 1.
+---
+> Exit status 53.
+567c402
+< Exit status 1.
+---
+> Exit status 53.
+570c405
+< Exit status 1.
+---
+> Exit status 53.
+573c408
+< Exit status 1.
+---
+> Exit status 53.
+576c411
+< Exit status 1.
+---
+> Exit status 53.
+579c414
+< Exit status 1.
+---
+> Exit status 53.
+582c417
+< Exit status 1.
+---
+> Exit status 53.
+585c420
+< Exit status 1.
+---
+> Exit status 53.
+588c423
+< Exit status 2.
+---
+> Exit status 53.
+591c426
+< Exit status 2.
+---
+> Exit status 53.
+594c429
+< Exit status 2.
+---
+> Exit status 53.
+597c432
+< Exit status 2.
+---
+> Exit status 53.
+600c435
+< Exit status 2.
+---
+> Exit status 53.
+603c438
+< Exit status 2.
+---
+> Exit status 53.
+606c441
+< Exit status 2.
+---
+> Exit status 53.
+609c444
+< Exit status 2.
+---
+> Exit status 53.
+612c447
+< Exit status 2.
+---
+> Exit status 53.
+615c450
+< Exit status 2.
+---
+> Exit status 53.
+618c453
+< Exit status 2.
+---
+> Exit status 53.
+621c456
+< Exit status 2.
+---
+> Exit status 53.
+624c459
+< Exit status 2.
+---
+> Exit status 53.
+627c462
+< Exit status 2.
+---
+> Exit status 53.
+630c465
+< Exit status 2.
+---
+> Exit status 53.
+633c468
+< Exit status 2.
+---
+> Exit status 53.
+636c471
+< Exit status 2.
+---
+> Exit status 53.
+639c474
+< Exit status 2.
+---
+> Exit status 53.
+642c477
+< Exit status 2.
+---
+> Exit status 53.
+645c480
+< Exit status 2.
+---
+> Exit status 53.
+648c483
+< Exit status 2.
+---
+> Exit status 53.
+651c486
+< Exit status 2.
+---
+> Exit status 53.
+654c489
+< Exit status 2.
+---
+> Exit status 53.
+657c492
+< Exit status 2.
+---
+> Exit status 53.
+660c495
+< Exit status 2.
+---
+> Exit status 53.
+663c498
+< Exit status 2.
+---
+> Exit status 53.
+666c501
+< Exit status 2.
+---
+> Exit status 53.
+669c504
+< Exit status 2.
+---
+> Exit status 53.
+672c507
+< Exit status 2.
+---
+> Exit status 53.
+675c510
+< Exit status 2.
+---
+> Exit status 53.
+678c513
+< Exit status 2.
+---
+> Exit status 53.
+681c516
+< Exit status 2.
+---
+> Exit status 53.
+684c519
+< Exit status 2.
+---
+> Exit status 53.
+687c522
+< Exit status 2.
+---
+> Exit status 53.
+690c525
+< Exit status 2.
+---
+> Exit status 53.
+693c528
+< Exit status 2.
+---
+> Exit status 53.
+696c531
+< Exit status 2.
+---
+> Exit status 53.
+699c534
+< Exit status 2.
+---
+> Exit status 53.
+702c537
+< Exit status 2.
+---
+> Exit status 53.
+705c540
+< Exit status 2.
+---
+> Exit status 53.
+FAILED (see above)
+agrep  -d \s+ a records.in
+agrep  -d \s+ a < records.in
+agrep -c -d \s+ a records.in
+agrep -c -d \s+ a < records.in
+agrep -H -d \s+ a records.in
+agrep -H -d \s+ a < records.in
+agrep -l -d \s+ a records.in
+agrep -l -d \s+ a < records.in
+agrep -n -d \s+ a records.in
+agrep -n -d \s+ a < records.in
+agrep -s -d \s+ a records.in
+agrep -s -d \s+ a < records.in
+agrep -M -d \s+ a records.in
+agrep -M -d \s+ a < records.in
+agrep --show-position -d \s+ a records.in
+agrep --show-position -d \s+ a < records.in
+agrep --color -d \s+ a records.in
+agrep --color -d \s+ a < records.in
+agrep -H -n -s --color --show-position -d \s+ a records.in
+agrep -H -n -s --color --show-position -d \s+ a < records.in
+agrep  -d \s+ [A-Z] records.in
+agrep  -d \s+ [A-Z] < records.in
+agrep -c -d \s+ [A-Z] records.in
+agrep -c -d \s+ [A-Z] < records.in
+agrep -H -d \s+ [A-Z] records.in
+agrep -H -d \s+ [A-Z] < records.in
+agrep -l -d \s+ [A-Z] records.in
+agrep -l -d \s+ [A-Z] < records.in
+agrep -n -d \s+ [A-Z] records.in
+agrep -n -d \s+ [A-Z] < records.in
+agrep -s -d \s+ [A-Z] records.in
+agrep -s -d \s+ [A-Z] < records.in
+agrep -M -d \s+ [A-Z] records.in
+agrep -M -d \s+ [A-Z] < records.in
+agrep --show-position -d \s+ [A-Z] records.in
+agrep --show-position -d \s+ [A-Z] < records.in
+agrep --color -d \s+ [A-Z] records.in
+agrep --color -d \s+ [A-Z] < records.in
+agrep -H -n -s --color --show-position -d \s+ [A-Z] records.in
+agrep -H -n -s --color --show-position -d \s+ [A-Z] < records.in
+agrep  -d \.\s+ -M error records.in
+agrep  -d \.\s+ -M error < records.in
+agrep -c -d \.\s+ -M error records.in
+agrep -c -d \.\s+ -M error < records.in
+agrep -H -d \.\s+ -M error records.in
+agrep -H -d \.\s+ -M error < records.in
+agrep -l -d \.\s+ -M error records.in
+agrep -l -d \.\s+ -M error < records.in
+agrep -n -d \.\s+ -M error records.in
+agrep -n -d \.\s+ -M error < records.in
+agrep -s -d \.\s+ -M error records.in
+agrep -s -d \.\s+ -M error < records.in
+agrep -M -d \.\s+ -M error records.in
+agrep -M -d \.\s+ -M error < records.in
+agrep --show-position -d \.\s+ -M error records.in
+agrep --show-position -d \.\s+ -M error < records.in
+agrep --color -d \.\s+ -M error records.in
+agrep --color -d \.\s+ -M error < records.in
+agrep -H -n -s --color --show-position -d \.\s+ -M error records.in
+agrep -H -n -s --color --show-position -d \.\s+ -M error < records.in
+agrep  -d \.\s+ -M default records.in
+agrep  -d \.\s+ -M default < records.in
+agrep -c -d \.\s+ -M default records.in
+agrep -c -d \.\s+ -M default < records.in
+agrep -H -d \.\s+ -M default records.in
+agrep -H -d \.\s+ -M default < records.in
+agrep -l -d \.\s+ -M default records.in
+agrep -l -d \.\s+ -M default < records.in
+agrep -n -d \.\s+ -M default records.in
+agrep -n -d \.\s+ -M default < records.in
+agrep -s -d \.\s+ -M default records.in
+agrep -s -d \.\s+ -M default < records.in
+agrep -M -d \.\s+ -M default records.in
+agrep -M -d \.\s+ -M default < records.in
+agrep --show-position -d \.\s+ -M default records.in
+agrep --show-position -d \.\s+ -M default < records.in
+agrep --color -d \.\s+ -M default records.in
+agrep --color -d \.\s+ -M default < records.in
+agrep -H -n -s --color --show-position -d \.\s+ -M default records.in
+agrep -H -n -s --color --show-position -d \.\s+ -M default < records.in
+agrep  -d \n\n -M PATTERN records.in
+agrep  -d \n\n -M PATTERN < records.in
+agrep -c -d \n\n -M PATTERN records.in
+agrep -c -d \n\n -M PATTERN < records.in
+agrep -H -d \n\n -M PATTERN records.in
+agrep -H -d \n\n -M PATTERN < records.in
+agrep -l -d \n\n -M PATTERN records.in
+agrep -l -d \n\n -M PATTERN < records.in
+agrep -n -d \n\n -M PATTERN records.in
+agrep -n -d \n\n -M PATTERN < records.in
+agrep -s -d \n\n -M PATTERN records.in
+agrep -s -d \n\n -M PATTERN < records.in
+agrep -M -d \n\n -M PATTERN records.in
+agrep -M -d \n\n -M PATTERN < records.in
+agrep --show-position -d \n\n -M PATTERN records.in
+agrep --show-position -d \n\n -M PATTERN < records.in
+agrep --color -d \n\n -M PATTERN records.in
+agrep --color -d \n\n -M PATTERN < records.in
+agrep -H -n -s --color --show-position -d \n\n -M PATTERN records.in
+agrep -H -n -s --color --show-position -d \n\n -M PATTERN < records.in
+2,9c2,3
+<  match a starts at a character.  Similarly, at a character. characters are
+< alphanumerics (as locale) and
+< character. that characters match; cannot as characters that a (a character) and an (an extra character) a character, that a and an added a larger than
+< and regular and after last a default default a a can
+< any regular that match
+< example, mail messages as a
+< Mailbox format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+11,18c5,6
+<  match a starts at a character.  Similarly, at a character. characters are
+< alphanumerics (as locale) and
+< character. that characters match; cannot as characters that a (a character) and an (an extra character) a character, that a and an added a larger than
+< and regular and after last a default default a a can
+< any regular that match
+< example, mail messages as a
+< Mailbox format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+20d7
+< 64
+22c9
+< Exit status 0.
+---
+> Exit status 53.
+24d10
+< 64
+26c12
+< Exit status 0.
+---
+> Exit status 53.
+28,35c14,15
+< records.in: matchrecords.in: arecords.in: startsrecords.in: atrecords.in: arecords.in: character.records.in:  Similarly,records.in: atrecords.in: arecords.in: character.records.in: charactersrecords.in: arerecords.in:
+< alphanumericsrecords.in: (asrecords.in: locale)records.in: andrecords.in:
+< character.records.in: thatrecords.in: charactersrecords.in: match;records.in: cannotrecords.in: asrecords.in: charactersrecords.in: thatrecords.in: arecords.in: (arecords.in: character)records.in: andrecords.in: anrecords.in: (anrecords.in: extrarecords.in: character)records.in: arecords.in: character,records.in: thatrecords.in: arecords.in: andrecords.in: anrecords.in: addedrecords.in: arecords.in: largerrecords.in: thanrecords.in:
+< andrecords.in: regularrecords.in: andrecords.in: afterrecords.in: lastrecords.in: arecords.in: defaultrecords.in: defaultrecords.in: arecords.in: arecords.in: canrecords.in:
+< anyrecords.in: regularrecords.in: thatrecords.in: matchrecords.in:
+< example,records.in: mailrecords.in: messagesrecords.in: asrecords.in: arecords.in:
+< Mailboxrecords.in: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+37,44c17,18
+< (standard input): match(standard input): a(standard input): starts(standard input): at(standard input): a(standard input): character.(standard input):  Similarly,(standard input): at(standard input): a(standard input): character.(standard input): characters(standard input): are(standard input):
+< alphanumerics(standard input): (as(standard input): locale)(standard input): and(standard input):
+< character.(standard input): that(standard input): characters(standard input): match;(standard input): cannot(standard input): as(standard input): characters(standard input): that(standard input): a(standard input): (a(standard input): character)(standard input): and(standard input): an(standard input): (an(standard input): extra(standard input): character)(standard input): a(standard input): character,(standard input): that(standard input): a(standard input): and(standard input): an(standard input): added(standard input): a(standard input): larger(standard input): than(standard input):
+< and(standard input): regular(standard input): and(standard input): after(standard input): last(standard input): a(standard input): default(standard input): default(standard input): a(standard input): a(standard input): can(standard input):
+< any(standard input): regular(standard input): that(standard input): match(standard input):
+< example,(standard input): mail(standard input): messages(standard input): as(standard input): a(standard input):
+< Mailbox(standard input): format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+46d19
+< records.in
+48c21
+< Exit status 0.
+---
+> Exit status 53.
+50d22
+< (standard input)
+52c24
+< Exit status 0.
+---
+> Exit status 53.
+54,61c26,27
+< 4: match12: a16: starts17: at27: a30: character.31:  Similarly,37: at47: a50: character.52: characters53: are54:
+< alphanumerics55: (as60: locale)61: and64:
+< character.66: that70: characters74: match;76: cannot79: as85: characters89: that90: a92: (a94: character)95: and96: an98: (an99: extra100: character)103: a105: character,112: that114: a116: and117: an119: added126: a132: larger133: than141:
+< and153: regular166: and167: after169: last175: a178: default187: default188: a191: a194: can196:
+< any197: regular199: that202: match207:
+< example,213: mail214: messages215: as218: a219:
+< Mailbox220: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+63,70c29,30
+< 4: match12: a16: starts17: at27: a30: character.31:  Similarly,37: at47: a50: character.52: characters53: are54:
+< alphanumerics55: (as60: locale)61: and64:
+< character.66: that70: characters74: match;76: cannot79: as85: characters89: that90: a92: (a94: character)95: and96: an98: (an99: extra100: character)103: a105: character,112: that114: a116: and117: an119: added126: a132: larger133: than141:
+< and153: regular166: and167: after169: last175: a178: default187: default188: a191: a194: can196:
+< any197: regular199: that202: match207:
+< example,213: mail214: messages215: as218: a219:
+< Mailbox220: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+72,79c32,33
+< 0: match0: a0: starts0: at0: a0: character.0:  Similarly,0: at0: a0: character.0: characters0: are0:
+< alphanumerics0: (as0: locale)0: and0:
+< character.0: that0: characters0: match;0: cannot0: as0: characters0: that0: a0: (a0: character)0: and0: an0: (an0: extra0: character)0: a0: character,0: that0: a0: and0: an0: added0: a0: larger0: than0:
+< and0: regular0: and0: after0: last0: a0: default0: default0: a0: a0: can0:
+< any0: regular0: that0: match0:
+< example,0: mail0: messages0: as0: a0:
+< Mailbox0: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+81,88c35,36
+< 0: match0: a0: starts0: at0: a0: character.0:  Similarly,0: at0: a0: character.0: characters0: are0:
+< alphanumerics0: (as0: locale)0: and0:
+< character.0: that0: characters0: match;0: cannot0: as0: characters0: that0: a0: (a0: character)0: and0: an0: (an0: extra0: character)0: a0: character,0: that0: a0: and0: an0: added0: a0: larger0: than0:
+< and0: regular0: and0: after0: last0: a0: default0: default0: a0: a0: can0:
+< any0: regular0: that0: match0:
+< example,0: mail0: messages0: as0: a0:
+< Mailbox0: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+90,99c38,39
+< match a
+< starts at a character.  Similarly, at a
+< character.  characters are
+< alphanumerics (as locale) and character.  that characters match; cannot as characters that a (a
+< character) and an (an extra character) a character, that a
+< and an added a
+< larger than and regular and after last
+< a default default a a can any regular that match example, mail messages as a
+< Mailbox format 
+< Exit status 0.
+---
+> 
+> Exit status 53.
+101,110c41,42
+< match a
+< starts at a character.  Similarly, at a
+< character.  characters are
+< alphanumerics (as locale) and character.  that characters match; cannot as characters that a (a
+< character) and an (an extra character) a character, that a
+< and an added a
+< larger than and regular and after last
+< a default default a a can any regular that match example, mail messages as a
+< Mailbox format 
+< Exit status 0.
+---
+> 
+> Exit status 53.
+112,119c44,45
+< 1-2: match0-1: a2-3: starts0-1: at0-1: a2-3: character.5-6:  Similarly,0-1: at0-1: a2-3: character.2-3: characters0-1: are0-1:
+< alphanumerics1-2: (as3-4: locale)0-1: and2-3:
+< character.2-3: that2-3: characters1-2: match;1-2: cannot0-1: as2-3: characters2-3: that0-1: a1-2: (a2-3: character)0-1: and0-1: an1-2: (an4-5: extra2-3: character)0-1: a2-3: character,2-3: that0-1: a0-1: and0-1: an0-1: added0-1: a1-2: larger2-3: than0-1:
+< and5-6: regular0-1: and0-1: after1-2: last0-1: a3-4: default3-4: default0-1: a0-1: a1-2: can0-1:
+< any5-6: regular2-3: that1-2: match2-3:
+< example,1-2: mail4-5: messages0-1: as0-1: a1-2:
+< Mailbox4-5: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+121,128c47,48
+< 1-2: match0-1: a2-3: starts0-1: at0-1: a2-3: character.5-6:  Similarly,0-1: at0-1: a2-3: character.2-3: characters0-1: are0-1:
+< alphanumerics1-2: (as3-4: locale)0-1: and2-3:
+< character.2-3: that2-3: characters1-2: match;1-2: cannot0-1: as2-3: characters2-3: that0-1: a1-2: (a2-3: character)0-1: and0-1: an1-2: (an4-5: extra2-3: character)0-1: a2-3: character,2-3: that0-1: a0-1: and0-1: an0-1: added0-1: a1-2: larger2-3: than0-1:
+< and5-6: regular0-1: and0-1: after1-2: last0-1: a3-4: default3-4: default0-1: a0-1: a1-2: can0-1:
+< any5-6: regular2-3: that1-2: match2-3:
+< example,1-2: mail4-5: messages0-1: as0-1: a1-2:
+< Mailbox4-5: format
+< Exit status 0.
+---
+> 
+> Exit status 53.
+130,137c50,51
+<  m[01;31ma[00mtch [01;31ma[00m st[01;31ma[00mrts [01;31ma[00mt [01;31ma[00m ch[01;31ma[00mracter.  Simil[01;31ma[00mrly, [01;31ma[00mt [01;31ma[00m ch[01;31ma[00mracter. ch[01;31ma[00mracters [01;31ma[00mre
+< [01;31ma[00mlphanumerics ([01;31ma[00ms loc[01;31ma[00mle) [01;31ma[00mnd
+< ch[01;31ma[00mracter. th[01;31ma[00mt ch[01;31ma[00mracters m[01;31ma[00mtch; c[01;31ma[00mnnot [01;31ma[00ms ch[01;31ma[00mracters th[01;31ma[00mt [01;31ma[00m ([01;31ma[00m ch[01;31ma[00mracter) [01;31ma[00mnd [01;31ma[00mn ([01;31ma[00mn extr[01;31ma[00m ch[01;31ma[00mracter) [01;31ma[00m ch[01;31ma[00mracter, th[01;31ma[00mt [01;31ma[00m [01;31ma[00mnd [01;31ma[00mn [01;31ma[00mdded [01;31ma[00m l[01;31ma[00mrger th[01;31ma[00mn
+< [01;31ma[00mnd regul[01;31ma[00mr [01;31ma[00mnd [01;31ma[00mfter l[01;31ma[00mst [01;31ma[00m def[01;31ma[00mult def[01;31ma[00mult [01;31ma[00m [01;31ma[00m c[01;31ma[00mn
+< [01;31ma[00mny regul[01;31ma[00mr th[01;31ma[00mt m[01;31ma[00mtch
+< ex[01;31ma[00mmple, m[01;31ma[00mil mess[01;31ma[00mges [01;31ma[00ms [01;31ma[00m
+< M[01;31ma[00milbox form[01;31ma[00mt
+< Exit status 0.
+---
+> 
+> Exit status 53.
+139,146c53,54
+<  m[01;31ma[00mtch [01;31ma[00m st[01;31ma[00mrts [01;31ma[00mt [01;31ma[00m ch[01;31ma[00mracter.  Simil[01;31ma[00mrly, [01;31ma[00mt [01;31ma[00m ch[01;31ma[00mracter. ch[01;31ma[00mracters [01;31ma[00mre
+< [01;31ma[00mlphanumerics ([01;31ma[00ms loc[01;31ma[00mle) [01;31ma[00mnd
+< ch[01;31ma[00mracter. th[01;31ma[00mt ch[01;31ma[00mracters m[01;31ma[00mtch; c[01;31ma[00mnnot [01;31ma[00ms ch[01;31ma[00mracters th[01;31ma[00mt [01;31ma[00m ([01;31ma[00m ch[01;31ma[00mracter) [01;31ma[00mnd [01;31ma[00mn ([01;31ma[00mn extr[01;31ma[00m ch[01;31ma[00mracter) [01;31ma[00m ch[01;31ma[00mracter, th[01;31ma[00mt [01;31ma[00m [01;31ma[00mnd [01;31ma[00mn [01;31ma[00mdded [01;31ma[00m l[01;31ma[00mrger th[01;31ma[00mn
+< [01;31ma[00mnd regul[01;31ma[00mr [01;31ma[00mnd [01;31ma[00mfter l[01;31ma[00mst [01;31ma[00m def[01;31ma[00mult def[01;31ma[00mult [01;31ma[00m [01;31ma[00m c[01;31ma[00mn
+< [01;31ma[00mny regul[01;31ma[00mr th[01;31ma[00mt m[01;31ma[00mtch
+< ex[01;31ma[00mmple, m[01;31ma[00mil mess[01;31ma[00mges [01;31ma[00ms [01;31ma[00m
+< M[01;31ma[00milbox form[01;31ma[00mt
+< Exit status 0.
+---
+> 
+> Exit status 53.
+148,155c56,57
+< records.in:4:0:1-2: m[01;31ma[00mtchrecords.in:12:0:0-1: [01;31ma[00mrecords.in:16:0:2-3: st[01;31ma[00mrtsrecords.in:17:0:0-1: [01;31ma[00mtrecords.in:27:0:0-1: [01;31ma[00mrecords.in:30:0:2-3: ch[01;31ma[00mracter.records.in:31:0:5-6:  Simil[01;31ma[00mrly,records.in:37:0:0-1: [01;31ma[00mtrecords.in:47:0:0-1: [01;31ma[00mrecords.in:50:0:2-3: ch[01;31ma[00mracter.records.in:52:0:2-3: ch[01;31ma[00mractersrecords.in:53:0:0-1: [01;31ma[00mrerecords.in:54:0:0-1:
+< [01;31ma[00mlphanumericsrecords.in:55:0:1-2: ([01;31ma[00msrecords.in:60:0:3-4: loc[01;31ma[00mle)records.in:61:0:0-1: [01;31ma[00mndrecords.in:64:0:2-3:
+< ch[01;31ma[00mracter.records.in:66:0:2-3: th[01;31ma[00mtrecords.in:70:0:2-3: ch[01;31ma[00mractersrecords.in:74:0:1-2: m[01;31ma[00mtch;records.in:76:0:1-2: c[01;31ma[00mnnotrecords.in:79:0:0-1: [01;31ma[00msrecords.in:85:0:2-3: ch[01;31ma[00mractersrecords.in:89:0:2-3: th[01;31ma[00mtrecords.in:90:0:0-1: [01;31ma[00mrecords.in:92:0:1-2: ([01;31ma[00mrecords.in:94:0:2-3: ch[01;31ma[00mracter)records.in:95:0:0-1: [01;31ma[00mndrecords.in:96:0:0-1: [01;31ma[00mnrecords.in:98:0:1-2: ([01;31ma[00mnrecords.in:99:0:4-5: extr[01;31ma[00mrecords.in:100:0:2-3: ch[01;31ma[00mracter)records.in:103:0:0-1: [01;31ma[00mrecords.in:105:0:2-3: ch[01;31ma[00mracter,records.in:112:0:2-3: th[01;31ma[00mtrecords.in:114:0:0-1: [01;31ma[00mrecords.in:116:0:0-1: [01;31ma[00mndrecords.in:117:0:0-1: [01;31ma[00mnrecords.in:119:0:0-1: [01;31ma[00mddedrecords.in:126:0:0-1: [01;31ma[00mrecords.in:132:0:1-2: l[01;31ma[00mrgerrecords.in:133:0:2-3: th[01;31ma[00mnrecords.in:141:0:0-1:
+< [01;31ma[00mndrecords.in:153:0:5-6: regul[01;31ma[00mrrecords.in:166:0:0-1: [01;31ma[00mndrecords.in:167:0:0-1: [01;31ma[00mfterrecords.in:169:0:1-2: l[01;31ma[00mstrecords.in:175:0:0-1: [01;31ma[00mrecords.in:178:0:3-4: def[01;31ma[00multrecords.in:187:0:3-4: def[01;31ma[00multrecords.in:188:0:0-1: [01;31ma[00mrecords.in:191:0:0-1: [01;31ma[00mrecords.in:194:0:1-2: c[01;31ma[00mnrecords.in:196:0:0-1:
+< [01;31ma[00mnyrecords.in:197:0:5-6: regul[01;31ma[00mrrecords.in:199:0:2-3: th[01;31ma[00mtrecords.in:202:0:1-2: m[01;31ma[00mtchrecords.in:207:0:2-3:
+< ex[01;31ma[00mmple,records.in:213:0:1-2: m[01;31ma[00milrecords.in:214:0:4-5: mess[01;31ma[00mgesrecords.in:215:0:0-1: [01;31ma[00msrecords.in:218:0:0-1: [01;31ma[00mrecords.in:219:0:1-2:
+< M[01;31ma[00milboxrecords.in:220:0:4-5: form[01;31ma[00mt
+< Exit status 0.
+---
+> 
+> Exit status 53.
+157,166d58
+< (standard input):4:0:1-2: m[01;31ma[00mtch(standard input):12:0:0-1: [01;31ma[00m(standard input):16:0:2-3: st[01;31ma[00mrts(standard input):17:0:0-1: [01;31ma[00mt(standard input):27:0:0-1: [01;31ma[00m(standard input):30:0:2-3: ch[01;31ma[00mracter.(standard input):31:0:5-6:  Simil[01;31ma[00mrly,(standard input):37:0:0-1: [01;31ma[00mt(standard input):47:0:0-1: [01;31ma[00m(standard input):50:0:2-3: ch[01;31ma[00mracter.(standard input):52:0:2-3: ch[01;31ma[00mracters(standard input):53:0:0-1: [01;31ma[00mre(standard input):54:0:0-1:
+< [01;31ma[00mlphanumerics(standard input):55:0:1-2: ([01;31ma[00ms(standard input):60:0:3-4: loc[01;31ma[00mle)(standard input):61:0:0-1: [01;31ma[00mnd(standard input):64:0:2-3:
+< ch[01;31ma[00mracter.(standard input):66:0:2-3: th[01;31ma[00mt(standard input):70:0:2-3: ch[01;31ma[00mracters(standard input):74:0:1-2: m[01;31ma[00mtch;(standard input):76:0:1-2: c[01;31ma[00mnnot(standard input):79:0:0-1: [01;31ma[00ms(standard input):85:0:2-3: ch[01;31ma[00mracters(standard input):89:0:2-3: th[01;31ma[00mt(standard input):90:0:0-1: [01;31ma[00m(standard input):92:0:1-2: ([01;31ma[00m(standard input):94:0:2-3: ch[01;31ma[00mracter)(standard input):95:0:0-1: [01;31ma[00mnd(standard input):96:0:0-1: [01;31ma[00mn(standard input):98:0:1-2: ([01;31ma[00mn(standard input):99:0:4-5: extr[01;31ma[00m(standard input):100:0:2-3: ch[01;31ma[00mracter)(standard input):103:0:0-1: [01;31ma[00m(standard input):105:0:2-3: ch[01;31ma[00mracter,(standard input):112:0:2-3: th[01;31ma[00mt(standard input):114:0:0-1: [01;31ma[00m(standard input):116:0:0-1: [01;31ma[00mnd(standard input):117:0:0-1: [01;31ma[00mn(standard input):119:0:0-1: [01;31ma[00mdded(standard input):126:0:0-1: [01;31ma[00m(standard input):132:0:1-2: l[01;31ma[00mrger(standard input):133:0:2-3: th[01;31ma[00mn(standard input):141:0:0-1:
+< [01;31ma[00mnd(standard input):153:0:5-6: regul[01;31ma[00mr(standard input):166:0:0-1: [01;31ma[00mnd(standard input):167:0:0-1: [01;31ma[00mfter(standard input):169:0:1-2: l[01;31ma[00mst(standard input):175:0:0-1: [01;31ma[00m(standard input):178:0:3-4: def[01;31ma[00mult(standard input):187:0:3-4: def[01;31ma[00mult(standard input):188:0:0-1: [01;31ma[00m(standard input):191:0:0-1: [01;31ma[00m(standard input):194:0:1-2: c[01;31ma[00mn(standard input):196:0:0-1:
+< [01;31ma[00mny(standard input):197:0:5-6: regul[01;31ma[00mr(standard input):199:0:2-3: th[01;31ma[00mt(standard input):202:0:1-2: m[01;31ma[00mtch(standard input):207:0:2-3:
+< ex[01;31ma[00mmple,(standard input):213:0:1-2: m[01;31ma[00mil(standard input):214:0:4-5: mess[01;31ma[00mges(standard input):215:0:0-1: [01;31ma[00ms(standard input):218:0:0-1: [01;31ma[00m(standard input):219:0:1-2:
+< M[01;31ma[00milbox(standard input):220:0:4-5: form[01;31ma[00mt
+< Exit status 0.
+< #### TEST: agrep  -d \s+ [A-Z] records.in
+< Force PATTERN  A  Similarly,  Word-constituent  Note
+168c60,61
+< Set NUM.  Note  Thus,
+---
+> Exit status 53.
+> #### TEST: agrep  -d \s+ [A-Z] records.in
+170,172c63
+< Set PATTERN.  The  The  PATTERN  For "^From
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+174,176d64
+< Force PATTERN  A  Similarly,  Word-constituent  Note
+< 
+< Set NUM.  Note  Thus,
+178,180c66
+< Set PATTERN.  The  The  PATTERN  For "^From
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+182d67
+< 18
+184c69
+< Exit status 0.
+---
+> Exit status 53.
+186d70
+< 18
+188c72
+< Exit status 0.
+---
+> Exit status 53.
+190d73
+< records.in:Forcerecords.in: PATTERNrecords.in:  Arecords.in:  Similarly,records.in:  Word-constituentrecords.in:  Noterecords.in:
+192,196c75
+< Setrecords.in: NUM.records.in:  Noterecords.in:  Thus,records.in:
+< 
+< Setrecords.in: PATTERN.records.in:  Therecords.in:  Therecords.in:  PATTERNrecords.in:  Forrecords.in: "^Fromrecords.in:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+198,200d76
+< (standard input):Force(standard input): PATTERN(standard input):  A(standard input):  Similarly,(standard input):  Word-constituent(standard input):  Note(standard input):
+< 
+< Set(standard input): NUM.(standard input):  Note(standard input):  Thus,(standard input):
+202,204c78
+< Set(standard input): PATTERN.(standard input):  The(standard input):  The(standard input):  PATTERN(standard input):  For(standard input): "^From(standard input):
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+206d79
+< records.in
+208c81
+< Exit status 0.
+---
+> Exit status 53.
+210d82
+< (standard input)
+212c84
+< Exit status 0.
+---
+> Exit status 53.
+214d85
+< 1:Force2: PATTERN8:  A31:  Similarly,51:  Word-constituent65:  Note81:
+216,220c87
+< Set87: NUM.88:  Note121:  Thus,149:
+< 
+< Set156: PATTERN.157:  The177:  The193:  PATTERN206:  For210: "^From219:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+222,224d88
+< 1:Force2: PATTERN8:  A31:  Similarly,51:  Word-constituent65:  Note81:
+< 
+< Set87: NUM.88:  Note121:  Thus,149:
+226,228c90
+< Set156: PATTERN.157:  The177:  The193:  PATTERN206:  For210: "^From219:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+230,232d91
+< 0:Force0: PATTERN0:  A0:  Similarly,0:  Word-constituent0:  Note0:
+< 
+< Set0: NUM.0:  Note0:  Thus,0:
+234,236c93
+< Set0: PATTERN.0:  The0:  The0:  PATTERN0:  For0: "^From0:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+238d94
+< 0:Force0: PATTERN0:  A0:  Similarly,0:  Word-constituent0:  Note0:
+240,244c96
+< Set0: NUM.0:  Note0:  Thus,0:
+< 
+< Set0: PATTERN.0:  The0:  The0:  PATTERN0:  For0: "^From0:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+246,248c98,99
+< Force PATTERN A Similarly, Word-constituent Note Set NUM.  Note Thus, Set PATTERN.  The The PATTERN For
+< "^From Mailbox 
+< Exit status 0.
+---
+> 
+> Exit status 53.
+250,254d100
+< Force PATTERN A Similarly, Word-constituent Note Set NUM.  Note Thus, Set PATTERN.  The The PATTERN For
+< "^From Mailbox 
+< Exit status 0.
+< #### TEST: agrep --show-position -d \s+ [A-Z] records.in
+< 0-1:Force0-1: PATTERN0-1:  A0-1:  Similarly,0-1:  Word-constituent0-1:  Note0-1:
+256c102,103
+< Set0-1: NUM.0-1:  Note0-1:  Thus,0-1:
+---
+> Exit status 53.
+> #### TEST: agrep --show-position -d \s+ [A-Z] records.in
+258,260c105
+< Set0-1: PATTERN.0-1:  The0-1:  The0-1:  PATTERN0-1:  For2-3: "^From0-1:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+262,264d106
+< 0-1:Force0-1: PATTERN0-1:  A0-1:  Similarly,0-1:  Word-constituent0-1:  Note0-1:
+< 
+< Set0-1: NUM.0-1:  Note0-1:  Thus,0-1:
+266,268c108
+< Set0-1: PATTERN.0-1:  The0-1:  The0-1:  PATTERN0-1:  For2-3: "^From0-1:
+< Mailbox
+< Exit status 0.
+---
+> Exit status 53.
+270d109
+< [01;31mF[00morce [01;31mP[00mATTERN  [01;31mA[00m  [01;31mS[00mimilarly,  [01;31mW[00mord-constituent  [01;31mN[00mote
+272,276c111
+< [01;31mS[00met [01;31mN[00mUM.  [01;31mN[00mote  [01;31mT[00mhus,
+< 
+< [01;31mS[00met [01;31mP[00mATTERN.  [01;31mT[00mhe  [01;31mT[00mhe  [01;31mP[00mATTERN  [01;31mF[00mor "^[01;31mF[00mrom
+< [01;31mM[00mailbox
+< Exit status 0.
+---
+> Exit status 53.
+278,280d112
+< [01;31mF[00morce [01;31mP[00mATTERN  [01;31mA[00m  [01;31mS[00mimilarly,  [01;31mW[00mord-constituent  [01;31mN[00mote
+< 
+< [01;31mS[00met [01;31mN[00mUM.  [01;31mN[00mote  [01;31mT[00mhus,
+282,284c114
+< [01;31mS[00met [01;31mP[00mATTERN.  [01;31mT[00mhe  [01;31mT[00mhe  [01;31mP[00mATTERN  [01;31mF[00mor "^[01;31mF[00mrom
+< [01;31mM[00mailbox
+< Exit status 0.
+---
+> Exit status 53.
+286d115
+< records.in:1:0:0-1:[01;31mF[00morcerecords.in:2:0:0-1: [01;31mP[00mATTERNrecords.in:8:0:0-1:  [01;31mA[00mrecords.in:31:0:0-1:  [01;31mS[00mimilarly,records.in:51:0:0-1:  [01;31mW[00mord-constituentrecords.in:65:0:0-1:  [01;31mN[00moterecords.in:81:0:0-1:
+288,292c117
+< [01;31mS[00metrecords.in:87:0:0-1: [01;31mN[00mUM.records.in:88:0:0-1:  [01;31mN[00moterecords.in:121:0:0-1:  [01;31mT[00mhus,records.in:149:0:0-1:
+< 
+< [01;31mS[00metrecords.in:156:0:0-1: [01;31mP[00mATTERN.records.in:157:0:0-1:  [01;31mT[00mherecords.in:177:0:0-1:  [01;31mT[00mherecords.in:193:0:0-1:  [01;31mP[00mATTERNrecords.in:206:0:0-1:  [01;31mF[00morrecords.in:210:0:2-3: "^[01;31mF[00mromrecords.in:219:0:0-1:
+< [01;31mM[00mailbox
+< Exit status 0.
+---
+> Exit status 53.
+294,296d118
+< (standard input):1:0:0-1:[01;31mF[00morce(standard input):2:0:0-1: [01;31mP[00mATTERN(standard input):8:0:0-1:  [01;31mA[00m(standard input):31:0:0-1:  [01;31mS[00mimilarly,(standard input):51:0:0-1:  [01;31mW[00mord-constituent(standard input):65:0:0-1:  [01;31mN[00mote(standard input):81:0:0-1:
+< 
+< [01;31mS[00met(standard input):87:0:0-1: [01;31mN[00mUM.(standard input):88:0:0-1:  [01;31mN[00mote(standard input):121:0:0-1:  [01;31mT[00mhus,(standard input):149:0:0-1:
+298,300c120
+< [01;31mS[00met(standard input):156:0:0-1: [01;31mP[00mATTERN.(standard input):157:0:0-1:  [01;31mT[00mhe(standard input):177:0:0-1:  [01;31mT[00mhe(standard input):193:0:0-1:  [01;31mP[00mATTERN(standard input):206:0:0-1:  [01;31mF[00mor(standard input):210:0:2-3: "^[01;31mF[00mrom(standard input):219:0:0-1:
+< [01;31mM[00mailbox
+< Exit status 0.
+---
+> Exit status 53.
+302,304d121
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+306c123
+< Exit status 0.
+---
+> Exit status 53.
+308,309d124
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+311,312c126
+< 
+< Exit status 0.
+---
+> Exit status 53.
+314d127
+< 1
+316c129
+< Exit status 0.
+---
+> Exit status 53.
+318d130
+< 1
+320c132
+< Exit status 0.
+---
+> Exit status 53.
+322,324d133
+< records.in:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+326c135
+< Exit status 0.
+---
+> Exit status 53.
+328,329d136
+< (standard input):Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+331,332c138
+< 
+< Exit status 0.
+---
+> Exit status 53.
+334d139
+< records.in
+336c141
+< Exit status 0.
+---
+> Exit status 53.
+338d142
+< (standard input)
+340c144
+< Exit status 0.
+---
+> Exit status 53.
+342,344d145
+< 5:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+346c147
+< Exit status 0.
+---
+> Exit status 53.
+348,350d148
+< 5:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+352c150
+< Exit status 0.
+---
+> Exit status 53.
+354,355d151
+< 0:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+357,358c153
+< 
+< Exit status 0.
+---
+> Exit status 53.
+360,362d154
+< 0:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+364c156
+< Exit status 0.
+---
+> Exit status 53.
+366,367d157
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+369,370c159
+< 
+< Exit status 0.
+---
+> Exit status 53.
+372,374d160
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+376c162
+< Exit status 0.
+---
+> Exit status 53.
+378,380d163
+< 97-102:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+382c165
+< Exit status 0.
+---
+> Exit status 53.
+384,385d166
+< 97-102:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+387,388c168
+< 
+< Exit status 0.
+---
+> Exit status 53.
+390,392d169
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as [01;31merror[00ms.
+< 
+394c171
+< Exit status 0.
+---
+> Exit status 53.
+396,397d172
+< Note that the non-word constituent characters must
+< surround the match; they cannot be counted as [01;31merror[00ms.
+399,400c174
+< 
+< Exit status 0.
+---
+> Exit status 53.
+402,404d175
+< records.in:5:0:97-102:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as [01;31merror[00ms.
+< 
+406c177
+< Exit status 0.
+---
+> Exit status 53.
+408,410d178
+< (standard input):5:0:97-102:Note that the non-word constituent characters must
+< surround the match; they cannot be counted as [01;31merror[00ms.
+< 
+412c180
+< Exit status 0.
+---
+> Exit status 53.
+414,416c182,183
+< The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+418,420c185,186
+< The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+422d187
+< 1
+424c189
+< Exit status 0.
+---
+> Exit status 53.
+426d190
+< 1
+428c192
+< Exit status 0.
+---
+> Exit status 53.
+430,432c194,195
+< records.in:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+434,436c197,198
+< (standard input):The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+438d199
+< records.in
+440c201
+< Exit status 0.
+---
+> Exit status 53.
+442d202
+< (standard input)
+444c204
+< Exit status 0.
+---
+> Exit status 53.
+446,448c206,207
+< 11:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+450,452c209,210
+< 11:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+454,456c212,213
+< 0:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+458,460c215,216
+< 0:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+462,464c218,219
+< The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+466,468c221,222
+< The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+470,472c224,225
+< 4-11:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+474,476c227,228
+< 4-11:The default record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+478,480c230,231
+< The [01;31mdefault[00m record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+482,484c233,234
+< The [01;31mdefault[00m record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+486,488c236,237
+< records.in:11:0:4-11:The [01;31mdefault[00m record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+490,492c239,240
+< (standard input):11:0:4-11:The [01;31mdefault[00m record delimiter
+< is the regexp "\n", so by default a record is a line.  
+< Exit status 0.
+---
+> 
+> Exit status 53.
+494,511c242,243
+< Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+513,530c245,246
+< Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+532d247
+< 2
+534c249
+< Exit status 0.
+---
+> Exit status 53.
+536d250
+< 2
+538c252
+< Exit status 0.
+---
+> Exit status 53.
+540,557c254,255
+< records.in:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< records.in:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+559,576c257,258
+< (standard input):Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< (standard input):Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+578d259
+< records.in
+580c261
+< Exit status 0.
+---
+> Exit status 53.
+582d262
+< (standard input)
+584c264
+< Exit status 0.
+---
+> Exit status 53.
+586,603c266,267
+< 1:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 3:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+605,622c269,270
+< 1:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 3:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+624,641c272,273
+< 0:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 0:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+643,660c275,276
+< 0:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 0:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+662,679c278,279
+< Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+681,698c281,282
+< Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+700,717c284,285
+< 6-13:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 47-54:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+719,736c287,288
+< 6-13:Force PATTERN to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< 47-54:Set the record delimiter regular expression to PATTERN.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+738,755c290,291
+< Force [01;31mPATTERN[00m to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to [01;31mPATTERN[00m.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+757,774c293,294
+< Force [01;31mPATTERN[00m to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< Set the record delimiter regular expression to [01;31mPATTERN[00m.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+776,793c296,297
+< records.in:1:0:6-13:Force [01;31mPATTERN[00m to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< records.in:3:0:47-54:Set the record delimiter regular expression to [01;31mPATTERN[00m.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+795,812c299,300
+< (standard input):1:0:6-13:Force [01;31mPATTERN[00m to match only whole words.  A "whole word" is a
+< substring which either starts at the beginning or the record or is
+< preceded by a non-word constituent character.  Similarly, the
+< substring must either end at the end of the record or be followed by a
+< non-word constituent character.  Word-constituent characters are
+< alphanumerics (as defined by the current locale) and the underscore
+< character.  Note that the non-word constituent characters must
+< surround the match; they cannot be counted as errors.
+< 
+< (standard input):3:0:47-54:Set the record delimiter regular expression to [01;31mPATTERN[00m.  The text
+< between two delimiters, before the first delimiter, and after the last
+< delimiter is considered to be a record.  The default record delimiter
+< is the regexp "\n", so by default a record is a line.  PATTERN can be
+< any regular expression that does not match the empty string.  For
+< example, using -d "^From " defines mail messages as records in a
+< Mailbox format file.
+<  c
+< Exit status 0.
+---
+> 
+> Exit status 53.
+FAILED (see above)
+Ran 25 tests (500 expanded) from 4 suites.
+0/4 tests OK
+FAIL: run-tests.sh
+================================================
+1 of 1 tests failed
+Please report to tre-general@lists.laurikari.net
+================================================
+make[3]: [check-TESTS] Fout 1 (genegeerd)
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests/agrep' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests/agrep' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+ cd .. && /bin/sh ./config.status tests/Makefile depfiles
+config.status: creating tests/Makefile
+config.status: executing depfiles commands
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+make.exe  libxtre.la retest.exe randtest.exe test-str-source.exe
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-mem.lo -MD -MP -MF ".deps/libxtre_la-tre-mem.Tpo" -c -o libxtre_la-tre-mem.lo `test -f '../lib/tre-mem.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-mem.c; \
+	then mv -f ".deps/libxtre_la-tre-mem.Tpo" ".deps/libxtre_la-tre-mem.Plo"; else rm -f ".deps/libxtre_la-tre-mem.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-mem.lo -MD -MP -MF .deps/libxtre_la-tre-mem.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-mem.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-mem.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-stack.lo -MD -MP -MF ".deps/libxtre_la-tre-stack.Tpo" -c -o libxtre_la-tre-stack.lo `test -f '../lib/tre-stack.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-stack.c; \
+	then mv -f ".deps/libxtre_la-tre-stack.Tpo" ".deps/libxtre_la-tre-stack.Plo"; else rm -f ".deps/libxtre_la-tre-stack.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-stack.lo -MD -MP -MF .deps/libxtre_la-tre-stack.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-stack.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-stack.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-ast.lo -MD -MP -MF ".deps/libxtre_la-tre-ast.Tpo" -c -o libxtre_la-tre-ast.lo `test -f '../lib/tre-ast.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-ast.c; \
+	then mv -f ".deps/libxtre_la-tre-ast.Tpo" ".deps/libxtre_la-tre-ast.Plo"; else rm -f ".deps/libxtre_la-tre-ast.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-ast.lo -MD -MP -MF .deps/libxtre_la-tre-ast.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-ast.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-ast.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-parse.lo -MD -MP -MF ".deps/libxtre_la-tre-parse.Tpo" -c -o libxtre_la-tre-parse.lo `test -f '../lib/tre-parse.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-parse.c; \
+	then mv -f ".deps/libxtre_la-tre-parse.Tpo" ".deps/libxtre_la-tre-parse.Plo"; else rm -f ".deps/libxtre_la-tre-parse.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-parse.lo -MD -MP -MF .deps/libxtre_la-tre-parse.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-parse.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-parse.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-compile.lo -MD -MP -MF ".deps/libxtre_la-tre-compile.Tpo" -c -o libxtre_la-tre-compile.lo `test -f '../lib/tre-compile.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-compile.c; \
+	then mv -f ".deps/libxtre_la-tre-compile.Tpo" ".deps/libxtre_la-tre-compile.Plo"; else rm -f ".deps/libxtre_la-tre-compile.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-compile.lo -MD -MP -MF .deps/libxtre_la-tre-compile.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-compile.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-compile.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-match-parallel.lo -MD -MP -MF ".deps/libxtre_la-tre-match-parallel.Tpo" -c -o libxtre_la-tre-match-parallel.lo `test -f '../lib/tre-match-parallel.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-match-parallel.c; \
+	then mv -f ".deps/libxtre_la-tre-match-parallel.Tpo" ".deps/libxtre_la-tre-match-parallel.Plo"; else rm -f ".deps/libxtre_la-tre-match-parallel.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-match-parallel.lo -MD -MP -MF .deps/libxtre_la-tre-match-parallel.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-match-parallel.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-match-parallel.o
+../../tre-0.7.5-src/tests/../lib/tre-match-parallel.c: In function `tre_tnfa_run_parallel':
+../../tre-0.7.5-src/tests/../lib/tre-match-parallel.c:182: warning: implicit declaration of function `alloca'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-match-backtrack.lo -MD -MP -MF ".deps/libxtre_la-tre-match-backtrack.Tpo" -c -o libxtre_la-tre-match-backtrack.lo `test -f '../lib/tre-match-backtrack.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-match-backtrack.c; \
+	then mv -f ".deps/libxtre_la-tre-match-backtrack.Tpo" ".deps/libxtre_la-tre-match-backtrack.Plo"; else rm -f ".deps/libxtre_la-tre-match-backtrack.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-match-backtrack.lo -MD -MP -MF .deps/libxtre_la-tre-match-backtrack.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-match-backtrack.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-match-backtrack.o
+../../tre-0.7.5-src/tests/../lib/tre-match-backtrack.c: In function `tre_tnfa_run_backtrack':
+../../tre-0.7.5-src/tests/../lib/tre-match-backtrack.c:255: warning: implicit declaration of function `alloca'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-regcomp.lo -MD -MP -MF ".deps/libxtre_la-regcomp.Tpo" -c -o libxtre_la-regcomp.lo `test -f '../lib/regcomp.c' || echo '../../tre-0.7.5-src/tests/'`../lib/regcomp.c; \
+	then mv -f ".deps/libxtre_la-regcomp.Tpo" ".deps/libxtre_la-regcomp.Plo"; else rm -f ".deps/libxtre_la-regcomp.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-regcomp.lo -MD -MP -MF .deps/libxtre_la-regcomp.Tpo -c ../../tre-0.7.5-src/tests/../lib/regcomp.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-regcomp.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-regexec.lo -MD -MP -MF ".deps/libxtre_la-regexec.Tpo" -c -o libxtre_la-regexec.lo `test -f '../lib/regexec.c' || echo '../../tre-0.7.5-src/tests/'`../lib/regexec.c; \
+	then mv -f ".deps/libxtre_la-regexec.Tpo" ".deps/libxtre_la-regexec.Plo"; else rm -f ".deps/libxtre_la-regexec.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-regexec.lo -MD -MP -MF .deps/libxtre_la-regexec.Tpo -c ../../tre-0.7.5-src/tests/../lib/regexec.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-regexec.o
+../../tre-0.7.5-src/tests/../lib/regexec.c: In function `tre_match':
+../../tre-0.7.5-src/tests/../lib/regexec.c:162: warning: implicit declaration of function `alloca'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-regerror.lo -MD -MP -MF ".deps/libxtre_la-regerror.Tpo" -c -o libxtre_la-regerror.lo `test -f '../lib/regerror.c' || echo '../../tre-0.7.5-src/tests/'`../lib/regerror.c; \
+	then mv -f ".deps/libxtre_la-regerror.Tpo" ".deps/libxtre_la-regerror.Plo"; else rm -f ".deps/libxtre_la-regerror.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-regerror.lo -MD -MP -MF .deps/libxtre_la-regerror.Tpo -c ../../tre-0.7.5-src/tests/../lib/regerror.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-regerror.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -DBUILD_LIBXTRE_DLL -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-xmalloc.lo -MD -MP -MF ".deps/libxtre_la-xmalloc.Tpo" -c -o libxtre_la-xmalloc.lo `test -f '../lib/xmalloc.c' || echo '../../tre-0.7.5-src/tests/'`../lib/xmalloc.c; \
+	then mv -f ".deps/libxtre_la-xmalloc.Tpo" ".deps/libxtre_la-xmalloc.Plo"; else rm -f ".deps/libxtre_la-xmalloc.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -DBUILD_LIBXTRE_DLL -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-xmalloc.lo -MD -MP -MF .deps/libxtre_la-xmalloc.Tpo -c ../../tre-0.7.5-src/tests/../lib/xmalloc.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-xmalloc.o
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT libxtre_la-tre-match-approx.lo -MD -MP -MF ".deps/libxtre_la-tre-match-approx.Tpo" -c -o libxtre_la-tre-match-approx.lo `test -f '../lib/tre-match-approx.c' || echo '../../tre-0.7.5-src/tests/'`../lib/tre-match-approx.c; \
+	then mv -f ".deps/libxtre_la-tre-match-approx.Tpo" ".deps/libxtre_la-tre-match-approx.Plo"; else rm -f ".deps/libxtre_la-tre-match-approx.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC -ID:/Progra~1/GnuWin32/include -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -MT libxtre_la-tre-match-approx.lo -MD -MP -MF .deps/libxtre_la-tre-match-approx.Tpo -c ../../tre-0.7.5-src/tests/../lib/tre-match-approx.c  -DDLL_EXPORT -D_USRDLL -DTRE_EXPORTS -DBUILD_LIBTRE_DLL  -DPIC -o .libs/libxtre_la-tre-match-approx.o
+../../tre-0.7.5-src/tests/../lib/tre-match-approx.c: In function `tre_tnfa_run_approx':
+../../tre-0.7.5-src/tests/../lib/tre-match-approx.c:298: warning: implicit declaration of function `alloca'
+/bin/sh ../libtool --tag=CC --mode=link gcc  -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall  -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib    -o libxtre.la   libxtre_la-tre-mem.lo libxtre_la-tre-stack.lo libxtre_la-tre-ast.lo libxtre_la-tre-parse.lo libxtre_la-tre-compile.lo libxtre_la-tre-match-parallel.lo libxtre_la-tre-match-backtrack.lo libxtre_la-regcomp.lo libxtre_la-regexec.lo libxtre_la-regerror.lo libxtre_la-xmalloc.lo libxtre_la-tre-match-approx.lo  -Wl,-s  -LD:/Progra~1/GnuWin32/lib  -lintl -lwsock32 -lole32 -luuid -lmsvcp60   -dllname xtre
+ar cru .libs/libxtre.a .libs/libxtre_la-tre-mem.o .libs/libxtre_la-tre-stack.o .libs/libxtre_la-tre-ast.o .libs/libxtre_la-tre-parse.o .libs/libxtre_la-tre-compile.o .libs/libxtre_la-tre-match-parallel.o .libs/libxtre_la-tre-match-backtrack.o .libs/libxtre_la-regcomp.o .libs/libxtre_la-regexec.o .libs/libxtre_la-regerror.o .libs/libxtre_la-xmalloc.o .libs/libxtre_la-tre-match-approx.o
+ranlib .libs/libxtre.a
+creating libxtre.la
+(cd .libs && rm -f libxtre.la && cp -fp ../libxtre.la libxtre.la)
+if gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT retest-retest.o -MD -MP -MF ".deps/retest-retest.Tpo" -c -o retest-retest.o `test -f 'retest.c' || echo '../../tre-0.7.5-src/tests/'`retest.c; \
+	then mv -f ".deps/retest-retest.Tpo" ".deps/retest-retest.Po"; else rm -f ".deps/retest-retest.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall  -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib    -o retest.exe  retest-retest.o libxtre.la ../gnulib/lib/libgnu.la -lintl -Wl,-s  -LD:/Progra~1/GnuWin32/lib  -lintl -lwsock32 -lole32 -luuid -lmsvcp60  
+gcc -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -o retest.exe retest-retest.o -Wl,-s  -LD:/Progra~1/GnuWin32/lib ./.libs/libxtre.a ../gnulib/lib/.libs/libgnu.a -lintl -lwsock32 -lole32 -luuid -lmsvcp60
+retest-retest.o:retest.c:(.text+0x55): undefined reference to `_imp__regnexec'
+retest-retest.o:retest.c:(.text+0x164): undefined reference to `_imp__regexec'
+retest-retest.o:retest.c:(.text+0x492): undefined reference to `_imp__tre_have_approx'
+retest-retest.o:retest.c:(.text+0x4b3): undefined reference to `_imp__tre_have_backrefs'
+retest-retest.o:retest.c:(.text+0x65e): undefined reference to `_imp__tre_have_approx'
+retest-retest.o:retest.c:(.text+0x67c): undefined reference to `_imp__tre_have_backrefs'
+retest-retest.o:retest.c:(.text+0x6ed): undefined reference to `_imp__regncomp'
+retest-retest.o:retest.c:(.text+0x744): undefined reference to `_imp__regcomp'
+retest-retest.o:retest.c:(.text+0x7e8): undefined reference to `_imp__regfree'
+retest-retest.o:retest.c:(.text+0x4874): undefined reference to `_imp__regfree'
+collect2: ld returned 1 exit status
+make[3]: [retest.exe] Fout 1 (genegeerd)
+if gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -DMALLOC_DEBUGGING -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT randtest-randtest.o -MD -MP -MF ".deps/randtest-randtest.Tpo" -c -o randtest-randtest.o `test -f 'randtest.c' || echo '../../tre-0.7.5-src/tests/'`randtest.c; \
+	then mv -f ".deps/randtest-randtest.Tpo" ".deps/randtest-randtest.Po"; else rm -f ".deps/randtest-randtest.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall  -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib    -o randtest.exe  randtest-randtest.o libxtre.la ../gnulib/lib/libgnu.la -lintl -Wl,-s  -LD:/Progra~1/GnuWin32/lib  -lintl -lwsock32 -lole32 -luuid -lmsvcp60  
+gcc -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -o randtest.exe randtest-randtest.o -Wl,-s  -LD:/Progra~1/GnuWin32/lib ./.libs/libxtre.a ../gnulib/lib/.libs/libgnu.a -lintl -lwsock32 -lole32 -luuid -lmsvcp60
+randtest-randtest.o:randtest.c:(.text+0x14a): undefined reference to `_imp__regncomp'
+randtest-randtest.o:randtest.c:(.text+0x15f): undefined reference to `_imp__regfree'
+collect2: ld returned 1 exit status
+make[3]: [randtest.exe] Fout 1 (genegeerd)
+if gcc -DHAVE_CONFIG_H -I. -I../../tre-0.7.5-src/tests -I.. -I../lib -I../../tre-0.7.5-src/lib -I../../tre-0.7.5-src/gnulib/lib  -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include       -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -MT test-str-source.o -MD -MP -MF ".deps/test-str-source.Tpo" -c -o test-str-source.o ../../tre-0.7.5-src/tests/test-str-source.c; \
+	then mv -f ".deps/test-str-source.Tpo" ".deps/test-str-source.Po"; else rm -f ".deps/test-str-source.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall  -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib    -o test-str-source.exe  test-str-source.o ../lib/libtre.la ../gnulib/lib/libgnu.la -lintl -lm -Wl,-s  -LD:/Progra~1/GnuWin32/lib  -lintl -lwsock32 -lole32 -luuid -lmsvcp60  
+gcc -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wstrict-prototypes -Wall -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -o .libs/test-str-source.exe test-str-source.o -Wl,-s  -LD:/Progra~1/GnuWin32/lib ../lib/.libs/libtre.dll.a ../gnulib/lib/.libs/libgnu.a -lintl -lwsock32 -lole32 -luuid -lmsvcp60 -Lc:/progra~1/tre/lib
+creating test-str-source.exe
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+make.exe  check-TESTS
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt binnengegaan
+gcc -Wall -Wpointer-arith -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math  -Wstrict-prototypes   -Wall -D__USE_MINGW_ACCESS -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DENABLE_RELOCATABLE -DINSTALLPREFIX=\"c:/progra~1/tre\" -DINSTALLDIR=\"c:/progra~1/tre/bin\" -DEXEEXT=\".exe\" -DNO_XMALLOC       -ID:/Progra~1/GnuWin32/include      -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib     ../../tre-0.7.5-src/tests/retest.c   -o retest
+../../tre-0.7.5-src/tests/retest.c: In function `test_nexec':
+../../tre-0.7.5-src/tests/retest.c:241: error: `REG_BACKTRACKING_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c:241: error: (Each undeclared identifier is reported only once
+../../tre-0.7.5-src/tests/retest.c:241: error: for each function it appears in.)
+../../tre-0.7.5-src/tests/retest.c:241: error: `REG_APPROX_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c:258: warning: implicit declaration of function `tre_have_approx'
+../../tre-0.7.5-src/tests/retest.c:260: warning: implicit declaration of function `tre_have_backrefs'
+../../tre-0.7.5-src/tests/retest.c: In function `test_exec':
+../../tre-0.7.5-src/tests/retest.c:292: error: `REG_BACKTRACKING_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c:293: error: `REG_APPROX_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c: In function `main':
+../../tre-0.7.5-src/tests/retest.c:1403: error: `REG_BACKTRACKING_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c:1403: error: `REG_APPROX_MATCHER' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c:1423: error: `REG_UNGREEDY' undeclared (first use in this function)
+../../tre-0.7.5-src/tests/retest.c: At top level:
+../../tre-0.7.5-src/tests/retest.c:61: warning: 'use_regncomp' defined but not used
+make[3]: [retest] Fout 1 (genegeerd)
+PATH=.:/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/lib/.libs:/g/mingw/3.4.5/bin:/usr/bin:/usr/local/bin:/cygdrive/d/Util:/cygdrive/d/Program Files/GnuWin32/bin:/g/TeX/texmf/miktex/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem
+rewind to 0
+str[0] = 120
+str[1] = 102
+rewind to 1
+str[1] = 102
+str[2] = 111
+str[3] = 111
+str[4] = 102
+comparing 1-4 and 4-7
+rewind to 2
+str[2] = 111
+str[3] = 111
+rewind to 3
+str[3] = 111
+str[4] = 102
+rewind to 4
+str[4] = 102
+str[5] = 111
+str[6] = 102
+str[7] = 111
+rewind to 5
+str[5] = 111
+str[6] = 102
+rewind to 6
+str[6] = 102
+str[7] = 111
+str[8] = 111
+str[9] = 102
+comparing 6-9 and 9-12
+str[10] = 111
+Match: 6 - 12
+PASS: test-str-source
+/bin/sh: line 10: ../../tre-0.7.5-src/tests/retest.: No such file or directory
+FAIL: retest
+================================================
+1 of 2 tests failed
+Please report to tre-general@lists.laurikari.net
+================================================
+make[3]: [check-TESTS] Fout 1 (genegeerd)
+make[3]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+make[2]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/tests' wordt verlaten
+Making check in utils
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/utils' wordt binnengegaan
+make[1]: Er is niets te doen voor 'check'.
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/utils' wordt verlaten
+Making check in po
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/po' wordt binnengegaan
+make[1]: Er is niets te doen voor 'check'.
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/po' wordt verlaten
+Making check in m4
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/m4' wordt binnengegaan
+make[1]: Er is niets te doen voor 'check'.
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5/m4' wordt verlaten
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5' wordt binnengegaan
+make[1]: Map '/cygdrive/j/Devel/tre/0.7.5/tre-0.7.5' wordt verlaten

@@ -1,0 +1,58 @@
+﻿Build started 6/27/2013 4:35:04 PM.
+     1>Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x86\ZlibDllReleaseWithoutAsm\Tmp\zlibvc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /GL /D WIN32 /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D ZLIB_WINAPI /D _WINDLL /GF /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa"x86\ZlibDllReleaseWithoutAsm\Tmp\\" /Fo"x86\ZlibDllReleaseWithoutAsm\Tmp\\" /Fd"x86\ZlibDllReleaseWithoutAsm\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\minizip\iowin32.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         iowin32.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+       ResourceCompile:
+         e:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x040c" /nologo /fo"x86\ZlibDllReleaseWithoutAsm\Tmp\zlib.res" zlib.rc 
+     1>E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\x86\ZlibDllReleaseWithoutAsm\zlibvc.dll) does not match the Linker's OutputFile property value (E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\x86\ZlibDllReleaseWithoutAsm\zlibwapi.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>E:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(zlibvc) does not match the Linker's OutputFile property value (zlibwapi). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllReleaseWithoutAsm\zlibwapi.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /PDB:"x86\ZlibDllReleaseWithoutAsm\zlibwapi.pdb" /MAP:"x86\ZlibDllReleaseWithoutAsm\zlibwapi.map" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllReleaseWithoutAsm\zlibwapi.lib" /MACHINE:X86 /SAFESEH /MACHINE:I386 /DLL x86\ZlibDllReleaseWithoutAsm\Tmp\zlib.res
+         x86\ZlibDllReleaseWithoutAsm\Tmp\adler32.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\compress.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\crc32.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\deflate.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\gzclose.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\gzlib.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\gzread.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\gzwrite.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\infback.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\inffast.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\inflate.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\inftrees.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\ioapi.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\iowin32.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\trees.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\uncompr.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\unzip.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\zip.obj
+         x86\ZlibDllReleaseWithoutAsm\Tmp\zutil.obj
+            Creating library x86\ZlibDllReleaseWithoutAsm\zlibwapi.lib and object x86\ZlibDllReleaseWithoutAsm\zlibwapi.exp
+         Generating code
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "E:\dev\BasicOCR\zlib\contrib\vstudio\vc10\zlibvc.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.32

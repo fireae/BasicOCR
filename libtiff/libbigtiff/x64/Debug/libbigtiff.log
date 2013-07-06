@@ -1,0 +1,9 @@
+﻿Build started 10/7/2012 8:00:34 PM.
+     1>Project "E:\dev\BasicOCR\libtiff\libbigtiff\libbigtiff.vcxproj" on node 2 (Clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\libbigtiff.lastbuildstate".
+     1>Done Building Project "E:\dev\BasicOCR\libtiff\libbigtiff\libbigtiff.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03

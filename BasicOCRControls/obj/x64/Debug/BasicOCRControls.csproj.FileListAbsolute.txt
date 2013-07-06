@@ -1,0 +1,2 @@
+E:\dev\BasicOCR\SimpleOCRControls\obj\x64\Debug\SimpleOCRControls.dll
+E:\dev\BasicOCR\SimpleOCRControls\obj\x64\Debug\SimpleOCRControls.pdb

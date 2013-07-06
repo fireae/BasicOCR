@@ -1,0 +1,190 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly BasicOCR, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BasicOCR.CDocObject: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Height 'get set' : 
+    Int32 Width 'get set' : 
+    Int32 Y    'get set' : 
+    Int32 X    'get set' : 
+  Methods:
+    get_X(): PrivateScope, Public, HideBySig, SpecialName
+    set_X(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Y(): PrivateScope, Public, HideBySig, SpecialName
+    set_Y(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    set_Width(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class BasicOCR.CCharacter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :BasicOCR.CDocObject
+    Void .ctor(colib.rectangle*, Double, Char, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(colib.rectangle*, Single, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, colib.rectangle*, Single, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ValueType Value Char IsBoxed : Public
+    Int32 FontIndex : Public
+    Int32 PointSize : Public
+    Int32 Formatting : Public
+    Int32 Left : Public
+    Int32 Right : Public
+    Int32 Top : Public
+    Int32 Bottom : Public
+    Double Confidence : Public
+    System.Object Tag : Public
+  Properties:
+    System.String Letter 'get set' : 
+    Single Cost 'get set' : 
+  Methods:
+    get_Cost(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cost(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Letter(): PrivateScope, Public, HideBySig, SpecialName
+    set_Letter(String): PrivateScope, Public, HideBySig, SpecialName
+Class BasicOCR.CWord: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :BasicOCR.CDocObject
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 LineIndex : Public
+    Int32 Blanks : Public
+    Int32 FontIndex : Public
+    Int32 PointSize : Public
+    Int32 Formating : Public
+    Int32 Left : Public
+    Int32 Right : Public
+    Int32 Top : Public
+    Int32 Bottom : Public
+    System.String Text : Public
+    Double Confidence : Public
+    System.Object Tag : Public
+    System.Collections.Generic.List`1[BasicOCR.CCharacter] CharList : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class BasicOCR.CLine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :BasicOCR.CDocObject
+    Void .ctor(Single, colib.rectangle*, colib.iustrg<colib::nuchar>*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[BasicOCR.CCharacter] Characters 'get set' : 
+    System.String LineText 'get set' : 
+  Methods:
+    get_LineText(): PrivateScope, Public, HideBySig, SpecialName
+    set_LineText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Characters(): PrivateScope, Public, HideBySig, SpecialName
+    set_Characters(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class BasicOCR.CParagraph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :BasicOCR.CDocObject
+    Void .ctor(Single, colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Text 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CLine] Lines 'get set' : 
+  Methods:
+    Contains(CLine): PrivateScope, Public, HideBySig
+    get_Lines(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lines(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+Class BasicOCR.CColumn: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :BasicOCR.CDocObject
+    Void .ctor(Single, colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(colib.rectangle*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[BasicOCR.CParagraph] Paragraphs 'get set' : 
+  Methods:
+    Contains(CParagraph): PrivateScope, Public, HideBySig
+    get_Paragraphs(): PrivateScope, Public, HideBySig, SpecialName
+    set_Paragraphs(List`1): PrivateScope, Public, HideBySig, SpecialName
+Struct BasicOCR.TesseractBase: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class BasicOCR.CDocument: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    BLOCK_LIST* mBlockList : Public
+    PAGE_RES* mpageRes : Public
+    BasicOCR.TesseractBase* mBasicOCRTessBaseAPIInstance : Public
+    OcrDoneHandler OcrDone : Public
+  Properties:
+    Single documentHeight 'get set' : 
+    Single documentWidth 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CCharacter] Characters 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CWord] Words 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CLine] Lines 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CColumn] Columns 'get set' : 
+    System.Collections.Generic.List`1[BasicOCR.CParagraph] Paragraphs 'get set' : 
+    System.String ImagePath 'get set' : 
+  Events:
+    ProgressHandler ProgressEvent: SpecialName
+  Methods:
+    SetImagePath(String): PrivateScope, Public, HideBySig
+    Segment(): PrivateScope, Public, HideBySig
+    Save(String): PrivateScope, Public, HideBySig
+    Export(String): PrivateScope, Public, HideBySig
+    doOCRopusLayoutAnalysis(): PrivateScope, Public, HideBySig
+    doOCRopusCallback(): PrivateScope, Public, HideBySig
+    OCRopusLayoutAnalysis(): PrivateScope, Public, HideBySig
+    TesseractRecognize(Bitmap, Rectangle): PrivateScope, Public, HideBySig
+    TesseractInit(String, String, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    TesseractClear(): PrivateScope, Public, HideBySig
+    SetVariable(String, Object): PrivateScope, Public, HideBySig
+    GetVariable(String): PrivateScope, Public, HideBySig
+    GetThresholdedImage(Bitmap, Rectangle): PrivateScope, Public, HideBySig
+    LineCount(List`1): PrivateScope, Public, Static, HideBySig
+    GetLineWords(List`1, Int32): PrivateScope, Public, Static, HideBySig
+    GetLineText(List`1, Int32): PrivateScope, Public, Static, HideBySig
+    get_ImagePath(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImagePath(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Paragraphs(): PrivateScope, Public, HideBySig, SpecialName
+    set_Paragraphs(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Columns(): PrivateScope, Public, HideBySig, SpecialName
+    set_Columns(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Lines(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lines(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Words(): PrivateScope, Public, HideBySig, SpecialName
+    set_Words(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Characters(): PrivateScope, Public, HideBySig, SpecialName
+    set_Characters(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_documentWidth(): PrivateScope, Public, HideBySig, SpecialName
+    set_documentWidth(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_documentHeight(): PrivateScope, Public, HideBySig, SpecialName
+    set_documentHeight(Single): PrivateScope, Public, HideBySig, SpecialName
+    add_ProgressEvent(ProgressHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ProgressEvent(ProgressHandler): PrivateScope, Public, HideBySig, SpecialName
+    Load(String): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class BasicOCR.CDocument+ProgressHandler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class BasicOCR.CDocument+OcrDoneHandler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(List`1): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(List`1, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class BasicOCR.BasicOCR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

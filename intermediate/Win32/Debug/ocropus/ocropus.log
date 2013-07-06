@@ -1,0 +1,10 @@
+﻿E:\dev\BasicOCR\ocropus\ocropus.vcxproj(227,5): warning MSB4011: "e:\Users\Gary Shearer\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "E:\dev\BasicOCR\ocropus\ocropus.vcxproj (191,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+Build started 7/1/2013 3:21:51 PM.
+Project "E:\dev\BasicOCR\ocropus\ocropus.vcxproj" on node 2 (Clean target(s)).
+_PrepareForClean:
+  Deleting file "E:\dev\BasicOCR\\intermediate\Win32\Debug\ocropus\ocropus.lastbuildstate".
+Done Building Project "E:\dev\BasicOCR\ocropus\ocropus.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
